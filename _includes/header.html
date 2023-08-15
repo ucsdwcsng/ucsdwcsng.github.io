@@ -1,15 +1,16 @@
 {%- if include.theme == 'dark' -%}
-  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="header header--dark" {%- if include.background -%} style="background: {{ include.background }}" {%- endif -%}>
 {%- elsif include.theme == 'light' -%}
-  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="header header--light" {%- if include.background -%} style="background: {{ include.background }}" {%- endif -%}>
 {%- else -%}
-  <header class="header" {%- if include.background -%} style="background: {{ include.background }};" {%- endif -%}>
+  <header class="header" {%- if include.background -%} style="background: {{ include.background }}" {%- endif -%}>
 {%- endif -%}
     <div class="main">
       <div class="header__title">
         <div class="header__brand">
           {%- include svg/logo.svg -%}
           {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root  -%}
+          
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
             <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>

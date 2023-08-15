@@ -28,8 +28,6 @@ layout: base
 {%- assign _comment = __return -%}
 
 
-{%- assign _article_header_excerpt_truncate = include.excerpt_truncate | default: 200 -%}
-
 {%- if page.sidebar -%}
 <div class="layout--page layout--page--sidebar clearfix js-page-root">
   <div class="page__mask d-print-none js-page-mask js-sidebar-hide"></div>
@@ -148,9 +146,6 @@ layout: base
                   {%- endif -%}
                     {%- include article-info.html article=page semantic=false -%}
                     {%- include article-header.html article=page semantic=false -%}
-                    {%- if page.excerpt -%}
-                      <p class="overlay__excerpt">{{ page.excerpt | strip_html | strip_newlines | strip | truncate: _article_header_excerpt_truncate }}</p>
-                    {%- endif -%}
                     {%- if page.article_header.actions -%}
                       <ul class="menu">
                         {%- for _action in page.article_header.actions -%}

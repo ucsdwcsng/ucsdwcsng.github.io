@@ -1,0 +1,92 @@
+- title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"
+  paper:  files/mmflexible.pdf
+- title: "mmSpoof: Spoofing Attacks on Automotive FMCW Radars using Millimeter-wave Reflect Array"
+  paper: files/mmspoof.pdf
+- title: "WiROS: WiFi sensing toolbox for robotics"
+  paper: https://github.com/ucsdwcsng/WiROS
+- title: "Users are Closer than they Appear: Protecting User's Location from WiFi APs"
+  paper: files/mirage-paper.pdf
+- title: "BSMA: scalable LoRa networks using full duplex gateways"
+  paper: https://github.com/ucsdwcsng/bsma_lora/blob/09b998355498d6268ab0c1e940b395ec62a026a0/docs/full_paper_3495243.3560544.pdf
+- title: "ViWiD: Leveraging WiFi for Robust and Resource-Efficient SLAM"
+  paper: https://arxiv.org/pdf/2209.08091.pdf
+- title: "VRProj: Delivering 360-degree Video With Viewport-Adaptive Truncation"
+  paper: files/vrproj.pdf
+- title: "High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
+  paper: https://wcsng.ucsd.edu/channogram/
+- title: "P2SLAM: Bearing based WiFi SLAM for Indoor Robots"
+  paper: files/p2slam.pdf
+- title: "Evaluating Physical-Layer BLE Location Tracking Attacks on Mobile Devices"
+  paper: files/sp22_paper.pdf
+- title: "ULoc: a cm-accurate, low-latency and power-efficient UWB tag localization system"
+  paper: files/uloc.pdf
+- title: "Sslide: Sound source localization for indoors based on deep learning"
+  paper: https://arxiv.org/pdf/2010.14420.pdf
+- title: "Sound source localization based on multi-task learning and image translation network"
+  paper:  https://www.researchgate.net/profile/Yifan-Wu-9/publication/355947556_Sound_source_localization_based_on_multi-task_learning_and_image_translation_network/links/61f43f6f4393577abef7a74a/Sound-source-localization-based-on-multi-task-learning-and-image-translation-network.pdf
+- title: "Two beams are better than one: Towards Reliable and High Throughput mmWave Links"
+  paper: files/mmreliable.pdf
+- title: "SyncScatter: Enabling WiFi like synchronization and range for WiFi backscatter Communication"
+  paper: files/syncscatter.pdf
+- title: "WiForce: Wireless Sensing and Localization of Contact Forces on a Space Continuum"
+  paper: https://wcsng.ucsd.edu/force_sensing/
+- title: "DroneScale: Drone Load Estimation Via Remote Passive RF Sensing"
+  paper: http://mnslab.org/tamvu/paper/2020%20DroneScale_Phuc.pdf
+- title: "Pointillism: Accurate 3D Bounding Box Estimation with Multi-Radars"
+  paper: files/Pointillism_paper.pdf
+- title: "mMobile: Building a mmWave testbed to evaluate and address mobility effects"
+  paper: files/mmobile.pdf
+- title: "S3Net: Semantic-Aware Self-supervised Depth Estimation with Monocular Videos and Synthetic Data"
+  paper: https://arxiv.org/pdf/2007.14511.pdf
+- title: "A 28μW IoT Tag That Can Communicate with Commodity WiFi Transceivers via a Single-Side-Band QPSK Backscatter Communication Technique"
+  paper: files/ISSCC-talk.pdf
+- title: "ScatterMIMO: Enabling Virtual MIMO with Smart Surfaces"
+  paper: files/scattermimo.pdf
+- title: "Deep Learning based Wireless Localization for Indoor Navigation"
+  paper: files/dloc.pdf
+- title: "LocAP: Accurate Localization of Existing WiFi Infrastructure"
+  paper: files/LocAP_paper.pdf
+- title: "Capttery: Scalable Battery-like Room-level Wireless Power"
+  paper: https://dl.acm.org/citation.cfm?id=3326077
+- title: "SparSDR: Sparsity-proportional Backhaul and Compute for SDRs"
+  paper: http://people.csail.mit.edu/moein/papers/sparsdr-mobisys19.pdf
+- title: "SweepSense: Sensing 5 GHz in 5 Milliseconds with Low-cost Radios"
+  paper: https://www.usenix.org/conference/nsdi19/presentation/guddeti
+- title: "SIGNet: Semantic Instance Aided Unsupervised 3D Geometry Perception"
+  paper: http://openaccess.thecvf.com/content_CVPR_2019/html/Meng_SIGNet_Semantic_Instance_Aided_Unsupervised_3D_Geometry_Perception_CVPR_2019_paper.html
+- title: "BLoc: CSI-based accurate localization for BLE tags"
+  paper: files/bloc_paper.pdf
+- title: "FreeRider: Backscatter Communication Using Commodity Radios"
+  paper: files/freerider.pdf
+- title: "Enabling high-quality untethered virtual reality"
+  paper: https://www.usenix.org/conference/nsdi17/technical-sessions/presentation/abari
+- title: "Hitchhike: Practical backscatter using commodity wifi"
+  paper: https://dl.acm.org/citation.cfm?id=2994565
+- title: "Cutting the cord in virtual reality"
+  paper: https://dl.acm.org/citation.cfm?id=3005770
+- title: "Numfabric: Fast and flexible bandwidth allocation in datacenters"
+  paper: https://dl.acm.org/citation.cfm?id=2934890
+- title: "Enabling backscatter communication among commodity wifi radios"
+  paper: https://dl.acm.org/citation.cfm?id=2959072
+- title: "Backfi: High throughput wifi backscatter"
+  paper: https://dl.acm.org/citation.cfm?id=2787490
+- title: "Spotfi: Decimeter level localization using wifi"
+  paper: files/sigcomm15-spotfi.pdf
+- title: "Fastforward: Fast and constructive full duplex relays"
+  paper: files/fastforward.pdf
+- title: "WiDeo: Fine-grained Device-free Motion Tracing using {RF} Backscatter"
+  paper: https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/joshi
+- title: "Spoton: Indoor localization using commercial off-the-shelf wifi nics"
+  paper: https://www.microsoft.com/en-us/research/wp-content/uploads/2014/10/ipsn_kotaru.pdf
+- title: "Robust full duplex radio link"
+  paper: files/robustFullDuplex.pdf
+- title: "Full Duplex {MIMO} Radios"
+  paper: https://www.usenix.org/conference/nsdi14/technical-sessions/bharadia
+- title: "QualComp: a new lossy compressor for quality scores based on rate distortion theory"
+  paper: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-187
+- title: "Full duplex backscatter"
+  paper: https://dl.acm.org/citation.cfm?id=2535785
+- title: "Full duplex radios"
+  paper: https://dl.acm.org/citation.cfm?id=2486033
+- title: "Practical, real-time, full duplex wireless"
+  paper: https://dl.acm.org/citation.cfm?id=2030647

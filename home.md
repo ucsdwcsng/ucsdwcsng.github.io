@@ -1,6 +1,8 @@
 ---
 layout: article
 title: Wireless Communications Sensing and Networking
+aside:
+  toc: true
 article_header:
   type: overlay
   theme: dark

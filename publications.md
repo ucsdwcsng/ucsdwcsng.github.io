@@ -11,7 +11,10 @@ article_header:
 ---
 <ul>
 {% for paper in site.data.publications %}
-  <li><a href="{{ paper.paper }}"> {{ paper.title }}</a></li>
+  <li>
+    <a href="{{ paper.paper }}"> {{ paper.title }}</a>
+    <i>{{ paper.authors }}</i>
+  </li>
 {% endfor %}
 </ul>
 

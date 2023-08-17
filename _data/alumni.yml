@@ -1,0 +1,220 @@
+#post doc
+- name: Chi Zhang
+  role: Post Doc
+  col: 1
+#phd
+- name: Hans Yu
+  role: PhD
+  col: 2
+#masters
+- name: Howard Chi
+  role: MS 2022
+  col: 1
+- name: Sanjeev Anthia Ganesh 
+  role: MS 2022
+  col: 2
+- name: Gautham Reddy
+  role: MS 2021
+  col: 1
+- name: Nitish Kulshrestha
+  role: MS 2021
+  col: 2
+- name: Navin Adarsh
+  role: MS 2021
+  col: 1
+- name: Mila Tan
+  role: MS 2021
+  col: 2
+- name: Weginbara (Michael) Youpele
+  role: MS 2021
+  col: 1
+- name: Xiangwei Shao
+  role: MS 2021
+  col: 2
+- name: Hou-Wei Lin
+  role: MS 2021
+  col: 1
+- name: Yeswanth Guntupalli
+  role: MS 2021
+  col: 2
+- name: Yeswanth Reddy Guddeti
+  role: MS 2020
+  col: 1
+- name: Aman Goyal
+  role: MS 2020
+  col: 2
+- name: Rohit Kumar
+  role: MS 2020
+  col: 1
+- name: Shruti Jain
+  role: MS 2020
+  col: 2
+- name: Shreya Nayak
+  role: MS 2020
+  col: 1
+- name: Inderjot Singh
+  role: MS 2020
+  col: 2
+- name: Aman Raj
+  role: MS 2020
+  col: 1
+- name: Yunchieh (Zena) Chang
+  role: MS 2020
+  col: 2
+- name: Sanatan Sharma
+  role: MS 2020
+  col: 1
+- name: Shrinidhi Venkatakrishnan
+  role: MS 2020
+  col: 2
+- name: Tejas Sadarhalli
+  role: MS 2020
+  col: 1
+- name: Shrivatsan Rajagopalan
+  role: MS 2019
+  col: 2
+- name: Aravind Seetharaman
+  role: MS 2019
+  col: 1
+- name: Shreya Ganesaraman
+  role: MS 2019
+  col: 2
+- name: Arunkumar Ravichandran
+  role: MS 2019
+  col: 1
+- name: Yue Meng
+  role: MS 2019
+  col: 2
+- name: Samuel Sunarjo
+  role: MS 2019
+  col: 1
+- name: Kavya Potluri
+  role: MS 2019
+  col: 2
+- name: Vamsidhar Reddy
+  role: MS 2019
+  col: 1
+- name: Rohit Kulkarni
+  role: MS 2018
+  col: 2
+#BS
+- name: Akshit Agarwal
+  role: BS 2023
+  col: 1
+- name: Ayushi Banerjee
+  role: BS 2023
+  col: 2 
+- name: Raini Wu
+  role: BS 2022
+  col: 1
+- name: Wen Tian
+  role: BS 2022
+  col: 2
+- name: Joel Bisarra
+  role: BS 2022
+  col: 1
+- name: Tyler Chang
+  role: BS 2022
+  col: 2
+- name: Zijia Guo
+  role: BS 2022
+  col: 1
+- name: Keshav Rungta
+  role: BS 2021
+  col: 2
+- name: Chenfeng Wu
+  role: BS 2020
+  col: 1
+- name: Scott Zhao
+  role: BS 2020
+  col: 2
+- name: Siyuan Zhu
+  role: BS 2020
+  col: 1
+#SRIP
+- name: Keshav Rungta
+  role: SRIP 2020
+  col: 2
+- name: Minghui (Scott) Zhao
+  role: SRIP 2020
+  col: 1
+- name: Shivani Bhakta
+  role: SRIP 2020
+  col: 2
+- name: Samantha Long
+  role: SRIP 2020
+  col: 1
+- name: Eamon Patamasing
+  role: SRIP 2020
+  col: 2
+- name: Yidong Li
+  role: SRIP 2020
+  col: 1
+- name: Siyuan Zhu
+  role: SRIP 2020
+  col: 2
+- name: Raini Wu
+  role: SRIP 2020
+  col: 1
+- name: Tyler Chang
+  role: SRIP 2020
+  col: 2
+- name: Zijia Guo
+  role: SRIP 2020
+  col: 1
+- name: Gautham Reddy
+  role: SRIP 2020
+  col: 2
+- name: Xiangwei Shao
+  role: SRIP 2020
+  col: 1
+- name: Tian Qiu
+  role: SRIP 2020
+  col: 2
+- name: Chenfeng Wu
+  role: SRIP 2019
+  col: 1
+- name: Scott Zhao
+  role: SRIP 2019
+  col: 2
+- name: Shrinidhi
+  role: SRIP 2019
+  col: 1
+- name: Aman Goyal
+  role: SRIP 2019
+  col: 2
+- name: Keshav Rungta
+  role: SRIP 2019
+  col: 1
+- name: Keshav Mittal
+  role: SRIP 2019
+  col: 2
+- name: Karl Wang
+  role: SRIP 2019
+  col: 1
+- name: Siyuan Zhu
+  role: SRIP 2019
+  col: 2
+#Intl Summer Interns
+- name: Rushang Gupta
+  role: IITD Summer Intern
+  col: 1
+- name: Raunak Shah
+  role: IITK Summer Intern
+  col: 2
+- name: Aman Tiwari
+  role: IITD Summer Intern
+  col: 1
+- name: Raghav Sonavane
+  role: IITKgp Summer Intern
+  col: 2
+- name: Raghav Vaidyanathan Subbaraman
+  role: IITM Summer Intern
+  col: 1
+- name: Sidharth Kumar
+  role: IITD Summer Intern
+  col: 2
+- name: Zihan Zhang
+  role: BUPT Summer Intern
+  col: 1
+

@@ -6,7 +6,7 @@ article_header:
   theme: dark
   background_color: '#203028'
   background_image:
-    src: /bearl.jpeg
+    src: /atkinson.jpeg
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
 Our group develops theories and algorithms with a special focus on the implementation and prototyping of solutions in the following impact areas:

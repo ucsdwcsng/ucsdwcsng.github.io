@@ -44,15 +44,15 @@
   role: PhD
   picture: /assets/images/teampic/raini.jpg
 - name: Srivatsan Rajagopal
-  role: Post Doc
+  role: Postdoc
   picture: /assets/images/teampic/srivatsan.jpg
 - name: Wei Sun
-  role: Post Doc
+  role: Postdoc
   picture: /assets/images/teampic/wei.jpg
 - name: Deepak Vasisht
-  role: Assistant Professor at UIUC
+  role: Assistant Prof at UIUC
   picture: /assets/images/teampic/deepak.png
-- name: Shunsuke Saruwatari (Saru)
+- name: Shunsuke Saruwatari
   role: Visiting Scholar
   picture: /assets/images/teampic/saru.jpg
 - name: Frederik Zumegen

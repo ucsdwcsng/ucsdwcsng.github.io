@@ -1,15 +1,39 @@
 - title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"
   paper:  files/mmflexible.pdf
   authors: Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, Dinesh Bharadia
+  conference:
+    url: https://infocom2023.ieee-infocom.org/program
+    display:  "[Infocom 2023]"
+  image: dpa.png
+  github:
 - title: "mmSpoof: Spoofing Attacks on Automotive FMCW Radars using Millimeter-wave Reflect Array"
   paper: files/mmspoof.pdf
   authors: Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, Dinesh Bharadia
+  conference:
+    url: https://www.ieee-security.org/TC/SP2023/program-papers.html
+    display:  "[IEEE SnP 2023]"
+  image: mmspoof.png
+  github:
 - title: "WiROS: WiFi sensing toolbox for robotics"
-  paper: https://github.com/ucsdwcsng/WiROS
+  paper:
   authors: William Hunter, Aditya Arun, Dinesh Bharadia
+  conference:
+    url: https://wcsng.ucsd.edu/wiros/
+    display:  "[IPSN Demo 2023]"
+  image: wiros.jpg
+  github:
+    url: https://github.com/ucsdwcsng/WiROS
+    display:  "[GitHub]"
 - title: "Users are Closer than they Appear: Protecting User's Location from WiFi APs"
   paper: files/mirage-paper.pdf
   authors: Roshan Ayyalasomayajula, Wei Sun, Aditya Arun, Dinesh Bharadia
+  conference:
+    url: https://hotmobile.org/2023/index.php?id=program
+    display:  "[HotMobile'23]"
+  image: mirage.png
+  github:
+    url: https://github.com/ucsdwcsng/WiROS
+    display:  "[GitHub]"
 - title: "BSMA: scalable LoRa networks using full duplex gateways"
   paper: https://github.com/ucsdwcsng/bsma_lora/blob/09b998355498d6268ab0c1e940b395ec62a026a0/docs/full_paper_3495243.3560544.pdf
   authors: Raghav Subbaraman, Yeswanth Guntupalli, Shruti Jain, Rohit Kumar, Krishna Chintalapudi, Dinesh Bharadia

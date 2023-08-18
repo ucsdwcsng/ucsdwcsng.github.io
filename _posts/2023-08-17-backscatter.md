@@ -1,4 +1,0 @@
----
-title: Backscatter
-tags: Communications
----

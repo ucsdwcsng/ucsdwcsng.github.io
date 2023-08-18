@@ -27,7 +27,7 @@ header:
   
   - titles:
       # @start locale config
-      en      : &EN       Publications
+      en      : &EN       Research
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -49,11 +49,11 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /publications.html
+    url: /research.html
 
   - titles:
       # @start locale config
-      en      : &EN       Research
+      en      : &EN       Publications
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN

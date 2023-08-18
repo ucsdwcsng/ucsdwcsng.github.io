@@ -1,9 +1,0 @@
----
-title: Spectrum Sensing
-tags: Sensing
----
-Spectrum usage has evolved over many decades, shaped by both state-of-the art technological progress and the intended use cases. Over the last few years, usage of wireless spectrum has become increasingly fragmented and congested. The rapid adoption of new and complex protocols such as LTE and 5G-NR with along with existing legacy systems like FM Radio and Defense wireless deployments have uncovered challenges in spectrum allocation, regulation and monitoring. Adoption of spectrum sharing standards such as CBRS signal a future where the usage of wireless spectrum needs to be strictly monitored and regulated to maximize utilization while being secure and tolerant to faults. To this end, there is a need of a sensing entity to extract valuable information from the wireless spectrum for a variety of use cases.
-
-An ideal spectrum sensing entity would have an oracular view of spectrum usage. However, implementing such a system is challenging due to the highly dynamic nature of spectrum usage. These dynamics present themselves in the time domain, as fleeting signals of the order of ms, and in the frequency domain where a multitude of signals and protocols are crammed into ever-more-congested bandwidth. Added to this, the nature of usage varies from place to place, depending on density of users, terrain and even weather. Our current thrust in this direction is in designing and building novel spectrum sensing architectures that can scale to next-generation wireless networks and their requirements.
-
-Our architecture SweepSense, combines sweep-frequency downconversion with simultaneous sampling and achieves large bandwidth, high-time resolution sensing. Through our work, we show that SweepSense can be implemented on existing radios with minimal cost overheads, and provides promising performance over state-of-art.

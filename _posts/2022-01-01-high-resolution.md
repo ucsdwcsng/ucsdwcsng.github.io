@@ -4,6 +4,7 @@ tags: Spectrum-Sensing
 cover: /assets/images/pubpic/asilomar.png
 authors: "Richard Bell, Radhika Mathuria, Fred Harris, Peter Gerstoft, Dinesh Bharadia"
 conference: "Asilomar 2022"
+paper: https://wcsng.ucsd.edu/channogram/
 ---
 
 Insert overview.

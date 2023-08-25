@@ -11,11 +11,16 @@ article_header:
 ---
 Our group develops theories and algorithms with a special focus on the implementation and prototyping of solutions in the following impact areas:
 
-<h2>Wireless Localization</h2>
-<h2>Sensing for Autonomous Driving</h2>
-<h2>Sensing for Healthcare</h2>
-<h2>Spectrum Sensing for Next-Generation Networks</h2>
-<h2>Wireless Systems for VR Applications</h2>
+<h2>Wireless Sensing</h2>
+<div><img src="/wiros.mov" /></div>
+<h2>Communications</h2>
+<div><img src="/rice_chip.jpeg" /></div>
+<h2>Spectrum Sensing</h2>
+<div><img src="/sweepsense.png" /></div>
+<h2>Backscatter</h2>
+<div><img src="/pcb.jpeg" /></div>
+<h2>Vehicular</h2>
+<div><img src="/vehicular.mov" /></div>
 <h3> Join Our Team! </h3>
 We are always looking for new group members with passion, talent, and grit!
 <h4> Applications for PhD and Postdoc Positions </h4>

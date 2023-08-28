@@ -1,7 +1,6 @@
 
 .card {
   max-width: 18rem;
-  max-height: 36rem;
   border-radius: map-get($base, border-radius);
   @include box-shadow();
   @include transition(box-shadow map-get($animation, duration) map-get($animation, timing-function));
@@ -32,10 +31,11 @@
 .card__image {
   position: relative;
   width: 100%;
+  height: auto;
   & > img {
     display: block;
     width: 100%;
-    min-height: 18rem;
+    height: auto;
     border-radius: inherit;
   }
   & > .overlay {

@@ -74,7 +74,7 @@ title: Team
       {% for people in site.data.people_text %}
         {% if people.role == "MS" %}
           {% if people.col == 1 %}
-            <h4>{{ people.name }}</h4>
+            <p>{{ people.name }}</p>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -83,7 +83,7 @@ title: Team
       {% for people in site.data.people_text %}
         {% if people.role == "MS" %}
           {% if people.col == 2 %}
-            <h4>{{ people.name }}</h4>
+            <p>{{ people.name }}</p>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -95,7 +95,7 @@ title: Team
       {% for people in site.data.people_text %}
         {% if people.role == "BS" %}
           {% if people.col == 1 %}
-            <h4>{{ people.name }}</h4>
+            <p>{{ people.name }}</p>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -104,7 +104,7 @@ title: Team
       {% for people in site.data.people_text %}
         {% if people.role == "BS" %}
           {% if people.col == 2 %}
-            <h4>{{ people.name }}</h4>
+            <p>{{ people.name }}</p>
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -115,14 +115,14 @@ title: Team
     <div class="column">
       {% for people in site.data.alumni %}
         {% if people.col == 1 %}
-          <h4> {{ people.name }} ({{ people.role }})</h4>{% if people.now %}<i> {{ people.now }}</i> {% endif %}
+          <p> {{ people.name }} ({{ people.role }})</p>{% if people.now %}<i> {{ people.now }}</i> {% endif %}
         {% endif %}
       {% endfor %}
     </div>
     <div class="column">
       {% for people in site.data.alumni %}
         {% if people.col == 2 %}
-          <h4>{{ people.name }} ({{ people.role }})</h4>{% if people.now %}<i> {{ people.now }}</i> {% endif %}
+          <p>{{ people.name }} ({{ people.role }})</p>{% if people.now %}<i> {{ people.now }}</i> {% endif %}
         {% endif %}
       {% endfor %}
     </div>

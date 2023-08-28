@@ -118,7 +118,7 @@
             <span class="item__meta">{{ _article.date | date: __return }}</span>
           {%- endif -%}
           <div class="row">
-            <a itemprop="headline" class="item__header" href="{{ _article.paper }}">{{ _article.title }}</a>
+            <a itemprop="headline" class="item__header" href="{{ _article_url }}">{{ _article.title }}</a>
           </div>
           {%- if _article.authors and include.show_authors -%}
             <div class="row">
@@ -128,20 +128,21 @@
           {%- if _article.conference -%}
             <p>{{ _article.conference }}</p>
           {% endif %}
-          {%- if _article.github -%}
-            <div class="row">
+          <div class="row">
+            <a class="button button--circle github-button" itemprop="sameAs" href="{{ _article.paper }}">
+              <div class="icon">{%- include svg/icon/paper.svg -%}</div>
+            </a>
+            {%- if _article.github -%}
               <a class="button button--circle github-button" itemprop="sameAs" href="{{ _article.github }}">
                 <div class="icon">{%- include svg/icon/social/github.svg -%}</div>
               </a>
-            </div>
-          {%- endif -%}
-          {%- if _article.slides -%}
-            <div class="row">
+            {%- endif -%}
+            {%- if _article.slides -%}
               <a class="button button--circle github-button" itemprop="sameAs" href="{{ _article.slides }}">
-                <div class="icon">{%- include svg/icon/social/mail.svg -%}</div>
+                <div class="icon">{%- include svg/icon/ppt.svg -%}</div>
               </a>
-            </div>
-          {%- endif -%}
+            {%- endif -%}
+          </div>
         </div>
       </li>
 

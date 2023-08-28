@@ -15,10 +15,6 @@ Our group develops theories and algorithms with a special focus on the implement
 <div><img src="/wiros.mov" /></div>
 <h2>Communications</h2>
 <div><img src="/rice_chip.jpeg" /></div>
-<h2>Spectrum Sensing</h2>
-<div><img src="/sweepsense.png" /></div>
-<h2>Backscatter</h2>
-<div><img src="/pcb.jpeg" /></div>
 <h2>Vehicular</h2>
 <div><img src="/vehicular.mov" /></div>
 <h3> Join Our Team! </h3>
@@ -28,4 +24,4 @@ Send an email with the subject "Application PhD" or "Application Postdoc" direct
 <h4> UCSD students </h4>
 We routinely work with graduate and undergraduate students on all our projects. Contact Dinesh (or any other group member) via email or stop by the office to express your interest.
 <h4> Students from Elsewhere </h4>
-Sometimes, we work with students on summer internships if we get exceptional applicants. This usually meas good academic standing and a personal recommendation.
+Sometimes, we work with students on summer internships if we get exceptional applicants. This usually means good academic standing and a personal recommendation.

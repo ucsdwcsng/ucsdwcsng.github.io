@@ -7,6 +7,16 @@ layout: page
 {% if page.highlight %}
   <div class="row"><h4>{{ page.highlight }}</h4></div>
 {% endif %}
+
+<div class="row">
+    <a href="{{ page.paper }}">[Paper]</a>
+    {% if page.poster %} <a href="{{ page.poster }}">[Poster]</a> {% endif %}
+    {% if page.github %} <a href="{{ page.github }}">[Code]</a> {% endif %}
+    {% if page.slides %} <a href="{{ page.slides }}">[Slides]</a> {% endif %}
+    {% if page.dataset %} <a href="{{ page.dataset }}">[Dataset]</a> {% endif %}
+    {% if page.other %} <a href="{{ page.other.url }}">{{ page.other.display }}</a> {% endif %}
+ </div>
+
 <h2>Abstract</h2>
 {{ content }}
 
@@ -17,13 +27,6 @@ layout: page
     <iframe width="560" height="315" src="{{ page.video2 }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   {% endif %}
 {% endif %}
-
-<div class="row">
-  <a href="{{ page.paper }}">[Paper]</a>
-  {% if page.poster %} <a href="{{ page.poster }}">[Poster]</a> {% endif %}
-  {% if page.github %} <a href="{{ page.github }}">[Code]</a> {% endif %}
-  {% if page.slides %} <a href="{{ page.slides }}">[Slides]</a> {% endif %}
-  {% if page.dataset %} <a href="{{ page.dataset }}">[Dataset]</a> {% endif %}
 
 {% if page.press %}
   <h2>Press Cover</h2>

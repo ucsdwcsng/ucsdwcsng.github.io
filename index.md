@@ -12,11 +12,11 @@ article_header:
 Our group develops theories and algorithms with a special focus on the implementation and prototyping of solutions in the following impact areas:
 
 <h2>Wireless Sensing</h2>
-<div><img src="/wiros.mov" /></div>
+<div><img src="/wiros.mov" height="400" width="100%"/></div>
 <h2>Communications</h2>
-<div><img src="/rice_chip.jpeg" /></div>
+<div><img src="/rice_chip.jpeg" height="400" width="100%"/></div>
 <h2>Vehicular</h2>
-<div><img src="/vehicular.mov" /></div>
+<div><img src="/vehicular.mov" height="400" width="100%"/></div>
 <h2> Join Our Team! </h2>
 We are always looking for new group members with passion, talent, and grit!
 <h5> PhD and Postdoc </h5>

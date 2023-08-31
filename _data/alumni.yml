@@ -1,295 +1,374 @@
 #post doc
 - name: Chi Zhang
-  role: Postdoc '19
-  now: Now at Google, SD
+  role: Postdoc
+  year: "'19"
+  now: Now at Google SD
   col: 1
 #phd
 - name: Roshan Ayyalasomayajula
-  role: PhD '23
+  role: PhD
+  year: "'23"
   now: Now Assistant Professor at University at Buffalo
   col: 2
 - name: Hans Yu
-  role: PhD '19
-  now: Now at Broadcom, SD
+  role: PhD
+  year: "'19"
+  now: Now at Broadcom SD
   col: 1
 #masters
 - name: Howard Chi
-  role: MS '22
+  role: MS
+  year: "'22"
   now:
   col: 1
 - name: Sanjeev Anthia Ganesh 
-  role: MS '22
+  role: MS
+  year: "'22"
   now: 
   col: 2
 - name: Gautham Reddy
-  role: MS '21
-  now: Now at Broadcom, SJ
+  role: MS
+  year: "'21"
+  now: Now at Broadcom SJ
   col: 1
 - name: Nitish Kulshrestha
-  role: MS '21
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'21"
+  now: Now at Qualcomm SD
   col: 2
 - name: Navin Adarsh
-  role: MS '21
+  role: MS
+  year: "'21"
   now: Now at Uhnder, Missouri
   col: 1
 - name: Mila Tan
-  role: MS '21
-  now: Now at Maxlinear, SD
+  role: MS
+  year: "'21"
+  now: Now at Maxlinear SD
   col: 2
 - name: Weginbara (Michael) Youpele
-  role: MS '21
-  now: Now at Naval Surface Warfare Center, CA
+  role: MS
+  year: "'21"
+  now: Now at Naval Surface Warfare Center
   col: 1
 - name: Xiangwei Shao
-  role: MS '21
+  role: MS
+  year: "'21"
   now: Now at Huawei
   col: 2
 - name: Hou-Wei Lin
-  role: MS '21
-  now: Now at Amazon, SJ
+  role: MS
+  year: "'21"
+  now: Now at Amazon SJ
   col: 1
 - name: Yeswanth Guntupalli
-  role: MS '21
-  now: Now at Apple, SD
+  role: MS
+  year: "'21"
+  now: Now at Apple SD
   col: 2
 - name: Yeswanth Reddy Guddeti
-  role: MS '20
+  role: MS
+  year: "'20"
   now:
   col: 1
 - name: Aman Goyal
-  role: MS '20
-  now: Now at Apple, SJ
+  role: MS
+  year: "'20"
+  now: Now at Apple SJ
   col: 2
 - name: Rohit Kumar
-  role: MS '20
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'20"
+  now: Now at Qualcomm SD
   col: 1
 - name: Shruti Jain
-  role: MS '20
-  now: Now at XCOM Labs, SD
+  role: MS
+  year: "'20"
+  now: Now at XCOM Labs SD
   col: 2
 - name: Shreya Nayak
-  role: MS '20
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'20"
+  now: Now at Qualcomm SD
   col: 1
 - name: Inderjot Singh
-  role: MS '20
-  now: Now at Plus.ai, Cupertino
+  role: MS
+  year: "'20"
+  now: Now at Plus.ai Cupertino
   col: 2
 - name: Aman Raj
-  role: MS '20
-  now: Now at Apple, SJ
+  role: MS
+  year: "'20"
+  now: Now at Apple SJ
   col: 1
 - name: Yunchieh (Zena) Chang
-  role: MS '20
+  role: MS
+  year: "'20"
   now: 
   col: 2
 - name: Sanatan Sharma
-  role: MS '20
-  now: Now at TuSimple, SD
+  role: MS
+  year: "'20"
+  now: Now at TuSimple SD
   col: 1
 - name: Shrinidhi Venkatakrishnan
-  role: MS '20
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'20"
+  now: Now at Qualcomm SD
   col: 2
 - name: Tejas Sadarhalli
-  role: MS '20
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'20"
+  now: Now at Qualcomm SD
   col: 1
 - name: Shrivatsan Rajagopalan
-  role: MS '19
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'19"
+  now: Now at Qualcomm SD
   col: 2
 - name: Aravind Seetharaman
-  role: MS '19
-  now: Now at Qualcomm, SJ
+  role: MS
+  year: "'19"
+  now: Now at Qualcomm SJ
   col: 1
 - name: Shreya Ganesaraman
-  role: MS '19
-  now: Now at Intel, SD
+  role: MS
+  year: "'19"
+  now: Now at Intel SD
   col: 2
 - name: Arunkumar Ravichandran
-  role: MS '19
+  role: MS
+  year: "'19"
   now: Now at Cisco
   col: 1
 - name: Yue Meng
-  role: MS '19
-  now: Now at Honda Research Institute, SJ
+  role: MS
+  year: "'19"
+  now: Now at Honda Research Institute SJ
   col: 2
 - name: Samuel Sunarjo
-  role: MS '19
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'19"
+  now: Now at Qualcomm SD
   col: 1
 - name: Kavya Potluri
-  role: MS '19
-  now: Now at Qualcomm, SD
+  role: MS
+  year: "'19"
+  now: Now at Qualcomm SD
   col: 2
 - name: Vamsidhar Reddy
-  role: MS '19
-  now: Now at Cruise Automation, SJ
+  role: MS
+  year: "'19"
+  now: Now at Cruise Automation SJ
   col: 1
 - name: Rohit Kulkarni
-  role: MS '18
-  now: Now at Qualcomm, SJ
+  role: MS
+  year: "'18"
+  now: Now at Qualcomm SJ
   col: 2
 #BS
 - name: Akshit Agarwal
-  role: BS '23
+  role: BS
+  year: "'23"
   now: Now MS at CalTech
   col: 1
 - name: Ayushi Banerjee
-  role: BS '23
+  role: BS
+  year: "'23"
   now:
   col: 2 
 - name: Raini Wu
-  role: BS '22
+  role: BS
+  year: "'22"
   now: Now PhD at UCSD
   col: 1
 - name: Wen Tian
-  role: BS '22
+  role: BS
+  year: "'22"
   now: Now PhD at UMich
   col: 2
 - name: Joel Bisarra
-  role: BS '22
+  role: BS
+  year: "'22"
   now:
   col: 1
 - name: Tyler Chang
-  role: BS '22
+  role: BS
+  year: "'22"
   now:
   col: 2
 - name: Zijia Guo
-  role: BS '22
+  role: BS
+  year: "'22"
   now:
   col: 1
 - name: Keshav Rungta
-  role: BS '21
-  now: Now at Apple, Sunnyvale
+  role: BS
+  year: "'21"
+  now: Now at Apple Sunnyvale
   col: 2
 - name: Chenfeng Wu
-  role: BS '20
-  now: Now at Ford, Ann Arbor
+  role: BS
+  year: "'20"
+  now: Now at Ford Ann Arbor
   col: 1
 - name: Scott Zhao
-  role: BS '20
+  role: BS
+  year: "'20"
   now: Now MS at Columbia
   col: 2
 - name: Siyuan Zhu
-  role: BS '20
+  role: BS
+  year: "'20"
   now:
   col: 1
 #SRIP
 - name: Keshav Rungta
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Minghui (Scott) Zhao
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 1
 - name: Shivani Bhakta
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Samantha Long
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 1
 - name: Eamon Patamasing
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Yidong Li
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 1
 - name: Siyuan Zhu
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Raini Wu
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 1
 - name: Tyler Chang
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Zijia Guo
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 1
 - name: Gautham Reddy
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Xiangwei Shao
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 1
 - name: Tian Qiu
-  role: SRIP '20
+  role: SRIP
+  year: 2020
   now:
   col: 2
 - name: Chenfeng Wu
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 1
 - name: Scott Zhao
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 2
 - name: Shrinidhi
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 1
 - name: Aman Goyal
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 2
 - name: Keshav Rungta
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 1
 - name: Keshav Mittal
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 2
 - name: Karl Wang
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 1
 - name: Siyuan Zhu
-  role: SRIP '19
+  role: SRIP
+  year: 2019
   now:
   col: 2
 #Intl Summer Interns
 - name: Rushang Gupta
-  role: IITD Summer Intern
+  role: Intern
+  school: IITD
+  year: 2019
   now:
   col: 1
 - name: Raunak Shah
-  role: IITK Summer Intern
+  role: Intern
+  school: IITK 
+  year: 2019
   now:
   col: 2
 - name: Aman Tiwari
-  role: IITD Summer Intern
+  role: Intern
+  school: IITD
+  year: 2019
   now:
   col: 1
 - name: Raghav Sonavane
-  role: IITKgp Summer Intern
-  now: Now at Sprinklr, India
+  role: Intern
+  school: IITKgp
+  year: 2018
+  now: Now at Sprinklr India
   col: 2
 - name: Raghav Vaidyanathan Subbaraman
-  role: IITM Summer Intern
+  role: Intern
+  school: IITM
+  year: 2018
   now: Now PhD at UCSD
   col: 1
 - name: Sidharth Kumar
-  role: IITD Summer Intern
+  role: Intern
+  school: IITD
+  year: 2018
   now: Now PhD at UT Austin
   col: 2
 - name: Zihan Zhang
-  role: BUPT Summer Intern
+  role: Intern
+  school: BUPT
+  year: 2018
   now: Now MS at Michigan University
   col: 1
 

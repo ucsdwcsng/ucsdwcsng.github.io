@@ -8,8 +8,8 @@ title: Team
       <div class="card__image"><img src="/assets/images/teampic/dinesh.jpg" /></div>
       <div class="card__content">
         <header>
-          <h3> Dinesh Bharadia </h3>
-          <h4> Principal Investigator, Associate Professor ECE </h4>
+          <b> Dinesh Bharadia </b>
+          <p> Principal Investigator, Associate Professor ECE </p>
         </header>
       </div>
     </div>
@@ -19,15 +19,15 @@ title: Team
       <div class="card__image"><img src="/assets/images/teampic/fred.jpg" /></div>
       <div class="card__content">
         <header>
-          <h3>Fred Harris </h3>
-          <h4> Honorable Member, Adjunct Professor ECE </h4>
+          <b>Fred Harris </b>
+          <p> Honorable Member, Adjunct Professor ECE </p>
         </header>
       </div>
     </div>
   </div>
 </div>
 
-<h2>PhD Students</h2>
+<h3>PhD Students</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}
   {% if people.role == "PhD" %}
@@ -47,7 +47,7 @@ title: Team
 {% endfor %}
 </div>
 
-<h2>Collaborations and Postdoctoral Researchers</h2>
+<h3>Collaborations and Postdoctoral Researchers</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}
   {% if people.role != "PhD" %}
@@ -68,7 +68,7 @@ title: Team
 {% endfor %}
 </div>
 <div>
-  <h2>Masters Students</h2>
+  <h3>Masters Students</h3>
   <div class="row">
     <div class="column">
       {% for people in site.data.people_text %}
@@ -89,7 +89,7 @@ title: Team
       {% endfor %}
     </div>
   </div>
-  <h2>Undergraduate Students</h2>
+  <h3>Undergraduate Students</h3>
   <div class="row">
     <div class="column">
       {% for people in site.data.people_text %}
@@ -110,19 +110,23 @@ title: Team
       {% endfor %}
     </div>
   </div>
-  <h2>Alumni and Interns</h2>
+  <h3>Alumni and Interns</h3>
   <div class="row">
     <div class="column">
       {% for people in site.data.alumni %}
         {% if people.col == 1 %}
-          <p> {{ people.name }} ({{ people.role }})</p>{% if people.now %}<i> {{ people.now }}</i> {% endif %}
+          <div class="row">
+            {{ people.name }} <i>{{ people.role }}</i>{% if people.now %}<i>, {{ people.now }}</i> {% endif %}
+          </div>
         {% endif %}
       {% endfor %}
     </div>
     <div class="column">
       {% for people in site.data.alumni %}
         {% if people.col == 2 %}
-          <p>{{ people.name }} ({{ people.role }})</p>{% if people.now %}<i> {{ people.now }}</i> {% endif %}
+          <div class="row">
+            {{ people.name }} <i>{{ people.role }}</i>{% if people.now %}, <i> {{ people.now }}</i> {% endif %}
+          </div>
         {% endif %}
       {% endfor %}
     </div>

@@ -17,11 +17,11 @@ Our group develops theories and algorithms with a special focus on the implement
 <div><img src="/rice_chip.jpeg" /></div>
 <h2>Vehicular</h2>
 <div><img src="/vehicular.mov" /></div>
-<h3> Join Our Team! </h3>
+<h2> Join Our Team! </h2>
 We are always looking for new group members with passion, talent, and grit!
-<h4> Applications for PhD and Postdoc Positions </h4>
+<h5> PhD and Postdoc </h5>
 Send an email with the subject "Application PhD" or "Application Postdoc" directly to <i>dineshb [at] ucsd.edu</i> with your CV and a brief statement of why you are interested.
-<h4> UCSD students </h4>
+<h5> UCSD students </h5>
 We routinely work with graduate and undergraduate students on all our projects. Contact Dinesh (or any other group member) via email or stop by the office to express your interest.
-<h4> Students from Elsewhere </h4>
+<h5> Students from Elsewhere </h5>
 Sometimes, we work with students on summer internships if we get exceptional applicants. This usually means good academic standing and a personal recommendation.

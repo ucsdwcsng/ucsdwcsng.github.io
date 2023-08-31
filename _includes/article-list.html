@@ -125,10 +125,8 @@
               <i>{{ _article.authors }}</i>
             </div>
           {%- endif -%}
-          {%- if _article.conference -%}
-            <p>{{ _article.conference }}</p>
-          {% endif %}
           <div class="row">
+            {%- if _article.conference -%}{{ _article.conference }}{% endif %}
             <a class="button button--circle github-button" itemprop="sameAs" href="{{ _article.paper }}">
               <div class="icon">{%- include svg/icon/paper.svg -%}</div>
             </a>

@@ -1,6 +1,12 @@
 ---
 layout: article
 title: Wireless Communications Sensing and Networking
+carousels:
+  - images:
+    - image: /atkinson.jpeg
+    - image: /rice_chip.jpeg
+    - image: /pcb.jpeg
+    - image: /bearl.jpeg
 article_header:
   type: overlay
   theme: dark
@@ -10,6 +16,7 @@ article_header:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
 Our group develops theories and algorithms with a special focus on the implementation and prototyping of solutions in the following impact areas:
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 <h2>Wireless Sensing</h2>
 <div><img src="/wiros.mov" height="400" width="100%"/></div>

@@ -49,7 +49,7 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /research.html
+    url: /wireless.html
 
   - titles:
       # @start locale config

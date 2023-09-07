@@ -118,7 +118,7 @@ title: Team
         {% if people.role == "PhD" or people.role == "Postdoc" %}
           {% if people.col == 1 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}<i>, {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -129,7 +129,7 @@ title: Team
         {% if people.role == "PhD" or people.role == "Postdoc" %}
           {% if people.col == 2 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}, <i> {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -144,7 +144,7 @@ title: Team
         {% if people.role == "MS" %}
           {% if people.col == 1 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}<i>, {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -155,7 +155,7 @@ title: Team
         {% if people.role == "MS" %}
           {% if people.col == 2 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}, <i> {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -170,7 +170,7 @@ title: Team
         {% if people.role == "BS" %}
           {% if people.col == 1 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}<i>, {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -181,7 +181,7 @@ title: Team
         {% if people.role == "BS" %}
           {% if people.col == 2 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}, <i> {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -196,7 +196,7 @@ title: Team
         {% if people.role == "SRIP" %}
           {% if people.col == 1 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}<i>, {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -207,7 +207,7 @@ title: Team
         {% if people.role == "SRIP" %}
           {% if people.col == 2 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.year }}</i>{% if people.now %}, <i> {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -222,7 +222,7 @@ title: Team
         {% if people.role == "Intern" %}
           {% if people.col == 1 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.school }}</i>{% if people.now %}<i>, {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.school }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}
@@ -233,7 +233,7 @@ title: Team
         {% if people.role == "Intern" %}
           {% if people.col == 2 %}
             <div class="row">
-              <p>{{ people.name }}</p> <i>{{ people.school }}</i>{% if people.now %}, <i> {{ people.now }}</i> {% endif %}
+              <p>{{ people.name }} {{ people.school }}{% if people.now %}, {{ people.now }} {% endif %}</p>
             </div>
           {% endif %}
         {% endif %}

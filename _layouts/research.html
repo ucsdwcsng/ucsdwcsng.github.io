@@ -14,10 +14,23 @@ layout: page
 <h3>Publications</h3>
 <div class="layout--archive js-all">
     <div class="js-result layout--archive__result d-none">
-      {%- include article-list.html articles=publications type='brief' show_cover=true cover_size = 'lg' show_authors=true reverse=true -%}
+      {%- include article-list.html articles=publications type='brief' show_cover=true cover_size = 'lg' show_authors=true reverse=true group_by='year' -%}
     </div>
 </div>
 <script>
   {%- include scripts/archieve.js -%}
 </script>
+
+<h3>Open Source Code and Datasets</h3>
+<ul>
+{% for article in publications %}
+  {% if article.github %}
+    <li> <a href="{{ article.github }}">[ {{ article.title }} Code ]</a> </li>
+  {% endif %}
+  {% if article.dataset %}
+    <li> <a href="{{ article.dataset }}">[ {{article.title }} Dataset ]</a></li>
+  {% endif %}
+{% endfor %}
+
 <h3>Sponsors</h3>
+<h3>Team</h3>

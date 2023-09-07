@@ -15,6 +15,15 @@
       <nav class="navigation">
         <ul>
           {%- for _item in site.data.navigation.header -%}
+            {% if _item.subfolderitems[0] %}
+              <ul class="menu-sub menu-drop">
+                {% for entry in _item.subfolderitems %}
+                  <li class="menu-item">
+                    <a class="menu-link nav-link" href="{{ entry.url }}">{{ entry.name }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
             {%- include snippets/get-nav-url.html path=_item.url -%}
             {%- assign _nav_url = __return -%}
             {%- include snippets/get-nav-url.html path=page.url -%}

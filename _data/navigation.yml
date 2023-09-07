@@ -49,7 +49,19 @@ header:
       fr-LU   : *FR
       tr      : &TR       Hakkında
       # @end locale config
-    url: /wireless.html
+    subfolderitems:
+      - name: "Wireless Sensing"
+        url: /wireless.html
+      - name: "Towards 6G"
+        url: /6g.html
+      - name: "Ubiquitous IoT"
+        url: /iot.html
+      - name: "Spectrum Sensing"
+        url: /spectrum.html
+      - name: "Autonomous Vehicles"
+        url: /vehicle.html
+      - name: "Security and Privacy"
+        url: /security.html
 
   - titles:
       # @start locale config
@@ -75,4 +87,4 @@ header:
       fr-LU   : *FR
       tr      : &TR       Arşivdekiler
       # @end locale config
-    url: /archive.html
+    url: /publist.html

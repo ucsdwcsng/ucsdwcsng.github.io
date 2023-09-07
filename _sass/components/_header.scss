@@ -122,3 +122,32 @@
     @include split-line(bottom, 4px, $main-color-1);
   }
 }
+
+.dropdown { 
+  display: inline-block; 
+  position: absolute; 
+} 
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  background-color: #182B49;;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  font-size: small;
+}
+
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #182B49;
+}

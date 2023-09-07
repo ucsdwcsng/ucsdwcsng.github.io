@@ -1,8 +1,8 @@
-##How to Update WCSNG Website
-###Home Page
+## How to Update WCSNG Website
+### Home Page
 To update the images in the carousel, go to index.md and update the image paths under the carousels in the fronnt matter.   
 To change the research areas or their overview gifs, update the coresspoonding heading and path in the body of index.md.
-###Team Page
+### Team Page
 To update current PhD students, Postdocs, or Collaborators, add (or remove) an entry in /_data/people.yml. Be sure to follow the same format as the existing entries with name, role, and a path to their image. Thes images should be saved to /assets/images/teampic.   
 To update current Masters and Undergraduate students, add (or remove) an entry in /_data/people_text.yml. Again, be sure to follow the same format as the existing entries. For the `col` field, alternate 1 and 2 for each additional entry to make sure that the names are evenly split across both columns.   
 To update Alumni and Interns, add (or remove) an entry in /_data/alumni.yml. Be sure to alternate the col values for each entry, as described above. For the `role` field, put the degree for all alumni (BS, MS, PhD etc.), and the program for interns (SRIP or Intern). The International Summer Intern entries have an extra field `school` to store which school they are originally from. For the `year` field, put the graduating year for all alumni and the internship year for all interns. The `now` field can be left empty if unknown, or phrased "Now at [job] [location]" or "Now [degree] at [school]".
@@ -16,7 +16,7 @@ carousels:
     - image: /pcb.jpeg
     - image: /bearl.jpeg
 ```
-###Publications
+### Publications
 To add a new publication (both to the publications list and as an individual webpage), create a new md file under /_posts. Be sure to name the md file with the format `year-month-day-name.md` (ex: 2023-05-24-mmSpoof.md). In the front matter of this md file, add `layout: publication`. The `title` field should have the full name of the publication. The `tags` field is a space separated list to tag which sublists and research pages this publication should appear in. Be very careful to match the spelling exactly to existing tags, or it will create a new tag for this publication. The `cover` field should have the path to the cover image to be displayed on the publication list and header of the publication page. All cover images should be saved to /assets/images/pubpic. The `authors` field should be a string of authors separated by commas (try to write full names and only commas, no "and" to maintain consistency). The `conference` field stores the name of the conference this paper was used in. The `paper` field is required, and should contain a link or path to a pdf of the paper. Most of these pdfs are stored in /files. The optional fields are `github`, which should have a link to the github repo, `dataset`, which should have a link the the dataset, `slides`, which should have a path to a pdf of the slides (most are saved in /files), `highlight`, which should have a string about the special highlight of this publication (ex: `highlight: "This work won the Qualcomm Innovation Fellowship 2022!"`), `video`, which should have an EMBED link to a youtube video (not the regular youtube link). Currently, up to two video links are automatically supported, with the field for the second video being `video2` (which will also require a youtube embed link). Up to one additional link is also supported under the field `other`, which will show up in the list of links containing the slides, github, and datasets. The format for adding this extra link is:
 ```
 other:

@@ -6,7 +6,7 @@ To change the research areas or their overview gifs, update the coresspoonding h
 To update current PhD students, Postdocs, or Collaborators, add (or remove) an entry in /_data/people.yml. Be sure to follow the same format as the existing entries with name, role, and a path to their image. Thes images should be saved to /assets/images/teampic.   
 To update current Masters and Undergraduate students, add (or remove) an entry in /_data/people_text.yml. Again, be sure to follow the same format as the existing entries. For the `col` field, alternate 1 and 2 for each additional entry to make sure that the names are evenly split across both columns.   
 To update Alumni and Interns, add (or remove) an entry in /_data/alumni.yml. Be sure to alternate the col values for each entry, as described above. For the `role` field, put the degree for all alumni (BS, MS, PhD etc.), and the program for interns (SRIP or Intern). The International Summer Intern entries have an extra field `school` to store which school they are originally from. For the `year` field, put the graduating year for all alumni and the internship year for all interns. The `now` field can be left empty if unknown, or phrased "Now at [job] [location]" or "Now [degree] at [school]".
-###Research Pages
+### Research Pages
 To add a new research page, create a new md file and put `layout: research` in the front matter. Add the `pubtag` field to indicate which publications to display on the list of that research page. Be sure to match the spelling exactly to the corresponding tag on the publications. Add the carousel images to the front matter using the following format:
 ```
 carousels:

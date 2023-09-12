@@ -1,12 +1,13 @@
 ---
 layout: publication
 title: "Two beams are better than one: Towards Reliable and High Throughput mmWave Links"
+short_title: "mmReliable"
 tags: Communications
 cover: /assets/images/pubpic/mmreliable.png
 authors: "Ish Kumar Jain, Raghav Subbaraman, Dinesh Bharadia"
 conference: "Sigcomm 2021"
-paper: files/mmreliable.pdf
-slides: files/mmreliable_slides.pdf
+paper: /files/mmreliable.pdf
+slides: /files/mmreliable_slides.pdf
 dataset: https://github.com/ucsdwcsng/mMobile
 github: https://github.com/ucsdwcsng/mmReliable
 video: https://www.youtube.com/embed/w2ZUX00-p_A

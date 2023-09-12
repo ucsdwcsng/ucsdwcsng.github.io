@@ -1,11 +1,12 @@
 ---
 layout: publication
 title: "ScatterMIMO: Enabling Virtual MIMO with Smart Surfaces"
+short_title: "ScatterMIMO"
 tags: Backscatter Communications
 cover: /assets/images/pubpic/scattermimo.png
 authors: "Manideep Dunna, Chi Zhang, Daniel Sievenpiper, Dinesh Bharadia"
 conference: "Mobicom 2020"
-paper: files/scattermimo.pdf
+paper: /files/scattermimo.pdf
 video: https://www.youtube.com/embed/V96rOy8-FF4
 press:
   date: "April 2, 2020"

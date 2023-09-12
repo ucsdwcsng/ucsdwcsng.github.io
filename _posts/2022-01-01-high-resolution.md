@@ -1,6 +1,7 @@
 ---
 layout: publication
 title: "High-Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
+short_title: "Polyphase Channelizer"
 tags: Spectrum-Sensing
 cover: /assets/images/pubpic/asilomar.png
 authors: "Richard Bell, Radhika Mathuria, Fred Harris, Peter Gerstoft, Dinesh Bharadia"

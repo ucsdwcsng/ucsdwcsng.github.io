@@ -3,10 +3,12 @@ layout: article
 title: Wireless Communications Sensing and Networking
 carousels:
   - images:
-    - image: /atkinson.jpeg
-    - image: /rice_chip.jpeg
-    - image: /pcb.jpeg
-    - image: /bearl.jpeg
+    - image: /assets/images/picpic/graduation_2023.jpg
+    - image: /assets/images/picpic/mobicom_2021.jpg
+    - image: /assets/images/picpic/roshan_graduation.jpg
+    - image: /assets/images/picpic/birch_2022.jpg
+    - image: /assets/images/picpic/christmas_2021.jpg
+    - image: /assets/images/picpic/diwali.jpg
 article_header:
   type: overlay
   theme: dark
@@ -15,17 +17,21 @@ article_header:
     src: /atkinson.jpeg
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
-Our group develops theories and algorithms with a special focus on the implementation and prototyping of solutions in the following impact areas:
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
-
-<h2>Wireless Sensing</h2>
+<h2><a href="/wireless.html">Wireless Sensing</a></h2>
 <div><img src="/wiros.mov" height="400" width="100%"/></div>
-<h2>Communications</h2>
+<h2><a href="/6g.html">Towards 6G</a></h2>
 <div><img src="/rice_chip.jpeg" height="400" width="100%"/></div>
-<h2>Vehicular</h2>
+<h2><a href="/vehicle.html">Autonomous Vehicles</a></h2>
 <div><img src="/vehicular.mov" height="400" width="100%"/></div>
+<h2><a href="/iot.html">Ubiquitous IoT</a></h2>
+<div><img src="/pcb.jpeg" height="400" width="100%"/></div>
+<h2><a href="/spectrum.html">Spectrum Sensing</a></h2>
+<div><img src="/sweepsense.png" height="400" width="100%"/></div>
+<h2><a href="/security.html">Security and Privacy</a></h2>
+<div><img src="/bearl.jpeg" height="400" width="100%"/></div>
 <h2> Join Our Team! </h2>
 We are always looking for new group members with passion, talent, and grit!
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 <h5> PhD and Postdoc </h5>
 Send an email with the subject "Application PhD" or "Application Postdoc" directly to <i>dineshb [at] ucsd.edu</i> with your CV and a brief statement of why you are interested.
 <h5> UCSD students </h5>

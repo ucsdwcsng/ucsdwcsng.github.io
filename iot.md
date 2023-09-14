@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Ubiquitous IoT
+heading: Ubiquitous IoT
 pubtag: Backscatter
 carousels:
   - images:

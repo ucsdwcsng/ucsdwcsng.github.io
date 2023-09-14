@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Spectrum Sensing
+heading: Spectrum Sensing
 pubtag: Spectrum-Sensing
 carousels:
   - images:

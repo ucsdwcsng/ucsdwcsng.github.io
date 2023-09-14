@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Autonomous Vehicles
+heading: Autonomous Vehicles
 pubtag: Vehicle
 carousels:
   - images:

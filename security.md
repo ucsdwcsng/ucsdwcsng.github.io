@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Security and Privacy
+heading: Security and Privacy
 pubtag: Security
 carousels:
   - images:

@@ -1,4 +1,7 @@
 .header {
+  position: relative;
+  width: 100%;
+  z-index: 1;
   background: $header-background;
   a {
     font-weight: map-get($base, font-weight);

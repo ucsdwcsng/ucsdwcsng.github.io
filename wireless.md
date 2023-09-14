@@ -1,6 +1,6 @@
 ---
 layout: research
-title: Wireless Sensing
+heading: Wireless Sensing
 pubtag: Wireless-Sensing
 carousels:
   - images:
@@ -8,7 +8,7 @@ carousels:
     - image: /rice_chip.jpeg
     - image: /pcb.jpeg
     - image: /bearl.jpeg
-team:
+people:
   - Dinesh Bharadia
   - Roshan Ayyalasomayajula
   - Ish Kumar Jain

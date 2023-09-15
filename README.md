@@ -53,3 +53,10 @@ The `osd` field (named osd as short for Open Source Description - feel free to r
 The last optional front matter field is the `highlight` field. This field is a boolean used to determine whether this publication should be one the publications displayed on the shortened list of its corresponding research page. If `highlight` is `true`, then the publication will appear on the shortened research page list. If it is `false`, or the `highlight` field is missing, then it won't.
 Finally, the Abstract should be added to the body of the md file. Don't add a heading for the abstract, since that formatting is already automated by the publication layout. Any customized headings, images, and videos can also be added in the body, and will be displayed below the abstract on the webpage.
 The publication list will display icon links for any provided github, slides, and paper, but not any of the other optional fields. The other optional fields will be viewable on the publications webpage, which will be accessible by clicking the title on the publications list, or the shortened list on any of the research pages.
+
+## WCSNG Website Extensions
+### Home Page
+Currently, the home page layout is quite concrete, but it is missing content. The images in particular have to be updated. The banner image at the top of the page should be discussed and carefully chosen. For each of the research sections, we have discussed adding high quality short gifs in place of the current images. These have to be created and updated as well.
+### Team Page
+The layout of this page is close to done, but the lists need to be updated. Many of the people displayed as current students have graduated, and many new students have joined the lab. This information needs to be updated in the .yml files mentioned earlier to make a more current list. We have also discussed the idea of hiding the alumni list and having a 'show more' button to display it, since the length of the list makes the page feel cluttered. There is no code to support this feature yet, and the layout of the team page would have to be updated to support it.
+### Research

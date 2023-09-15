@@ -14,21 +14,21 @@ article_header:
   theme: dark
   background_color: '#203028'
   background_image:
-    src: /atkinson.jpeg
+    src: /assets/images/atkinson.jpeg
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
 <h2><a href="/wireless.html">Wireless Sensing</a></h2>
-<div><img src="/wiros.mov" height="400" width="100%"/></div>
+<div><img src="/assets/images/wiros.mov" height="400" width="100%"/></div>
 <h2><a href="/6g.html">Towards 6G</a></h2>
-<div><img src="/rice_chip.jpeg" height="400" width="100%"/></div>
+<div><img src="/assets/images/rice_chip.jpeg" height="400" width="100%"/></div>
 <h2><a href="/vehicle.html">Autonomous Vehicles</a></h2>
-<div><img src="/vehicular.mov" height="400" width="100%"/></div>
+<div><img src="/assets/images/vehicular.mov" height="400" width="100%"/></div>
 <h2><a href="/iot.html">Ubiquitous IoT</a></h2>
-<div><img src="/pcb.jpeg" height="400" width="100%"/></div>
+<div><img src="/assets/images/pcb.jpeg" height="400" width="100%"/></div>
 <h2><a href="/spectrum.html">Spectrum Sensing</a></h2>
-<div><img src="/sweepsense.png" height="400" width="100%"/></div>
+<div><img src="/assets/images/sweepsense.png" height="400" width="100%"/></div>
 <h2><a href="/security.html">Security and Privacy</a></h2>
-<div><img src="/bearl.jpeg" height="400" width="100%"/></div>
+<div><img src="/assets/images/bearl.jpeg" height="400" width="100%"/></div>
 <h2> Join Our Team! </h2>
 We are always looking for new group members with passion, talent, and grit!
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}

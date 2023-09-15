@@ -4,10 +4,10 @@ heading: Wireless Sensing
 pubtag: Wireless-Sensing
 carousels:
   - images:
-    - image: /atkinson.jpeg
-    - image: /rice_chip.jpeg
-    - image: /pcb.jpeg
-    - image: /bearl.jpeg
+    - image: /assets/images/atkinson.jpeg
+    - image: /assets/images/rice_chip.jpeg
+    - image: /assets/images/pcb.jpeg
+    - image: /assets/images/bearl.jpeg
 people:
   - Dinesh Bharadia
   - Roshan Ayyalasomayajula

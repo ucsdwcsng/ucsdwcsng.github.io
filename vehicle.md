@@ -4,10 +4,10 @@ heading: Autonomous Vehicles
 pubtag: Vehicle
 carousels:
   - images:
-    - image: /car1.png
-    - image: /car2.png
-    - image: /car3.png
-    - image: /car4.png
+    - image: /assets/images/car1.png
+    - image: /assets/images/car2.png
+    - image: /assets/images/car3.png
+    - image: /assets/images/car4.png
 people: 
   - Kshitiz Bansal
   - Dinesh Bharadia

@@ -60,3 +60,6 @@ Currently, the home page layout is quite concrete, but it is missing content. Th
 ### Team Page
 The layout of this page is close to done, but the lists need to be updated. Many of the people displayed as current students have graduated, and many new students have joined the lab. This information needs to be updated in the .yml files mentioned earlier to make a more current list. We have also discussed the idea of hiding the alumni list and having a 'show more' button to display it, since the length of the list makes the page feel cluttered. There is no code to support this feature yet, and the layout of the team page would have to be updated to support it.
 ### Research
+Make the "show more" link in the shortened publications list lead to the filtered main publications list (instead of unfiltered). Also expand the code and datasets section with more information or images.
+### Publications
+Add a second set of tags for the technology used in each publication. Distinguish it with a separate colour, or have a filter to switch between application tags and technology tags.

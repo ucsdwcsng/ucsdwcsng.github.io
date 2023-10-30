@@ -3,7 +3,7 @@ layout: publication
 title: "R-fiducial: Millimeter Wave Radar Fiducials for Sensing Traffic Infrastructure"
 short_title: "R-fiducial"
 tags: Vehicle
-cover: /assets/images/pubpic/mmspoof.png
+cover: /assets/images/pubpic/rfiducial.png
 authors: "Kshitiz Bansal, Manideep Dunna, Sanjeev Ganesh, Eamon Patmasing, Dinesh Bharadia"
 conference: "2023 IEEE 97th Vehicular Technology Conference (VTC2023-Spring)"
 paper: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10199374

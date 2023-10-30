@@ -4,7 +4,7 @@ services:
     build: .
     command: bundle exec jekyll serve --watch --force_polling --host=0.0.0.0
     volumes:
-      - .:/website
+      - .:/ucsdwcsng.github.io
     ports:
       - "4000:4000"
 
@@ -14,7 +14,7 @@ services:
       - JEKYLL_ENV=production
     command: bundle exec jekyll build
     volumes:
-      - .:/website
+      - .:/ucsdwcsng.github.io
     ports:
       - "4000:4000"
 
@@ -22,6 +22,6 @@ services:
     build: .
     command: rm -rf _site .sass-cache
     volumes:
-      - .:/website
+      - .:/ucsdwcsng.github.io
     ports:
       - "4000:4000"

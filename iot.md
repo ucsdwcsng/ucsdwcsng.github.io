@@ -4,10 +4,19 @@ heading: Ubiquitous IoT
 pubtag: Backscatter
 carousels:
   - images:
-    - image: /assets/images/atkinson.jpeg
     - image: /assets/images/rice_chip.jpeg
     - image: /assets/images/pcb.jpeg
-    - image: /assets/images/bearl.jpeg
+people:
+  - Dinesh Bharadia
+  - Manideep Dunna
+  - Agrim Gupta
+  - Nagarjun Bhat
 ---
 
-We at the Wireless Sensing group of WCSNG, focus on designing, researching, developing, and deploying wireless localization and sensing systems for a wide range of applications, including Extended Reality, Indoor Robotics, Navigation, Warehouse management and Industrial IoT 4.0, with the goal of providing accurate and reliable location and sensing estimates for humans, devices, and robots.
+Our work on ubiquitous IoT utilizes the RF backscattering phenomenon with applications in Low Power communication and Wireless Sensing.  
+
+The first theme of works develops IoT nodes for facilitating ultra low power communication of the sensors and integrate them with COTS wireless technologies like ZigBee, BLE and WiFi. These works introduce the features like beamforming, synchronization and signal processing to the world of backscatter while keeping the devices low power in nature. 
+
+The second theme delves into designing smartsurfaces to control the wireless signal reflections thus adding a degree of freedom to control the wireless channel. We showed that this additional degree of freedom increases multiplexing gain in MIMO wireless links.
+
+The third theme focuses on sensing using wireless signals. Here we develop sensors to detect mechanical forces using RF backscatter sensors. 

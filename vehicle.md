@@ -1,6 +1,6 @@
 ---
 layout: research
-heading: Autonomous Vehicles
+heading: Autonomous Sensing and Systems
 pubtag: Vehicle
 carousels:
   - images:
@@ -9,8 +9,17 @@ carousels:
     - image: /assets/images/car3.png
     - image: /assets/images/car4.png
 people: 
+  - Manideep Dunna
   - Kshitiz Bansal
   - Dinesh Bharadia
 ---
 
-Autonomous perception requires high-quality environment sensing in the form of 3D bounding boxes of dynamic objects. The primary sensors used in automotive systems are light-based cameras and LiDARs. However, they are known to fail in adverse weather conditions. Radars can potentially solve this problem as they are barely affected by adverse weather conditions. However, specular reflections of wireless signals cause poor performance of radar point clouds.We introduce Pointillism, a system that combines data from multiple spatially separated radars with an optimal separation to mitigate these problems. We introduce a novel concept of Cross Potential Point Clouds, which uses the spatial diversity induced by multiple radars and solves the problem of noise and sparsity in radar point clouds. Furthermore, we present the design of RP-net, a novel deep learning architecture, designed explicitly for radar’s sparse data distribution, to enable accurate 3D bounding box estimation. The spatial techniques designed and proposed in this paper are fundamental to radars point cloud distribution and would benefit other radar sensing applications.
+Welcome to our research dedicated to the study and advancement of autonomous sensing systems. Our work revolves around the core components of Data, Algorithms, and Applications.
+
+Data: At the foundation of our research, we delve into the essence of data - the elemental units. We meticulously design and deploy multi-modality systems to acquire data from both indoor and outdoor environments. This includes the use of multi-modal sensing modalities such as cameras, LiDAR, GPS, IMUs, and environmental sensors, as well as simulations, to ensure comprehensive data collection and sensor fusion.
+
+Algorithms: Our research is deeply rooted in algorithmic innovation. We devote substantial efforts to developing cutting-edge algorithms that play a pivotal role in the efficient and optimal processing of acquired data. Our work spans computer vision, machine learning, sensor fusion, optimization techniques, and robustness measures, ensuring the reliability of our systems.
+
+Applications: Beyond algorithmic refinement and data collection, we aim to bridge theory and practice. Our autonomous systems find practical applications in a variety of domains, spanning from the controlled environments of warehouses to the complexities of outdoor terrains. Applications include autonomous navigation, factory automation, infrastructure sensing, and search and rescue missions, reflecting the versatility and real-world impact of our research.
+
+<!-- Join us on this academic journey as we contribute to the ongoing discourse in autonomous systems. From foundational data, including simulations, to advanced algorithms and their tangible applications, our research seeks to enrich the academic landscape and provide practical solutions to real-world challenges. Explore our work and become part of the scholarly dialogue shaping the future of autonomous systems. -->

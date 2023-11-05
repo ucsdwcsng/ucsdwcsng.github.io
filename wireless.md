@@ -18,4 +18,4 @@ people:
   - Chi Zhang
 ---
 
-We at the Wireless Sensing group of WCSNG, focus on designing, researching, developing, and deploying wireless localization and sensing systems for a wide range of applications, including Extended Reality, Indoor Robotics, Navigation, Warehouse management and Industrial IoT 4.0, with the goal of providing accurate and reliable location and sensing estimates for humans, devices, and robots.
+Our work in wireless sensing is primarily geared towards improving state of the art in wireless localization for UWB, BLE and WiFi equipped devices, and considering the security and privacy implications of techonology we develop. In this lines, we have developed mulitple open source hardware systems using off-the-shelf BLE, WiFi and UWB chipsets and devices to test novel localization algorithms, probe security concerns in these systems, and develop better defenses to preserve a wireless user's privacy. 

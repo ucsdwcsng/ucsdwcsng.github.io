@@ -1,0 +1,6 @@
+[submodule "_posts"]
+	path = _posts
+	url = https://github.com/ucsdwcsng/site-publications-pages
+[submodule "research"]
+	path = research
+	url = https://github.com/ucsdwcsng/site-research-pages

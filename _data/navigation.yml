@@ -115,3 +115,21 @@ header:
       # @end locale config
     url: /code.html
 
+  - titles:
+      en : &EN Hosted Events
+    subfolderitems:
+      - name: Mobicom'23 mmNets
+        url: https://wcsng.ucsd.edu/mmNets2023/
+      - name: Mobicom'23 S<sup>3</sup>
+        url: https://wcsng.ucsd.edu/s3/
+      - name: CVPR'22 WAIP
+        url: https://wcsng.ucsd.edu/waip/
+      - name: BluBLE
+        url: https://wcsng.ucsd.edu/bluble/
+  - titles:
+      en : &EN Life@WCSNG
+    subfolderitems:
+      - name: Docs
+        url: https://wcsng.ucsd.edu/docs/
+      - name: Pics!
+        url: /pictures

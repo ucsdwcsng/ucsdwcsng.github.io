@@ -1,5 +1,7 @@
 ---
 layout: article
+aside:
+  news: true
 title: Wireless Communications Sensing and Networking
 carousels:
   - images:

@@ -1,0 +1,10 @@
+<div class="news">
+  <h2>News</h2>
+
+  {% for article in site.data.news.news limit:9 %}
+  <i><font color="gray">{{ article.date }}</font></i>
+  <p>{{ article.headline }}</p>
+  {% endfor %}
+
+  <a href="/news">More news...</a>
+</div>

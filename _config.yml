@@ -223,3 +223,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+
+## => Extra stuff for publications
+miscs:
+  - content_type: # type
+  - content_url: # link

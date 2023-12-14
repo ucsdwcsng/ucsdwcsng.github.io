@@ -8,7 +8,7 @@ authors: "Richard Bell, Kyle Wason, Tianyi Hu, Isamu Poy, Fred Harris, Dinesh Bh
 author_list:
     - name: Richard Bell
       email: rcbell@ucsd.edu
-    - name: Daegue Park # url field is optional
+    - name: Kyle Watson # url field is optional
       email: watson@jasr.systems
     - name: Tianyi Hu
       email:  hu@jasr.systems

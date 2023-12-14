@@ -1,12 +1,33 @@
 ---
 layout: publication
 title: "Improving the Range of WiFi Backscatter Via a Passive Retro-Reflective Single-Side-Band-Modulating MIMO Array and Non-Absorbing Termination"
-short_title: "Van Atta Array Tag"
-tags: Backscatter Communications
+short_title: "Van Atta Array Backscatter Tag"
+tags: Backscatter 
 cover: /assets/images/pubpic/isscc.jpg
 authors: "Miao Meng, Manideep Dunna, Hans Yu, Shikhai Kuo, Pohan Peter Wang, Dinesh Bharadia, Patrick P. Mercier"
+author_list:
+    - name: Manideep Dunna
+      url: https://manideepabc.github.io/
+      email: mdunna@ucsd.edu
+    - name: Miao Meng # url field is optional
+      email: miameng@tongji.edu.cn
+    - name: Hans Yu # url field is optional
+      email: chy019@ucsd.edu 
+    - name: Po-Han Wang
+      email: pow008@eng.ucsd.edu
+    - name: Chi Zhang
+      email: zhangchi866@gmail.com
+    - name: Dinesh Bharadia
+      url: https://dineshb-ucsd.github.io/
+      email: dineshb@ucsd.edu
+    - name: Patrick Mercier
+      email: pmercier@ucsd.edu
+    
 conference: "ISSCC 2021"
 paper: /files/ISSCC_2021_paper.pdf
 slides: /files/ISSCC_2021_slides.pdf
+
+description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
+    - text: "Backscatter tags have a limited range of operation due to the large pathloss associated with the two hops involved in backscatter signal propagation. In this work, we propose the use of the multiple antennas on the backscatter tag to enhance the range of a WiFi backscatter tag. We combine the Van Atta Array Retro-Reflective structure with the backscatter concept to demonstrate a 22m operating range for the tag."
 ---
-More portable, fully wireless smart home setups. Lower power wearables. Batteryless smart devices. These could all be made possible thanks to a new ultra-low power Wi-Fi radio developed by electrical engineers at the University of California San Diego. The device, which is housed in a chip smaller than a grain of rice, enables Internet of Things (IoT) devices to communicate with existing Wi-Fi networks using 5,000 times less power than today’s Wi-Fi radios. It consumes just 28 microwatts of power. And it does so while transmitting data at a rate of 2 megabits per second (a connection fast enough to stream music and most YouTube videos) over a range of up to 21 meters.
+

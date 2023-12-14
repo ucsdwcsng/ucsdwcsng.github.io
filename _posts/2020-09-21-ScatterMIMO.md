@@ -17,7 +17,7 @@ author_list:
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
 conference: "ACM Mobicom 2020"
-conference_site: "https://www.sigmobile.org/mobicom/2020/"
+conference_site: https://www.sigmobile.org/mobicom/2020/
 paper: https://dl.acm.org/doi/10.1145/3372224.3380887
 video: https://www.youtube.com/embed/V96rOy8-FF4
 video_str: Talk

@@ -35,8 +35,6 @@ miscs:  # whatever you need to add Extra
       content_url: https://www.youtube.com/embed/0ezsSe8hJb8 # hat tip: do not use tabs for idnentation, yaml doesnt support it
     - content_type: Medium Blog
       content_url: https://medium.com/ubicomp-iswc-2023/forcesticker-wireless-batteryless-thin-flexible-force-sensors-796294399c91
-    - content_type: Startup Pitch
-      content_url: https://www.youtube.com/watch?v=arSO7shzFT4
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
     - text: "Any two objects in contact with each other exert a force that could be simply due to gravity or mechanical contact, such as any ubiquitous object exerting weight on a platform or the contact between two bones at our knee joints. The most ideal way of capturing these contact forces is to have a flexible force sensor which can conform well to the contact surface. Further, the sensor should be thin enough to not affect the contact physics between the two objects. The two hindrances to achieve this thin form-factor are batteries, and wires."
       image: /assets/images/force-sticker-banner.png
@@ -56,24 +54,6 @@ medias:
 citation:
     - text: "Gupta, Agrim, et al. \"ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors.\" Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 7.1 (2023): 1-32."
       thumbnail: /assets/images/forcesticker-thumbnail.png
-      bib: "@article{gupta2023forcesticker,
-
-  title={ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors},
-
-  author={Gupta, Agrim et al.},
-
-  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},\
-
-  volume={7},
-
-  number={1},
-
-  pages={1--32},
-
-  year={2023},
-
-  publisher={ACM New York, NY, USA}
-}"
       biburl: https://scholar.googleusercontent.com/scholar.bib?q=info:o4ulmKee5wcJ:scholar.google.com/&output=citation&scisdr=ClHclFS-EMyT3t1p2jg:AFWwaeYAAAAAZXZvwjiiWM2-1yo2JI5oEX12188&scisig=AFWwaeYAAAAAZXZvwloBuOLejRa0eQrZwxVRXEI&scisf=4&ct=citation&cd=-1&hl=en
       links:
       - type: PDF

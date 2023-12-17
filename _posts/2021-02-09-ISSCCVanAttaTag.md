@@ -3,7 +3,7 @@ layout: publication
 title: "Improving the Range of WiFi Backscatter Via a Passive Retro-Reflective Single-Side-Band-Modulating MIMO Array and Non-Absorbing Termination"
 short_title: "Van Atta Array Backscatter Tag"
 tags: Backscatter 
-cover: /assets/images/pubpic/isscc.jpg
+cover: /assets/images/pubpic/isscc2021_cover.png
 authors: "Miao Meng, Manideep Dunna, Hans Yu, Shikhai Kuo, Pohan Peter Wang, Dinesh Bharadia, Patrick P. Mercier"
 author_list:
     - name: Manideep Dunna

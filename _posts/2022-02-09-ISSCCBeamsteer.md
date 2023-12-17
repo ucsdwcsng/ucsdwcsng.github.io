@@ -3,7 +3,7 @@ layout: publication
 title: "A WiFi and Bluetooth Backscattering Combo Chip Featuring Beam Steering via a Fully-Reflective Phased-Controlled Multi-Antenna Termination Technique Enabling Operation Over 56 Meters"
 short_title: "Beamsteering backscatter tag"
 tags: Backscatter Communications
-cover: /assets/images/pubpic/isscc.jpg
+cover: /assets/images/pubpic/isscc2022_cover.png
 authors: "Shihkai Kuo, Manideep Dunna, Patrick P. Mercier, Dinesh Bharadia"
 author_list:
     - name: Manideep Dunna

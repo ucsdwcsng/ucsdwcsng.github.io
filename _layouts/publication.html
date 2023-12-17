@@ -168,6 +168,8 @@ sidebar:
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+      text-align: justify;
+  text-justify: inter-word;
   }
 
   h1 {
@@ -437,7 +439,7 @@ sidebar:
           </center>
       {% endif %}
       {% if desc.text!= blank %}
-        <div style="width:1000px; margin:0 auto; text-align=right;">
+        <div style="width:1000px; margin:0 auto; text-align=justified;">
               {{desc.text}}
         </div>
       {% endif %}
@@ -500,9 +502,13 @@ sidebar:
           </center>
               <table align=center width=850px>
               <tr>
+              {% if cit.thumbnail!= blank %}
+              
+              
               <td width="30%" align=left>
+                <a href="{{cit.biburl}}"><img style="height:200px" src="{{cit.thumbnail}}"/></a>
               <!-- <p style="margin-top:4px;"></p> -->
-              <a href="{{cit.biburl}}"><img style="height:200px" src="{{cit.thumbnail}}"/></a>
+
               <center>
                 {% for citlink in cit.links %}
               <span style="font-size:20pt"><a href="{{citlink.url}}">[{{citlink.type}}]</a>
@@ -511,9 +517,17 @@ sidebar:
               </td>
               <td width="6%" align=center>
               </td>
-              <td width="64%" align=left>
+              <td width="62%" align=left>
+                <!-- <p style="margin-top:4px;"></p> -->
+              <p style="text-align:justify;"><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">{{cit.text}}</span></p>
+              <!-- <p style="margin-top:20px;"></p> -->
+              <span style="font-size:20pt"><a shape="rect" href="{{cit.biburl}}" class="togglebib">[Bibtex]</a></span>
+              </td>
+              </tr>
+                {% else %}
+                <td width="80%" align=center>
               <!-- <p style="margin-top:4px;"></p> -->
-              <p style="text-align:left;"><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">{{cit.text}}</span></p>
+              <p style="text-align:justify;"><span style="font-size:6px;">&nbsp;<br/></span> <span style="font-size:15pt">{{cit.text}}</span></p>
               <!-- <p style="margin-top:20px;"></p> -->
               <span style="font-size:20pt"><a shape="rect" href="{{cit.biburl}}" class="togglebib">[Bibtex]</a></span>
               </td>
@@ -529,6 +543,7 @@ sidebar:
                 </div>
                 </td>
                 </tr> -->
+                {% endif %}
             </table>
           <br><center>
       <hr>

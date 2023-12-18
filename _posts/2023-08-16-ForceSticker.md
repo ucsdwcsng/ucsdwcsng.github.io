@@ -54,7 +54,25 @@ medias:
 citation:
     - text: "Gupta, Agrim, et al. \"ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors.\" Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 7.1 (2023): 1-32."
       thumbnail: /assets/images/forcesticker-thumbnail.png
-      biburl: https://scholar.googleusercontent.com/scholar.bib?q=info:o4ulmKee5wcJ:scholar.google.com/&output=citation&scisdr=ClHclFS-EMyT3t1p2jg:AFWwaeYAAAAAZXZvwjiiWM2-1yo2JI5oEX12188&scisig=AFWwaeYAAAAAZXZvwloBuOLejRa0eQrZwxVRXEI&scisf=4&ct=citation&cd=-1&hl=en
+      bibtex: "
+      <pre xml:space=\"preserve\">
+ @article{gupta2023forcesticker,
+
+  title={ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors},
+
+  author={Gupta, Agrim and Park, Daegue and Bashar, Shayaun and Girerd, Cedric and Bhat, Nagarjun and Mundhra, Siddhi and Morimoto, Tania K and Bharadia, Dinesh},
+
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+
+  volume={7},
+  number={1},
+  pages={1--32},
+  year={2023},
+
+  publisher={ACM New York, NY, USA}
+}
+</pre>
+"
       links:
       - type: PDF
         url: /files/forcesticker.pdf

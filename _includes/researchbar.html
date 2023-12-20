@@ -1,7 +1,11 @@
 <header style="background: #182B49; border-radius: 15px;">
   <div class="main">
-    <nav class="navigation">
-      <ul>
+    <nav id="research-bar" class="collapsed">
+      <button class="research-bar-toggle button" onclick="document.getElementById('research-bar').classList.toggle('collapsed')">
+        <span class="icon">{%- include svg/icon/menu.svg -%}</span>
+        <span>Research</span>
+      </button>
+      <ul class="research-bar navigation">
         {%- for _item in site.data.navigation.header -%}
           {%- include snippets/get-nav-url.html path=_item.url -%}
           {%- assign _nav_url = __return -%}

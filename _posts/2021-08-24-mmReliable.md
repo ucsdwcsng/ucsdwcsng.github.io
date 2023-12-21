@@ -38,24 +38,6 @@ medias:
       url: https://techxplore.com/news/2021-08-technology-fastest-version-5g-home.html
     - type: NewsWise
       url: https://www.newswise.com/articles/this-technology-could-bring-the-fastest-version-of-5g-to-your-home-and-workplace
-
-<!--press:
-  date: August 23, 2021
-  url: https://jacobsschool.ucsd.edu/news/release/3322
-  headline: This Technology Could Bring the Fastest Version of 5G to Your Home and Workplace
-press2:
-  date: August 23, 2021
-  url: https://interestingengineering.com/innovation/a-new-laser-like-system-could-put-5g-in-your-home
-  headline: A New Laser-Like System Could Put 5G in Your Home
-press4:
-  date: August 26, 2021
-  url: https://dailytimes.com.pk/808141/new-tech-provides-fast-reliable-5g-connections/
-  headline: New Tech Provides Fast, Reliable 5G Connections
-press3:
-  date: August 23, 2021
-  url: https://techxplore.com/news/2021-08-technology-fastest-version-5g-home.html
-  headline: New Technology Could Bring the Fastest Version of 5G to Your Home and Workplace
--->
 extra: "This work won the Qualcomm Innovation Fellowship 2022!"
 osd: "This repository contains the artifact for submission #441, ACM SIGCOMM 2021. The artifact is composed of simulations and algorithms implemented on real-life mmWave channel estimates."
 ---

@@ -3,7 +3,9 @@
     element.addEventListener("mouseover", function () {
       const child = element.querySelector("ul");
       const position = element.getBoundingClientRect();
-      child.style.left = position.left + "px";
+      if (window.innerWidth > 799) {
+        child.style.left = position.left + "px";
+      }
     });
   });
 })()

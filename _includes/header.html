@@ -9,9 +9,12 @@
             <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
           {%- endif -%}
         </div>
+        <button class="nav-bar-toggle button" onclick="document.getElementsByClassName('navigation')[0].classList.toggle('collapsed')">
+          <span class="icon">{%- include svg/icon/menu.svg -%}</span>
+        </button>
       </div>
       {%- if site.data.navigation.header -%}
-        <nav class="navigation">
+        <nav class="navigation collapsed">
           <ul>
             {%- for _item in site.data.navigation.header -%}
               {%- include snippets/get-nav-url.html path=_item.url -%}
@@ -22,7 +25,10 @@
               {%- if _nav_url == _page_url or page.nav_key and _item.key and page.nav_key == _item.key -%}
                 {%- if _item.subfolderitems -%}
                   <li class="navigation__item navigation__folder">
-                    <a>{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
+                    <a onclick="this.parentElement.classList.toggle('hovered')">
+                      {%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}
+                      <span>⌄</span>
+                    </a>
                     <ul>
                       {%- for entry in _item.subfolderitems -%}
                         <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
@@ -35,7 +41,10 @@
               {%- else -%}
                 {%- if _item.subfolderitems -%}
                   <li class="navigation__item navigation__folder">
-                    <a>{%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}</a>
+                    <a onclick="this.parentElement.classList.toggle('hovered')">
+                      {%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}
+                      <span>⌄</span>
+                    </a>
                     <ul>
                       {%- for entry in _item.subfolderitems -%}
                         <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>

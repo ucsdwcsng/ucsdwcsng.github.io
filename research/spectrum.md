@@ -1,5 +1,7 @@
 ---
 layout: research
+aside:
+  news: true
 permalink: spectrum
 heading: Spectrum Sensing
 pubtag: Spectrum-Sensing

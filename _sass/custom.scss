@@ -5,6 +5,34 @@
   padding: 10px;
   margin: 16px;
   margin-top: 52px;
+  background-color: #fff;
+}
+
+.col-aside {
+  &.visible {
+    @include media-breakpoint-down(lg) {
+      position: absolute;
+      z-index: 100;
+    }
+  }
+}
+
+.news-sidebar-link {
+  padding-right: map-get($spacers, 2);
+  position: absolute;
+  right: 0;
+
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+.news-close-link {
+  float: right;
+
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
 }
 
 #research-bar {

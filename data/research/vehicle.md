@@ -5,7 +5,7 @@ heading: Autonomous Sensing and Systems
 pubtag: Vehicle
 carousels:
   - images:
-    - image: /assets/images/vehicle.png
+    - image: /data/images/vehicle.png
 people: 
   - Manideep Dunna
   - Kshitiz Bansal

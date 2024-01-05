@@ -4,7 +4,7 @@ heading: Ultra Low Power Connectivity and Sensing
 pubtag: Ultra-Low-Power-Connectivity-and-Sensing
 carousels:
   - images:
-    - image: /assets/images/research/map.png
+    - image: /data/images/research/map.png
 permalink: ultra-low-power-connectivity-and-sensing
 ---
 

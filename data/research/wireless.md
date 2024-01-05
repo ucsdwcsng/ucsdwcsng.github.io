@@ -5,9 +5,9 @@ heading: Wireless Sensing
 pubtag: Wireless-Sensing
 carousels:
   - images:
-    - image: /assets/images/WiFi-sensors-indoor-robots-UCSD.jpg
-    - image: /assets/images/UWB-tracking.png 
-    - image: /assets/images/ble-sec.webp
+    - image: /data/images/WiFi-sensors-indoor-robots-UCSD.jpg
+    - image: /data/images/UWB-tracking.png 
+    - image: /data/images/ble-sec.webp
 people:
   - Dinesh Bharadia
   - Roshan Ayyalasomayajula

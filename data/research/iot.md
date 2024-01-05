@@ -5,8 +5,8 @@ heading: Ubiquitous IoT
 pubtag: Backscatter
 carousels:
   - images:
-    - image: /assets/images/rice_chip.jpeg
-    - image: /assets/images/pcb.jpeg
+    - image: /data/images/rice_chip.jpeg
+    - image: /data/images/pcb.jpeg
 people:
   - Dinesh Bharadia
   - Manideep Dunna

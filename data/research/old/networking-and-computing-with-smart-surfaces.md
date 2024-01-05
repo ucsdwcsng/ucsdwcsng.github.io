@@ -4,7 +4,7 @@ heading: Networking and Computing with Smart Surfaces
 pubtag: Networking-and-Computing-with-Smart-Surfaces
 carousels:
   - images:
-    - image: /assets/images/research/ternary.png
+    - image: /data/images/research/ternary.png
 permalink: networking-and-computing-with-smart-surfaces
 ---
 

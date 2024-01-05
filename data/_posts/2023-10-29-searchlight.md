@@ -3,7 +3,7 @@ layout: publication
 title: "Searchlight: An Accurate, Sensitive, and Fast RF Energy Detection System"
 short_title: "SearchLight"
 tags: Spectrum-Sensing
-cover: /assets/images/searchlight.png
+cover: /data/images/searchlight.png
 authors: "Richard Bell, Kyle Wason, Tianyi Hu, Isamu Poy, Fred Harris, Dinesh Bharadia" # needed for publist.html
 author_list:
     - name: Richard Bell
@@ -26,5 +26,5 @@ video: https://www.youtube.com/embed/KZ5dDkyTJYw?si=lM59ZnWAGYA2kGsX
 video_str: MILCOM 3 min video teaser
 miscs:
    - content_type: MILCOM Slides
-     content_url: /files/Bell_MILCOM2023_Slides.pdf
+     content_url: /data/files/Bell_MILCOM2023_Slides.pdf
 --- 

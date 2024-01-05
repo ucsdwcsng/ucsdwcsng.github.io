@@ -4,7 +4,7 @@ heading: Wireless Sensing of radios
 pubtag: Wireless-Sensing-of-radios
 carousels:
   - images:
-    - image: /assets/images/research/map.png
+    - image: /data/images/research/map.png
 permalink: wireless-sensing-of-radios
 ---
 

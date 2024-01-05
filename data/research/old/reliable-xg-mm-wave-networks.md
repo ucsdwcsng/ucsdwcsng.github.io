@@ -4,7 +4,7 @@ heading: Reliable xG mm-wave Networks
 pubtag: Reliable-xG-mm-wave-Networks
 carousels:
   - images:
-    - image: /assets/images/research/map.png
+    - image: /data/images/research/map.png
 permalink: reliable-xg-mm-wave-networks
 ---
 

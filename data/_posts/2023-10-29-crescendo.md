@@ -4,7 +4,7 @@ title: "Crescendo: Towards Wideband, Real-Time,
 High-Fidelity Spectrum Sensing Systems"
 short_title: "Crescendo"
 tags: Spectrum-Sensing Communications
-cover: /assets/images/pubpic/crescendo.png
+cover: /data/images/pubpic/crescendo.png
 authors: "Raghav Subbaraman, Kevin Mills, Aaron Schulman, Dinesh Bharadia"
 conference: "MobiCom 2023"
 paper: https://dl.acm.org/doi/abs/10.1145/3570361.3613294

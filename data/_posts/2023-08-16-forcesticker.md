@@ -3,7 +3,7 @@ layout: publication
 title: "ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors"
 short_title: "ForceSticker"
 tags: Backscatter
-cover: /assets/images/force-sticker-UCSD-teaser.jpg
+cover: /data/images/force-sticker-UCSD-teaser.jpg
 authors: "Agrim Gupta, Daegue Park, Shayaun Bashar, Cedric Girerd, Nagarjun Bhat, Siddhi Mundhra, Tania Morimoto, Dinesh Bharadia" # needed for publist.html
 author_list:
     - name: Agrim Gupta
@@ -37,11 +37,11 @@ miscs:  # whatever you need to add Extra
       content_url: https://medium.com/ubicomp-iswc-2023/forcesticker-wireless-batteryless-thin-flexible-force-sensors-796294399c91
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
     - text: "Any two objects in contact with each other exert a force that could be simply due to gravity or mechanical contact, such as any ubiquitous object exerting weight on a platform or the contact between two bones at our knee joints. The most ideal way of capturing these contact forces is to have a flexible force sensor which can conform well to the contact surface. Further, the sensor should be thin enough to not affect the contact physics between the two objects. The two hindrances to achieve this thin form-factor are batteries, and wires."
-      image: /assets/images/force-sticker-banner.png
+      image: /data/images/force-sticker-banner.png
       image_width: 800 # px
     - title: How to make force-sensors in sicker form factor? # if you want a title to precede the text
       text: "In the force-sticker paper, we show that the force-information can be piggybacked over existing RFIDs, with no additional power and requirement of any interfacing electronics, by simply interfacing a force sensitive capacitor to the RFID. Hence, the designed force-stickers consist of a thin parallel-plate capacitor, smaller than a rice grain that deforms under applied force, and is interfaced in between the RFID squiggly antenna and the RFID IC. But, how does the force-information from the capacitor get communicated via the RFID IC, without requiring any more electronics and power? The secret sauce lies in the capacitor-design, choosing the correct polymer and correct dimensions! For more technical details, please read our paper."
-      image: /assets/images/force-sticker-design.png
+      image: /data/images/force-sticker-design.png
       image_width: 800 # px
 medias:
     - type: UCSD News
@@ -53,7 +53,7 @@ medias:
 
 citation:
     - text: "Gupta, Agrim, et al. \"ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors.\" Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies 7.1 (2023): 1-32."
-      thumbnail: /assets/images/forcesticker-thumbnail.png
+      thumbnail: /data/images/forcesticker-thumbnail.png
       bibtex: "
       <pre xml:space=\"preserve\">
  @article{gupta2023forcesticker,
@@ -75,13 +75,13 @@ citation:
 "
       links:
       - type: PDF
-        url: /files/forcesticker.pdf
+        url: /data/files/forcesticker.pdf
       - type: ACM DL
         url: https://dl.acm.org/doi/abs/10.1145/3580793
       - type: Arxiv
         url: https://arxiv.org/abs/2209.09217
       - type: Slides
-        url: /files/forcesticker_slides.pdf
+        url: /data/files/forcesticker_slides.pdf
 ---
 
 

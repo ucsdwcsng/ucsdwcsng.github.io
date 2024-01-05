@@ -3,7 +3,7 @@ layout: publication
 title: "High Resolution Spectral Analysis and Signal Segregation Using the Polyphase Channelizer"
 short_title: "Channogram"
 tags: Spectrum-Sensing
-cover: /assets/images/searchlight.png
+cover: /data/images/searchlight.png
 authors: "Richard Bell, Radhika Mathuria, Fred Harris, Peter Gerstoft, Dinesh Bharadia" # needed for publist.html
 author_list:
     - name: Richard Bell
@@ -21,10 +21,10 @@ eqcon: false #Put true if you want equal contrribution on pub page
 conference: "2022 56th Asilomar Conference on Signals, Systems, and Computers"
 conference_site: https://www.asilomarsscconf.org/
 paper: https://ieeexplore.ieee.org/abstract/document/10051908
-cover: /assets/images/channelizer.png
+cover: /data/images/channelizer.png
 miscs:
    - content_type: Talk Slides
-     content_url: /files/RBell_Asilomar_2022_Slides.pdf
+     content_url: /data/files/RBell_Asilomar_2022_Slides.pdf
    - content_type: Poster
-     content_url: /files/RBell_Asilomar_2022_Poster.pdf
+     content_url: /data/files/RBell_Asilomar_2022_Poster.pdf
 --- 

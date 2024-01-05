@@ -4,7 +4,7 @@ To update the images in the carousel, go to index.md and update the image paths 
 To change the research areas or their overview gifs, update the coressponding heading, link, and path in the body of index.md.
 For now, these research areas are hardcoded, but it could be automated if they change a lot by creating a .yml file.
 ### Team Page
-To update current PhD students, Postdocs, or Collaborators, add (or remove) an entry in /_data/people.yml. Be sure to follow the same format as the existing entries with name, role, and a path to their image. Thes images should be saved to /assets/images/teampic.   
+To update current PhD students, Postdocs, or Collaborators, add (or remove) an entry in /_data/people.yml. Be sure to follow the same format as the existing entries with name, role, and a path to their image. Thes images should be saved to /data/images/teampic.   
 To update current Masters and Undergraduate students, add (or remove) an entry in /_data/people_text.yml. Again, be sure to follow the same format as the existing entries. For the `col` field, alternate 1 and 2 for each additional entry to make sure that the names are evenly split across both columns.   
 To update Alumni, add (or remove) an entry in /_data/alumni.yml. Be sure to alternate the col values for each entry, as described above. For the `role` field, put the degree for all alumni (BS, MS, PhD etc.). For the `year` field, put the graduating year for all alumni. The `now` field can be left empty if unknown, or phrased " [company] [location]" or "[degree] at [school]".
 ### Research Pages
@@ -24,20 +24,20 @@ The `sponsors` field is optional, and should include a list of sponsors and thei
 ```
 sponsors:
   - name: Qualcomm
-    picture: /assets/images/qualcomm.jpeg
+    picture: /data/images/qualcomm.jpeg
 ```
 Finally, use the `carousels` field to add the research page's carousel images using the following format:
 ```
 carousels:
   - images:
-    - image: /assets/images/atkinson.jpeg
-    - image: /assets/images/rice_chip.jpeg
-    - image: /assets/images/pcb.jpeg
-    - image: /assets/images/bearl.jpeg
+    - image: /data/images/atkinson.jpeg
+    - image: /data/images/rice_chip.jpeg
+    - image: /data/images/pcb.jpeg
+    - image: /data/images/bearl.jpeg
 ```
 To update the site navigation, add/change an entry to `subfolderitems` in _data/navigation.yml.
 ### Publications
-To add a new publication (both to the publications list and as an individual webpage), create a new md file under the [ucsdwcsng/site-publications-pages](https://github.com/ucsdwcsng/site-publications-pages) submodule. Be sure to name the md file with the format `year-month-day-name.md` (ex: 2023-05-24-mmSpoof.md). In the front matter of this md file, add `layout: publication`. The `title` field should have the full name of the publication, which will be displayed as the title of the publication's webpage. The `short_title` field is the shortened name that will be displayed on the list views of the publication. The `tags` field is a space separated list to tag which sublists and research pages this publication should appear in. Be very careful to match the spelling exactly to existing tags, or it will create a new tag for this publication. The `cover` field should have the path to the cover image to be displayed on the publication list. All cover images should be saved to /assets/images/pubpic. The `authors` field should be a string of authors separated by commas (try to write full names and only commas, no "and" to maintain consistency). The `conference` field stores the name of the conference this paper was used in. The `paper` field is required, and should contain a link or path to a pdf of the paper. Most of these pdfs are stored in /files. The optional fields are `github`, which should have a link to the github repo, `dataset`, which should have a link the the dataset, `slides`, which should have a path to a pdf of the slides (most are saved in /files), `extra`, which should have a string about the special highlight of this publication (ex: `extra: "This work won the Qualcomm Innovation Fellowship 2022!"`), and `video`, which should have an EMBED link to a youtube video (not the regular youtube link). Currently, up to two video links are automatically supported, with the field for the second video being `video2` (which will also require a youtube embed link). Up to one additional link is also supported under the field `other`, which will show up in the list of links containing the slides, github, and datasets. The format for adding this extra link is:
+To add a new publication (both to the publications list and as an individual webpage), create a new md file under the [ucsdwcsng/site-publications-pages](https://github.com/ucsdwcsng/site-publications-pages) submodule. Be sure to name the md file with the format `year-month-day-name.md` (ex: 2023-05-24-mmSpoof.md). In the front matter of this md file, add `layout: publication`. The `title` field should have the full name of the publication, which will be displayed as the title of the publication's webpage. The `short_title` field is the shortened name that will be displayed on the list views of the publication. The `tags` field is a space separated list to tag which sublists and research pages this publication should appear in. Be very careful to match the spelling exactly to existing tags, or it will create a new tag for this publication. The `cover` field should have the path to the cover image to be displayed on the publication list. All cover images should be saved to /data/images/pubpic. The `authors` field should be a string of authors separated by commas (try to write full names and only commas, no "and" to maintain consistency). The `conference` field stores the name of the conference this paper was used in. The `paper` field is required, and should contain a link or path to a pdf of the paper. Most of these pdfs are stored in /data/files. The optional fields are `github`, which should have a link to the github repo, `dataset`, which should have a link the the dataset, `slides`, which should have a path to a pdf of the slides (most are saved in /data/files), `extra`, which should have a string about the special highlight of this publication (ex: `extra: "This work won the Qualcomm Innovation Fellowship 2022!"`), and `video`, which should have an EMBED link to a youtube video (not the regular youtube link). Currently, up to two video links are automatically supported, with the field for the second video being `video2` (which will also require a youtube embed link). Up to one additional link is also supported under the field `other`, which will show up in the list of links containing the slides, github, and datasets. The format for adding this extra link is:
 ```
 other:
   display: "[Kaggle Competition]"

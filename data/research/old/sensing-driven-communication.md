@@ -4,7 +4,7 @@ heading: Sensing Driven Communication
 pubtag: Sensing-Driven-Communication
 carousels:
   - images:
-    - image: /assets/images/research/Agreement-Strength.png
+    - image: /data/images/research/Agreement-Strength.png
 permalink: /sensing-driven-communication
 ---
 

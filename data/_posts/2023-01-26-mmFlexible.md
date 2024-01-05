@@ -3,12 +3,12 @@ layout: publication
 title: "mmFlexible: Flexible Directional Frequency Multiplexing for Multi-user mmWave Networks"
 short_title: "mmFlexible"
 tags: Communications
-cover: /assets/images/pubpic/dpa.png
+cover: /data/images/pubpic/dpa.png
 authors: "Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia"
 conference: "Infocom 2023"
-paper: /files/mmflexible.pdf
+paper: /data/files/mmflexible.pdf
 video: https://www.youtube.com/embed/Xo1JbZHfBCY
-slides: /files/slides_mmflexible.pdf
+slides: /data/files/slides_mmflexible.pdf
 github: https://github.com/ucsdwcsng/dpa
 press:
   date: "June 15, 2023"
@@ -26,7 +26,7 @@ press4:
   date: "May 22, 2023"
   url: https://www.inceptivemind.com/researchers-introduce-new-wireless-system-greater-5g-access/30839/
   headline: "Researchers Introduce New Wireless System for Greater 5G Access"
-poster: files/dpa_hotmobile.pdf
+poster: data/files/dpa_hotmobile.pdf
 dataset: https://github.com/ucsdwcsng/mMobile
 osd: "Our dataset which consists of multiple indoor and outdoor experiments for up to 30 m gNB-UE link. In each experiment, we fixed the location of the gNB and move the UE with an increment of roughly one degrees. The table above specifies the direction of user movement with respect to gNB-UE link, distance resolution, and the number of user locations for which we conduct channel measurements. Outdoor 30 m data also contains blockage between 3.9 m to 4.8 m. At each location, we scan the transmission beam and collect data for each beam. By doing so, we can get the full OFDM channels for different locations along the moving trajectory with all the beam angles. Moreover, we use 240 kHz subcarrier spacing, which is consistent with the 5G NR numerology at FR2, so the data we collect will be a true reflection of what a 5G UE will see."
 ---

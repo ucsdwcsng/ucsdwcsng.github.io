@@ -4,7 +4,7 @@ heading: Autonomous Perception
 pubtag: Autonomous-Perception
 carousels:
   - images:
-    - image: /assets/images/research/map.png
+    - image: /data/images/research/map.png
 permalink: autonomous-perception
 ---
 

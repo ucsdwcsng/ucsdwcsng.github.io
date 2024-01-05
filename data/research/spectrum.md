@@ -5,9 +5,9 @@ heading: Spectrum Sensing
 pubtag: Spectrum-Sensing
 carousels:
   - images:
-    - image: /assets/images/atkinson.jpeg
-    - image: /assets/images/spectrumsensing/pcb_only.jpg
-    - image: /assets/images/spectrumsensing/spectrogram.jpg
+    - image: /data/images/atkinson.jpeg
+    - image: /data/images/spectrumsensing/pcb_only.jpg
+    - image: /data/images/spectrumsensing/spectrogram.jpg
 people:
   - Dinesh Bharadia
   - Raghav Subbaraman
@@ -18,9 +18,9 @@ people:
   - Sreevatsank Kadaveru
 sponsors:
   - name: NSF(-SII-2232481)
-    picture: /assets/images/sponsors/nsf.svg
+    picture: /data/images/sponsors/nsf.svg
   - name: IARPA SCISRS
-    picture: /assets/images/sponsors/scisrs.png
+    picture: /data/images/sponsors/scisrs.png
 ---
 
 Spectrum usage has evolved over many decades, shaped by both state-of-the art technological progress and the intended use cases. Over the last few years, usage of wireless spectum has become increasingly fragmented and congested. The rapid adoption of new and complex protocols such as LTE and 5G-NR with along with existing legacy systems like FM Radio and Defense wireless deployments have uncovered challenges in spectrum allocation, regulation and monitoring. Adoption of spectrum sharing standards such as CBRS signal a future where
@@ -32,7 +32,7 @@ crammed into ever-more-congested bandwidth. Added to this, the nature of usage v
 Our architecture **SweepSense**, combines sweep-frequency downconversion with simultaneous sampling and achieves **large bandwidth, high-time resolution** sensing. Through our work, we show that **SweepSense** can be implemented on existing radios with minimal cost overheads, and provides promising performance over state-of-art.
 
 <div>
-  <a><img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/spectrum_sensing/sweepsense_spectrogram.png" width="75%" style="float: center" ></a>
+  <a><img src="{{ site.url }}{{ site.baseurl }}/data/images/pubpic/spectrum_sensing/sweepsense_spectrogram.png" width="75%" style="float: center" ></a>
   <br>
   <a href="https://github.com/ucsdsysnet/SweepSense/tree/master"> SweepSense spectrogram of the 2.4 GHz ISM band showing WiFi and Bluetooth transmissions. 100 MHz bandwidth available with only a 25 MSps radio. </a>
 </div>

@@ -4,7 +4,7 @@ heading: New Horizons with Wireless Sensing
 pubtag: New-Horizons-with-Wireless-Sensing
 carousels:
   - images:
-    - image: /assets/images/research/map.png
+    - image: /data/images/research/map.png
 permalink: new-horizons-with-wireless-sensing
 ---
 

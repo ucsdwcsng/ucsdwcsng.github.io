@@ -4,7 +4,7 @@ heading: Radio-Interferometry
 pubtag: Radio-Interferometry
 carousels:
   - images:
-    - image: /assets/images/research/epr.png
+    - image: /data/images/research/epr.png
 permalink: radio-interferometry
 ---
 

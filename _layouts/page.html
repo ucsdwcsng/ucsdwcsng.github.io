@@ -180,6 +180,11 @@ sidebar:
         {%- if _full_width == false -%}
           <div class ="main">
         {%- endif -%}
+            {%- if page.aside.news -%}
+              <a class="news-sidebar-link" onclick="document.getElementsByClassName('col-aside')[0].classList.toggle('visible');this.hidden=true">
+                News
+              </a>
+            {%- endif -%}
             <div class="grid grid--reverse">
 
               <div class="col-aside d-print-none js-col-aside">

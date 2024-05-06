@@ -13,14 +13,14 @@ on:
 
   # Allows site to rebuild on submodule changes
   repository_dispatch:
-    types: [dispatch-build]
+    types: [update]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -37,11 +37,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Submodules
+      - if: ${{ github.event.client_payload.sha != '' }}
         run: |
-          git submodule init
-          git pull --recurse-submodules
-          git submodule update --remote --recursive
+          git submodule update --init --recursive --checkout -f --remote -- "data"
+          git config --global user.name "Github Action"
+          git config --global user.email "noreply@github.com"
+          git commit -am "Update data submodule to ${{ github.event.client_payload.sha }}"
+          git push
       - name: Setup Ruby
         uses: ruby/setup-ruby@55283cc23133118229fd3f97f9336ee23a179fcf # v1.146.0
         with:

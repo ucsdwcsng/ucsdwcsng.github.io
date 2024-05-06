@@ -18,7 +18,7 @@ title: Team
   <div class="cell cell--12 cell--md-4 cell--lg-3">
     <div class="card card--flat">
       <div class="card__image">
-        <img class="image" src="/assets/images/teampic/dinesh.jpg" />
+        <img class="image" src="/data/images/teampic/dinesh.jpg" />
             <div class="overlay overlay--bottom">
               <header>
                 <p>Dinesh Bharadia</p>
@@ -31,7 +31,7 @@ title: Team
   <div class="cell cell--12 cell--md-4 cell--lg-3">
     <div class="card card--flat">
       <div class="card__image">
-        <img class="image" src="/assets/images/teampic/fred.jpg" />
+        <img class="image" src="/data/images/teampic/fred.jpg" />
             <div class="overlay overlay--bottom">
               <header>
                 <p>Fred Harris</p>

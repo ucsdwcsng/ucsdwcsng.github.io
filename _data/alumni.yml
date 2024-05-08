@@ -13,10 +13,22 @@
   picture: /assets/images/teampic/roshan.jpg
 - name: Kshitiz Bansal
   role: PhD
-  year: "2023"
+  year: "2024"
   now: Assistant Professor at University at Buffalo
   col: 2
   picture: /assets/images/teampic/kshitiz.jpg
+- name: Ish Jain
+  role: PhD
+  year: "2024"
+  now: Assistant Professor at University at Buffalo
+  col: 2
+  picture: /assets/images/teampic/ish.jpg
+- name: Manidep Dunna
+  role: PhD
+  year: "2024"
+  now: Assistant Professor at University at Buffalo
+  col: 2
+  picture: /assets/images/teampic/manideep.jpg
 - name: Hans Yu
   role: PhD
   year: "2019"

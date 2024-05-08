@@ -163,7 +163,7 @@ title: Team
   </div>
 </div>
 
-  <h3>Alumni and Interns</h3>
+  <h3>Alumni</h3>
   <div class="row">
     <h4>PhD and Postdocs</h4>
     <div class="column">

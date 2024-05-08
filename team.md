@@ -14,6 +14,22 @@ title: Team
     overflow: hidden;
   }
 
+  .card__image-placeholder {
+  background-color: white;  /* White background to simulate an empty image box */
+  height: 200px;  /* Match the height of the image boxes */
+  display: flex;
+  align-items: center;  /* Center the text vertically */
+  justify-content: center;  /* Center the text horizontally */
+  text-align: center;
+  border: 1px solid #ccc; /* Optional: adds a light border for better visibility */
+}
+
+.placeholder-content p {
+  color: black;  /* Ensures text is visible against the white background */
+  padding: 10px;  /* Adds some padding around the text */
+}
+
+
   /* Existing styles */
   i {
     color: #555555;
@@ -187,17 +203,24 @@ title: Team
       </div>
     {% endif %}
   {% endfor %}
-
   <div class="list-group">
     {% for people in alumni_without_pics %}
       {% if people.role == "PhD" or people.role == "Postdoc" %}
-        <div class="list-item">
-          <p>{{ people.name }} - <i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+        <div class="cell cell--12 cell--md-4 cell--lg-3">
+          <div class="card card--flat">
+            <div class="card__image-placeholder">
+              <div class="placeholder-content">
+                <p>{{ people.name }}</p>
+                <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+              </div>
+            </div>
+          </div>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
+ 
 
 
   <div class="row">

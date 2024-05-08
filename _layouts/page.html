@@ -194,7 +194,8 @@ sidebar:
                     {%- include aside/toc.html -%}
                   </aside>
                 {% else if page.aside.news %}
-                  <aside class="page__aside">
+                  <aside class="page__aside js-page-aside" style="background-color: #f0f0f0;">
+                  
                     {%- include news.html -%}
                   </aside>
                 {% endif %}

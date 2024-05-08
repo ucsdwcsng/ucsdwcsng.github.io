@@ -42,27 +42,6 @@ title: Team
     </div>
   </div>
 </div>
-
-<h3>PhD Students</h3>
-<div class="article-list grid grid--sm grid--p-3">
-{% for people in site.data.people %}
-  {% if people.role == "PhD" %}
-   <div class="cell cell--12 cell--md-4 cell--lg-3">
-      <div class="card card--flat">
-        <div class="card__image">
-          <img class="image" src="{{ people.picture }}" />
-            <div class="overlay overlay--bottom">
-              <header>
-                <p>{{ people.name }}</p>
-                <p><i style="color: #dddddd">{{ people.role }}</i></p>
-              </header>
-            </div>
-        </div>
-      </div>
-    </div>
-  {% endif %}
-{% endfor %}
-</div>
 <h3>PhD Students</h3>
 <div class="article-list grid grid--sm grid--p-3">
   {% for people in site.data.people %}
@@ -149,6 +128,40 @@ title: Team
           {% if people.col == 2 %}
             <p style="line-height: 150%">{{ people.name }}</p>
           {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  <h3>Alumni Interns</h3>
+    <h4>PhD and Postdocs</h4>
+    <div class="article-list grid grid--sm grid--p-3">
+      {% assign alumni_with_pics = site.data.alumni | where: "picture", true %}
+      {% assign alumni_without_pics = site.data.alumni | where: "picture", false %}
+    
+      {% for people in alumni_with_pics %}
+        {% if people.role == "PhD" or people.role == "Postdoc" %}
+          <div class="cell cell--12 cell--md-4 cell--lg-3">
+            <div class="card card--flat">
+              <div class="card__image">
+                <img class="image" src="{{ people.picture }}" />
+                <div class="overlay overlay--bottom" style="color: white;">
+                  <header>
+                    <p>{{ people.name }}</p>
+                    <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+                  </header>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+  
+    <div class="list-group">
+      {% for people in alumni_without_pics %}
+        {% if people.role == "PhD" or people.role == "Postdoc" %}
+          <div class="list-item">
+            <p>{{ people.name }} - <i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+          </div>
         {% endif %}
       {% endfor %}
     </div>

@@ -200,37 +200,6 @@ title: Team
 </div>
 
 
-  <h3>Alumni</h3>
-  <div class="row">
-    <h4>PhD and Postdocs</h4>
-    <div class="column">
-      {% for people in site.data.alumni %}
-        {% if people.role == "PhD" or people.role == "Postdoc" %}
-          {% if people.col == 1 %}
-            <div class="row">
-              <p>{{ people.name }}</p> 
-              <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
-              <br>
-            </div>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
-    <div class="column">
-      {% for people in site.data.alumni %}
-        {% if people.role == "PhD" or people.role == "Postdoc" %}
-          {% if people.col == 2 %}
-            <div class="row">
-              <p>{{ people.name }}</p> 
-              <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
-              <br>
-            </div>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
   <div class="row">
     <h4>Masters</h4>
     <div class="column">

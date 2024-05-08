@@ -57,7 +57,7 @@ title: Team
                   <i style="color: #dddddd">
                     {{ people.role }}
                     {% if people.website %}
-                      | <a href="{{ people.website }}" style="color: #dddddd; text-decoration: underline;">Website</a>
+                      | <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer" style="color: #dddddd; text-decoration: underline;">Website</a>
                     {% endif %}
                   </i>
                 </p>

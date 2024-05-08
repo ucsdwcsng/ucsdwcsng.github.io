@@ -63,7 +63,33 @@ title: Team
   {% endif %}
 {% endfor %}
 </div>
-
+<h3>PhD Students</h3>
+<div class="article-list grid grid--sm grid--p-3">
+  {% for people in site.data.people %}
+    {% if people.role == "PhD" %}
+      <div class="cell cell--12 cell--md-4 cell--lg-3">
+        <div class="card card--flat">
+          <div class="card__image">
+            <img class="image" src="{{ people.picture }}" />
+            <div class="overlay overlay--bottom">
+              <header>
+                <p>{{ people.name }}</p>
+                <p>
+                  <i style="color: #dddddd">
+                    {{ people.role }}
+                    {% if people.website %}
+                      | <a href="{{ people.website }}" style="color: #dddddd; text-decoration: underline;">Website</a>
+                    {% endif %}
+                  </i>
+                </p>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 <h3>Collaborations and Postdoctoral Researchers</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}

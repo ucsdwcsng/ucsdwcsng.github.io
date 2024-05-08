@@ -179,7 +179,7 @@ title: Team
             <div class="overlay overlay--bottom" style="color: white;">
               <header>
                 <p>{{ people.name }}</p>
-                <p><i style="color: #dddddd">Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+                <p><i style="color: white">Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
               </header>
             </div>
           </div>

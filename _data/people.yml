@@ -46,12 +46,18 @@
 - name: Sreevatsank Kadaveru
   role: PhD
   picture: /assets/images/teampic/vatsank.jpg
+- name: Adel Heidari
+  role: PhD
+  picture: /assets/images/teampic/adel.jpg  
 - name: Srivatsan Rajagopal
   role: Postdoc
   picture: /assets/images/teampic/srivatsan.jpg
 - name: Wei Sun
   role: Postdoc
   picture: /assets/images/teampic/wei.jpg
+- name: Sushila
+  role: Researcher
+  picture: /assets/images/teampic/sushila.jpg
 - name: Deepak Vasisht
   role: Assistant Prof at UIUC
   picture: /assets/images/teampic/deepak.png

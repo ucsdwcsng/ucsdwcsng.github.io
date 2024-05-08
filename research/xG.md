@@ -2,7 +2,7 @@
 layout: research
 aside:
   news: true
-permalink: 6g
+permalink: xG
 heading: Towards xG
 pubtag: xG
 carousels:

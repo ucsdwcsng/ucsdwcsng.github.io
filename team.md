@@ -3,6 +3,18 @@ layout: articles
 title: Team
 ---
 <style>
+  .card__image .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card__image {
+    height: 200px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  /* Existing styles */
   i {
     color: #555555;
     font-size: 14px;

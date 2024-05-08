@@ -163,19 +163,6 @@ title: Team
   </div>
 </div>
 
-
-  <div class="list-group">
-    {% for people in alumni_without_pics %}
-      {% if people.role == "PhD" or people.role == "Postdoc" %}
-        <div class="list-item">
-          <p>{{ people.name }} - <i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-</div>
-
-
   <h3>Alumni and Interns</h3>
   <div class="row">
     <h4>PhD and Postdocs</h4>

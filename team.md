@@ -13,7 +13,7 @@ title: Team
     height: 200px; /* Adjust height as needed */
     overflow: hidden;
   }
-  
+
   /* Existing styles */
   i {
     color: #555555;
@@ -24,7 +24,27 @@ title: Team
     line-height: 120%;
     margin: 0;
   }
+
+  /* Additional styles for overlays */
+  .overlay {
+    color: white; /* Sets all text within the overlay to white */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background to the overlay */
+    padding: 10px; /* Adds padding around the text for better spacing */
+  }
+  
+  .overlay--bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Ensures the overlay covers the entire width of the image */
+  }
+
+  /* Ensure the card positioning context */
+  .card {
+    position: relative;
+    overflow: hidden; /* Keeps the overlay within the boundaries of the card */
+  }
 </style>
+
 
 <div class="article-list grid grid--sm grid--p-3">
   <div class="cell cell--12 cell--md-4 cell--lg-3">

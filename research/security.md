@@ -11,7 +11,7 @@ carousels:
     - image: /assets/images/rice_chip.jpeg
     - image: /assets/images/pcb.jpeg
     - image: /assets/images/bearl.jpeg
-  people:
+people:
     - Hadi Givehchian
     - Rohith Reddy
     - Wei Sun 

@@ -40,12 +40,12 @@ Our research group is at the forefront of developing innovative sensing, communi
 
 ## Key Research Areas 
 
-<div><img src="/assets/images/xg.jpg"  width="100%"/></div>
-<div><img src="/assets/images/xg.jpg"  width="100%"/></div>
-<div><img src="/assets/images/xg.jpg"  width="100%"/></div>
-<div><img src="/assets/images/xg.jpg"  width="100%"/></div>
-<div><img src="/assets/images/xg.jpg"  width="100%"/></div>
-<div><img src="/assets/images/xg.jpg"  width="100%"/></div>
+<div><img src="/assets/images/xg.jpg"  width="100%"/></div><hr>
+<div><img src="/assets/images/xg.jpg"  width="100%"/></div><hr>
+<div><img src="/assets/images/xg.jpg"  width="100%"/></div><hr>
+<div><img src="/assets/images/xg.jpg"  width="100%"/></div><hr>
+<div><img src="/assets/images/xg.jpg"  width="100%"/></div><hr>
+<div><img src="/assets/images/xg.jpg"  width="100%"/></div><hr>
 
 
 ### Wireless Sensing

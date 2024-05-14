@@ -43,11 +43,12 @@ Our research group is at the forefront of developing innovative sensing, communi
 ### Novel Sensing for Robotics and Autonomous Systems
 We create cutting-edge sensing solutions to enhance the capabilities of robots and autonomous devices, including flexible robots and privacy-preserving localization techniques. We are pioneering next-generation localization systems for Industrial IoT 4.0, enabling safer and more efficient smart manufacturing, warehouse management, and private 5G networks. We have developed autonomous robots and deep-learning powered localization systems that enable easy-to-deploy location services, even in complex environments.
 
-### Reliable xG mmWave and Beyond Communication: We are overcoming the limitations of traditional mmWave connectivity to enable reliable, high-throughput communication for indoor and outdoor scenarios. We create new Massive MIMO architecture that is sustainable. We develop real-time RAN Intelligent Controller and AI algorithms for network optimization.
+### Reliable xG mmWave and Beyond Communication
+We are overcoming the limitations of traditional mmWave connectivity to enable reliable, high-throughput communication for indoor and outdoor scenarios. We create new Massive MIMO architecture that is sustainable. We develop real-time RAN Intelligent Controller and AI algorithms for network optimization.
 
 
 
-### Communication and Power Delivery for IoT Devices: 
+### Communication and Power Delivery for IoT Devices
 We are developing ultra-low power WiFi communication and wireless power transfer technologies to dramatically improve the energy efficiency and connectivity of IoT devices. We build a low-power, long-range, and reliable backscatter systems. We improve the range of WiFi with smart surface deployment. We developed a universal sensing platform using wireless, batteryless RFID and flexible sensors.
 
 ### Spectrum Sensing
@@ -63,19 +64,7 @@ We expose the vulnerability of RF communication and sensing systems (e.g., spoof
 
 
 
-### Our Approach
+## Our Approach
 We embrace a holistic approach to research, combining fundamental theoretical exploration with practical implementation. We design and build prototypes to test and refine our concepts, ensuring our solutions are not only innovative but also practical and deployable in the real world.
-<!-- <h5> PhD and Postdoc </h5>
-Send an email with the subject "Application PhD" or "Application Postdoc" directly to <i>dineshb [at] ucsd.edu</i> with your CV and a brief statement of why you are interested.
-<h5> UCSD students </h5>
-We routinely work with graduate and undergraduate students on all our projects. Contact Dinesh (or any other group member) via email or stop by the office to express your interest.
-<h5> Students from Elsewhere </h5>
-Sometimes, we work with students on summer internships if we get exceptional applicants. This usually means good academic standing and a personal recommendation. -->
 
-<!--
-    - image: /assets/images/picpic/mobicom_2021.jpg
-    - image: /assets/images/picpic/roshan_graduation.jpg
-    - image: /assets/images/picpic/birch_2022.jpg
-    - image: /assets/images/picpic/christmas_2021.jpg
-    - image: /assets/images/picpic/diwali.jpg
-    -->
+

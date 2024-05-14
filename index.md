@@ -40,10 +40,18 @@ Our research group is at the forefront of developing innovative sensing, communi
 
 ## Key Research Areas 
 
-### Novel Sensing for Robotics and Autonomous Systems
+<div><img src="/assets/images/xg.jpg" height="200" width="100%"/></div>
+<div><img src="/assets/images/xg.jpg" height="200" width="100%"/></div>
+<div><img src="/assets/images/xg.jpg" height="200" width="100%"/></div>
+<div><img src="/assets/images/xg.jpg" height="200" width="100%"/></div>
+<div><img src="/assets/images/xg.jpg" height="200" width="100%"/></div>
+<div><img src="/assets/images/xg.jpg" height="200" width="100%"/></div>
+
+
+### Wireless Sensing
 We create cutting-edge sensing solutions to enhance the capabilities of robots and autonomous devices, including flexible robots and privacy-preserving localization techniques. We are pioneering next-generation localization systems for Industrial IoT 4.0, enabling safer and more efficient smart manufacturing, warehouse management, and private 5G networks. We have developed autonomous robots and deep-learning powered localization systems that enable easy-to-deploy location services, even in complex environments.
 
-### Reliable xG mmWave and Beyond Communication
+### Towards xG
 We are overcoming the limitations of traditional mmWave connectivity to enable reliable, high-throughput communication for indoor and outdoor scenarios. We create new Massive MIMO architecture that is sustainable. We develop real-time RAN Intelligent Controller and AI algorithms for network optimization.
 
 

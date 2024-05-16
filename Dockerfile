@@ -9,10 +9,10 @@ WORKDIR /ucsdwcsng.github.io
 
 # Add the Gemfile and Gemfile.lock from your app
 ADD Gemfile /ucsdwcsng.github.io/Gemfile
-ADD Gemfile.lock /ucsdwcsng.github.io/Gemfile.lock
+# ADD Gemfile.lock /ucsdwcsng.github.io/Gemfile.lock
 
 # Install the gems specified in the Gemfile
-RUN gem install bundler && bundle install
+RUN gem install bundler -v 2.4.22 && bundle install 
 
 # Copy the current directory contents into the container at /website
 ADD . /ucsdwcsng.github.io

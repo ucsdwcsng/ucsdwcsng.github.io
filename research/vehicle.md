@@ -1,7 +1,5 @@
 ---
 layout: research
-aside:
-  news: true
 permalink: vehicle
 heading: Autonomous Sensing and Systems
 pubtag: Vehicle

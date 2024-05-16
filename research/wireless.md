@@ -1,7 +1,5 @@
 ---
 layout: research
-aside:
-  news: true
 permalink: wireless
 heading: Wireless Sensing
 pubtag: Wireless-Sensing

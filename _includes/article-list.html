@@ -119,7 +119,7 @@
             <span class="item__meta">{{ _article.date | date: __return }}</span>
           {%- endif -%}
           <div class="row">
-            <a itemprop="headline" class="item__header" href="{{ _article_url | remove: '.html'}}">{{ _article.short_title }}</a>
+            <a itemprop="headline" class="item__header" href="{{ _article_url | remove: '.html'}}">{{ _article.title }}</a>
           </div>
           {%- if _article.authors and include.show_authors -%}
             <div class="row">

@@ -40,16 +40,16 @@ Our research group is at the forefront of developing innovative sensing, communi
 
 #### Key Research Areas 
 
-<div><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></div><hr>
-<div><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></div><hr>
-<div><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></div><hr>
-<div><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></div><hr>
-<div><img src="/assets/images/main_page/Slide5.JPG"  width="100%"/></div><hr>
-<div><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></div><hr>
+<div><a href="https://ucsdwcsng.github.io/wireless.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/6g.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/iot.html"><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/spectrum.html"><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/vehicle.html"><img src="/assets/images/main_page/Slide5.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/security.html"><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></a></div><hr>
 
 
 
-<!-->
+<!--
 ### Wireless Sensing
 We create cutting-edge sensing solutions to enhance the capabilities of robots and autonomous devices, including flexible robots and privacy-preserving localization techniques. We are pioneering next-generation localization systems for Industrial IoT 4.0, enabling safer and more efficient smart manufacturing, warehouse management, and private 5G networks. We have developed autonomous robots and deep-learning powered localization systems that enable easy-to-deploy location services, even in complex environments.
 

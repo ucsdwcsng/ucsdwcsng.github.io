@@ -1,24 +1,30 @@
 - name: Dinesh Bharadia
   role: Principal Investigator
   picture: /assets/images/teampic/dinesh.jpg
+  website: https://dineshb-ucsd.github.io
 - name: Manideep Dunna
   role: PhD
   picture: /assets/images/teampic/manideep.jpg
+  website: https://manideepabc.github.io
 - name: Ish Kumar Jain
   role: PhD
   picture: /assets/images/teampic/ish.jpg
+  website: https://ishjain.github.io
 - name: Hadi Givehchian
   role: PhD
   picture: /assets/images/teampic/hadi.jpg
 - name: Aditya Arun
   role: PhD
   picture: /assets/images/teampic/aditya.jpg
+  website: https://wcsng.ucsd.edu/aarun/
 - name: Raghav Subbaraman
   role: PhD
   picture: /assets/images/teampic/raghav.jpg
+  website: https://rsubbaraman.github.io
 - name: Agrim Gupta
   role: PhD
   picture: /assets/images/teampic/agrim.png
+  website: https://agrim9.github.io
 - name: Richard Bell
   role: PhD
   picture: /assets/images/teampic/richard.png
@@ -50,15 +56,17 @@
 - name: Wei Sun
   role: Postdoc
   picture: /assets/images/teampic/wei.jpg
-- name: Sushila
+- name: Archana Bura
+  role: Postdoc
+  picture: /assets/images/teampic/archana.jpg  
+- name: Sushila Seshasayee
   role: Researcher
   picture: /assets/images/teampic/sushila.jpg
 - name: Deepak Vasisht
   role: Assistant Prof at UIUC
   picture: /assets/images/teampic/deepak.png
+  website: https://deepakv.web.illinois.edu
 - name: Shunsuke Saruwatari
   role: Visiting Scholar
   picture: /assets/images/teampic/saru.jpg
-- name: Frederik Zumegen
-  role: Visiting Scholar
-  picture: /assets/images/teampic/frederik.jpg
+

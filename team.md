@@ -90,6 +90,7 @@ title: Team
     </div>
   </div>
 </div>
+
 <h3>PhD Students</h3>
 <div class="article-list grid grid--sm grid--p-3">
   {% for people in site.data.people %}
@@ -97,18 +98,18 @@ title: Team
       <div class="cell cell--12 cell--md-4 cell--lg-3">
         <div class="card card--flat">
           <div class="card__image">
-            <img class="image" src="{{ people.picture }}" />
+            {% if people.website %}
+              <!-- Make the image a link -->
+              <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
+                <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
+              </a>
+            {% else %}
+              <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
+            {% endif %}
             <div class="overlay overlay--bottom">
               <header>
                 <p>{{ people.name }}</p>
-                <p>
-                  <i style="color: #dddddd">
-                    {{ people.role }}
-                    {% if people.website %}
-                      | <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer" style="color: #dddddd; text-decoration: underline;">Website</a>
-                    {% endif %}
-                  </i>
-                </p>
+                <p><i style="color: #dddddd">{{ people.role }}</i></p>
               </header>
             </div>
           </div>
@@ -117,10 +118,11 @@ title: Team
     {% endif %}
   {% endfor %}
 </div>
-<h3>Collaborations and Postdoctoral Researchers</h3>
+
+<h3>PhD Students</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}
-  {% if people.role != "PhD" %}
+  {% if people.role == "PhD" %}
    <div class="cell cell--12 cell--md-4 cell--lg-3">
       <div class="card card--flat">
         <div class="card__image">
@@ -137,6 +139,36 @@ title: Team
   {% endif %}
 {% endfor %}
 </div>
+
+<h3>Collaborations and Postdoctoral Researchers</h3>
+<div class="article-list grid grid--sm grid--p-3">
+{% for people in site.data.people %}
+  {% if people.role != "PhD" %}
+   <div class="cell cell--12 cell--md-4 cell--lg-3">
+      <div class="card card--flat">
+        <div class="card__image">
+          {% if people.website %}
+            <!-- Wrap image with a hyperlink if a website URL is available -->
+            <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
+              <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
+            </a>
+          {% else %}
+            <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
+          {% endif %}
+          <div class="overlay overlay--bottom">
+            <header>
+              <p>{{ people.name }}</p>
+              <p><i style="color: #dddddd">{{ people.role }}</i></p>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+
 <div>
   <h3>Masters Students</h3>
   <div class="row">
@@ -180,8 +212,8 @@ title: Team
       {% endfor %}
     </div>
   </div>
-<h3>Alumni Interns</h3>
-<h4>PhD and Postdocs</h4>
+<h3>Alumni</h3>
+<h4>PhD</h4>
 <div class="article-list grid grid--sm grid--p-3">
   {% assign alumni_with_pics = site.data.alumni | where_exp: "item", "item.picture" %}
   {% assign alumni_without_pics = site.data.alumni | where_exp: "item", "item.picture == nil" %}
@@ -205,7 +237,7 @@ title: Team
   {% endfor %}
   <div class="list-group">
     {% for people in alumni_without_pics %}
-      {% if people.role == "PhD" or people.role == "Postdoc" %}
+      {% if people.role == "PhD" %}
         <div class="cell cell--12 cell--md-4 cell--lg-3">
           <div class="card card--flat">
             <div class="card__image-placeholder">
@@ -221,7 +253,45 @@ title: Team
   </div>
 </div>
  
+<h4>Postdocs and Researchers</h4>
+<div class="article-list grid grid--sm grid--p-3">
+  {% assign alumni_with_pics = site.data.alumni | where_exp: "item", "item.picture" %}
+  {% assign alumni_without_pics = site.data.alumni | where_exp: "item", "item.picture == nil" %}
 
+  {% for people in alumni_with_pics %}
+    {% if people.role == "Visiting Researcher" or people.role == "Postdoc" %}
+      <div class="cell cell--12 cell--md-4 cell--lg-3">
+        <div class="card card--flat">
+          <div class="card__image">
+            <img class="image" src="{{ people.picture }}" />
+            <div class="overlay overlay--bottom" style="color: white;">
+              <header>
+                <p>{{ people.name }}</p>
+                <p><i style="color: white">{{ people.role }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  <div class="list-group">
+    {% for people in alumni_without_pics %}
+      {% if people.role == "Researcher" or people.role == "Postdoc" %}
+        <div class="cell cell--12 cell--md-4 cell--lg-3">
+          <div class="card card--flat">
+            <div class="card__image-placeholder">
+              <div class="placeholder-content">
+                <p>{{ people.name }}</p>
+                <p><i>{{ people.role }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
   <div class="row">
     <h4>Masters</h4>

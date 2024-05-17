@@ -218,40 +218,69 @@ title: Team
   {% assign alumni_with_pics = site.data.alumni | where_exp: "item", "item.picture" %}
   {% assign alumni_without_pics = site.data.alumni | where_exp: "item", "item.picture == nil" %}
 
+  <!-- Alumni with Pictures -->
   {% for people in alumni_with_pics %}
     {% if people.role == "PhD" or people.role == "Postdoc" %}
       <div class="cell cell--12 cell--md-4 cell--lg-3">
         <div class="card card--flat">
-          <div class="card__image">
-            <img class="image" src="{{ people.picture }}" />
-            <div class="overlay overlay--bottom" style="color: white;">
-              <header>
-                <p>{{ people.name }}</p>
-                <p><i style="color: white">Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
-              </header>
+          {% if people.website %}
+            <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
+              <div class="card__image">
+                <img class="image" src="{{ people.picture }}" />
+                <div class="overlay overlay--bottom" style="color: white;">
+                  <header>
+                    <p>{{ people.name }}</p>
+                    <p><i style="color: white">Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+                  </header>
+                </div>
+              </div>
+            </a>
+          {% else %}
+            <div class="card__image">
+              <img class="image" src="{{ people.picture }}" />
+              <div class="overlay overlay--bottom" style="color: white;">
+                <header>
+                  <p>{{ people.name }}</p>
+                  <p><i style="color: white">Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+                </header>
+              </div>
             </div>
-          </div>
+          {% endif %}
         </div>
       </div>
     {% endif %}
   {% endfor %}
+
+  <!-- Alumni without Pictures -->
   <div class="list-group">
     {% for people in alumni_without_pics %}
       {% if people.role == "PhD" %}
         <div class="cell cell--12 cell--md-4 cell--lg-3">
           <div class="card card--flat">
-            <div class="card__image-placeholder">
-              <div class="placeholder-content">
-                <p>{{ people.name }}</p>
-                <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+            {% if people.website %}
+              <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
+                <div class="card__image-placeholder">
+                  <div class="placeholder-content">
+                    <p>{{ people.name }}</p>
+                    <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+                  </div>
+                </div>
+              </a>
+            {% else %}
+              <div class="card__image-placeholder">
+                <div class="placeholder-content">
+                  <p>{{ people.name }}</p>
+                  <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
+                </div>
               </div>
-            </div>
+            {% endif %}
           </div>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 </div>
+
  
 <h4>Postdocs and Researchers</h4>
 <div class="article-list grid grid--sm grid--p-3">
@@ -292,6 +321,8 @@ title: Team
     {% endfor %}
   </div>
 </div>
+
+
 
   <div class="row">
     <h4>Masters</h4>

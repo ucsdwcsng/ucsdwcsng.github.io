@@ -2,9 +2,9 @@
 layout: research
 aside:
   news: true
-permalink: xG
+permalink: 6g
 heading: Towards xG
-pubtag: xG
+pubtag: Communications
 carousels:
   - images:
     - image: /assets/images/wireless1.jpg

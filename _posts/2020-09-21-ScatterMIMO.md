@@ -2,7 +2,7 @@
 layout: publication
 title: "ScatterMIMO: Enabling Virtual MIMO with Smart Surfaces"
 short_title: "ScatterMIMO"
-tags: Backscatter Communications
+tags: Backscatter
 cover: /assets/images/pubpic/scattermimo.png
 authors: "Manideep Dunna, Chi Zhang, Daniel Sievenpiper, Dinesh Bharadia"
 author_list:

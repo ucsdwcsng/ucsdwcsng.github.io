@@ -6,15 +6,18 @@ title: Wireless Communications Sensing and Networking
 carousels:
   - images:
     - image: /assets/images/picpic/graduation_2023.jpg
-    - image: /assets/images/vehicle.png
-
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    src: /assets/images/atkinson.jpeg
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    - image: /assets/images/picpic/birch_2022.jpg
+    - image: /assets/images/picpic/roshan_graduation.jpg
+    - image: /assets/images/picpic/diwali.jpg
+    - image: /assets/images/picpic/frisbee.jpg
+    - image: /assets/images/picpic/manibday.jpg
+# article_header:
+#   type: overlay
+#   theme: dark
+#   background_color: '#203028'
+#   background_image:
+#     src: /assets/images/atkinson.jpeg
+#     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
 <!--<h2><a href="/wireless.html">Wireless Sensing</a></h2>
 <div><img src="/assets/images/UWB-tracking.png" height="400" width="100%"/></div>
@@ -33,10 +36,12 @@ We are always looking for new group members with passion, talent, and grit!-->
 
 #### Mission Statement
 The mission of the overall group is to solve real-world problems by first identifying the right problems to solve, then creating a theoretical model and theoretical breakthrough and practical realization of those solutions, and iterate!
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 #### Research Overview
 Our research group is at the forefront of developing innovative sensing, communication, and networking technologies to transform robotics, autonomous systems, and everyday devices. We tackle the full spectrum of challenges, from building an initial system prototype to understanding real problems, then developing a theoretical model, coming up with theoretical breakthroughs to practical prototype development for breakthroughs, and finally, deployment in the real world.
 
-{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
 
 #### Key Research Areas 
 

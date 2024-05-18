@@ -3,32 +3,6 @@ layout: articles
 title: Team
 ---
 <style>
-  .card__image .image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-
-  .card__image {
-    height: 200px; /* Adjust height as needed */
-    overflow: hidden;
-  }
-
-  .card__image-placeholder {
-  background-color: white;  /* White background to simulate an empty image box */
-  height: 200px;  /* Match the height of the image boxes */
-  display: flex;
-  align-items: center;  /* Center the text vertically */
-  justify-content: center;  /* Center the text horizontally */
-  text-align: center;
-  border: 1px solid #ccc; /* Optional: adds a light border for better visibility */
-}
-
-.placeholder-content p {
-  color: black;  /* Ensures text is visible against the white background */
-  padding: 10px;  /* Adds some padding around the text */
-}
-
 
   /* Existing styles */
   i {
@@ -41,24 +15,6 @@ title: Team
     margin: 0;
   }
 
-  /* Additional styles for overlays */
-  .overlay {
-    color: white; /* Sets all text within the overlay to white */
-    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background to the overlay */
-    padding: 10px; /* Adds padding around the text for better spacing */
-  }
-  
-  .overlay--bottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%; /* Ensures the overlay covers the entire width of the image */
-  }
-
-  /* Ensure the card positioning context */
-  .card {
-    position: relative;
-    overflow: hidden; /* Keeps the overlay within the boundaries of the card */
-  }
 </style>
 
 

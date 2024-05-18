@@ -13,6 +13,25 @@ title: Team
     margin: 0;
   }
 
+  /* Additional styles for overlays */
+  .overlay {
+    color: white; /* Sets all text within the overlay to white */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background to the overlay */
+    padding: 10px; /* Adds padding around the text for better spacing */
+  }
+  
+  .overlay--bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Ensures the overlay covers the entire width of the image */
+  }
+
+  /* Ensure the card positioning context */
+  .card {
+    position: relative;
+    overflow: hidden; /* Keeps the overlay within the boundaries of the card */
+  }
+
   .card__image img {
     width: 100%; /* Ensure the image fills the container */
     height: auto; /* Maintain aspect ratio */
@@ -55,6 +74,7 @@ title: Team
   </div>
 </div>
 
+
 <h3>PhD Students</h3>
 <div class="article-list grid grid--sm grid--p-3">
   {% for people in site.data.people %}
@@ -81,7 +101,6 @@ title: Team
     {% endif %}
   {% endfor %}
 </div>
-
 
 <h3>Collaborations and Postdoctoral Researchers</h3>
 <div class="article-list grid grid--sm grid--p-3">

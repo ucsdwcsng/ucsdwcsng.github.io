@@ -133,3 +133,5 @@ header:
         url: https://wcsng.ucsd.edu/docs/
       - name: Pics!
         url: /pictures
+      - name: Join Us!
+        url: https://wcsng.ucsd.edu/vacancies.html

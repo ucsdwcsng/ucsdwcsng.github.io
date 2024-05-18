@@ -19,6 +19,12 @@ carousels:
 #     src: /assets/images/atkinson.jpeg
 #     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
 ---
+<style>
+  /* Inline CSS to change the title font size */
+  h1 {
+    font-size: 34px; /* You can adjust this value to suit your design needs */
+  }
+</style>
 <!--<h2><a href="/wireless.html">Wireless Sensing</a></h2>
 <div><img src="/assets/images/UWB-tracking.png" height="400" width="100%"/></div>
 <h2><a href="/6g.html">Towards 6G</a></h2>
@@ -34,8 +40,10 @@ carousels:
 <h2> Join Our Team! </h2>
 We are always looking for new group members with passion, talent, and grit!-->
 
-#### Mission Statement
-The mission of the overall group is to solve real-world problems by first identifying the right problems to solve, then creating a theoretical model and theoretical breakthrough and practical realization of those solutions, and iterate!
+Our mission is to tackle significant real-world problems by identifying key challenges and developing groundbreaking solutions. We adopt a holistic research approach, blending rigorous theoretical exploration with practical implementations. Through this integrated process, we create, test, and refine prototypes, ensuring that our innovations are not only pioneering but also practical and ready for real-world application. Our cycle of continuous improvement drives us to adapt and evolve our solutions to meet changing needs effectively.
+<!-- #### Mission Statement
+<!-- 
+The mission of the overall group is to solve real-world problems by first identifying the right problems to solve, then creating a theoretical model and theoretical breakthrough and practical realization of those solutions, and iterate! --> 
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 #### Research Overview
@@ -79,7 +87,7 @@ We expose the vulnerability of RF communication and sensing systems (e.g., spoof
 -->
 
 
-#### Our Approach
-We embrace a holistic approach to research, combining fundamental theoretical exploration with practical implementation. We design and build prototypes to test and refine our concepts, ensuring our solutions are not only innovative but also practical and deployable in the real world.
+<!-- #### Our Approach
+We embrace a holistic approach to research, combining fundamental theoretical exploration with practical implementation. We design and build prototypes to test and refine our concepts, ensuring our solutions are not only innovative but also practical and deployable in the real world. -->
 
 

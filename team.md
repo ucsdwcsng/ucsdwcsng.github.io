@@ -105,7 +105,7 @@ title: Team
 <h3>Collaborations and Postdoctoral Researchers</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}
-  {% if people.role != "PhD" %}
+  {% if people.role != "PhD" and people.role != "Principal Investigator" %}
    <div class="cell cell--12 cell--md-4 cell--lg-3">
       <div class="card card--flat">
         <div class="card__image">

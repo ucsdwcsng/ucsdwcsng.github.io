@@ -1,7 +1,5 @@
 ---
 layout: research
-aside:
-  news: true
 permalink: 6g
 heading: Towards xG
 pubtag: Communications

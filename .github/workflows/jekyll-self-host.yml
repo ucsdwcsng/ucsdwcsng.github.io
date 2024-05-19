@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  # Build job
+  # Build job 
   build:
     runs-on: self-hosted
     steps:
@@ -18,11 +18,11 @@ jobs:
         run: docker build -t my-jekyll-app .
 
       - name: Run Jekyll build
-        run: docker run --rm -v "${GITHUB_WORKSPACE}:/website" my-jekyll-app sh -c "JEKYLL_ENV=production bundle exec jekyll build"
+        run: docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "JEKYLL_ENV=production bundle exec jekyll build"
 
       - name: Deploy to self hosted website
         run: |
-          docker run --rm -v "${GITHUB_WORKSPACE}:/website" my-jekyll-app sh -c "${{ secrets.RSYNC_WCSNG }}"
+          docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "${{ secrets.RSYNC_WCSNG }}"
 
 
 

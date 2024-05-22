@@ -14,6 +14,8 @@ carousels:
 people:
     - Hadi Givehchian
     - Rohith Reddy Vennam
+    - Ish Kumar Jain
+    - Kshitiz Bansal
     - Wei Sun 
 ---
 

@@ -1,7 +1,5 @@
 ---
 layout: research
-aside:
-  news: true
 permalink: security
 heading: Security and Privacy
 pubtag: Security

@@ -1,7 +1,5 @@
 ---
 layout: research
-aside:
-  news: true
 permalink: vehicle
 heading: Reliable Autonomous Systems
 pubtag: Vehicle

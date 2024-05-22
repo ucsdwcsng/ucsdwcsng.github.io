@@ -13,7 +13,7 @@ carousels:
     - image: /assets/images/bearl.jpeg
 people:
     - Hadi Givehchian
-    - Rohith Reddy
+    - Rohith Reddy Vennam
     - Wei Sun 
 ---
 

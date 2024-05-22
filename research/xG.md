@@ -19,6 +19,7 @@ people:
   - Ish Kumar Jain
   - Agrim Gupta
   - Ushasi Ghosh
+  - Rohith Reddy Vennam
   - Raghav Subbaraman
 ---
 

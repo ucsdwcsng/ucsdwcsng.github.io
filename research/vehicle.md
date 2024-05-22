@@ -11,6 +11,7 @@ carousels:
 people: 
   - Kshitiz Bansal
   - Manideep Dunna
+  - Rohith Reddy Vennam
   - Dinesh Bharadia
 ---
 

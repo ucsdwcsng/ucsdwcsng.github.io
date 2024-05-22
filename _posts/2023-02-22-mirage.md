@@ -2,7 +2,7 @@
 layout: publication
 title: "Users are Closer than they Appear: Protecting User's Location from WiFi APs"
 short_title: "Users are Closer than they Appear"
-tags: Wireless-Sensing
+tags: Security
 cover: /assets/images/pubpic/mirage.png
 authors: "Roshan Ayyalasomayajula, Wei Sun, Aditya Arun, Dinesh Bharadia"
 conference: "HotMobile 2023"

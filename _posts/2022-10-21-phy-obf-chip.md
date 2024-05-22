@@ -2,7 +2,7 @@
 layout: publication
 title: "Protecting Bluetooth User Privacy Through Obfuscation of Carrier Frequency Offset"
 short_title: "PHY Obfuscation Chip"
-tags: Wireless-Sensing
+tags: Security
 cover: /assets/images/pubpic/ble-obf-chip.png
 authors: "Ali Nikoofard, Hadi Givehchian, Nishant Bhaskar, Aaron Schulman, Dinesh Bharadia, Patrick P. Mercier"
 conference: "IEEE TCAS II 2023"

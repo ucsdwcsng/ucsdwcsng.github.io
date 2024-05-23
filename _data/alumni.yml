@@ -3,7 +3,9 @@
   role: Postdoc
   year: "2019"
   now: Google SD
-  col: 1
+  col: 2
+  picture: /assets/images/teampic/chi.jpg
+  website: http://dword1511.info/me/
 #phd
 - name: Roshan Ayyalasomayajula
   role: PhD
@@ -19,16 +21,20 @@
   col: 2
   picture: /assets/images/teampic/kshitiz.jpg
   website: https://kshitizbansal.com
-- name: Hans Yu
-  role: PhD
-  year: "2019"
-  now: Broadcom SD
-  col: 1
+# - name: Hans Yu
+#   role: PhD
+#   year: "2019"
+#   now: Broadcom SD
+#   col: 1
 # Researchers  
 - name: Frederik Zumegen
   role: Visiting Researcher
+  year: "2023"
+  now: PhD at ETH Zurich
+  col: 2
   picture: /assets/images/teampic/frederik.jpg  
   website: https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de
+
 #masters
 - name: Howard Chi
   role: MS

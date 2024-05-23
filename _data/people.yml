@@ -32,6 +32,7 @@
 - name: Rohith Reddy Vennam
   role: PhD
   picture: /assets/images/teampic/rohith.jpg
+  website: https://acsweb.ucsd.edu/~rvennam
 - name: Kevin Mills
   role: PhD
   picture: /assets/images/teampic/kevin.png
@@ -45,24 +46,31 @@
 - name: Raini Wu
   role: PhD
   picture: /assets/images/teampic/raini.jpg
+  website: https://www.linkedin.com/in/rainiwu/
 - name: Sreevatsank Kadaveru
   role: PhD
   picture: /assets/images/teampic/vatsank.jpg
+  website: https://www.linkedin.com/in/sreevatsank-k/
 - name: Adel Heidari
   role: PhD
   picture: /assets/images/teampic/adel.JPG  
+  website: https://www.linkedin.com/in/adel-heidari-85490321a/
 - name: Srivatsan Rajagopal
   role: Postdoc
   picture: /assets/images/teampic/srivatsan.jpg
+  website: https://www.linkedin.com/in/srivatsan-rajagopal-5458b621b/
 - name: Wei Sun
   role: Postdoc
   picture: /assets/images/teampic/wei.jpg
+  website: https://sunwit.github.io/
 - name: Archana Bura
   role: Postdoc
   picture: /assets/images/teampic/archana.jpg  
+  website: https://sites.google.com/tamu.edu/archanabura/home
 - name: Sushila Seshasayee
   role: Researcher
   picture: /assets/images/teampic/sushila.jpg
+  website: https://www.linkedin.com/in/sushilaseshasayee/
 - name: Deepak Vasisht
   role: Assistant Prof at UIUC
   picture: /assets/images/teampic/deepak.png
@@ -70,4 +78,5 @@
 - name: Shunsuke Saruwatari
   role: Visiting Scholar
   picture: /assets/images/teampic/saru.jpg
+  website: https://www.ist.osaka-u.ac.jp/english/researcher/detail.php?id=105
 

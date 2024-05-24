@@ -273,79 +273,116 @@ title: Team
 
 
 
-  <div class="row">
-    <h4>Masters</h4>
-    <div class="column">
-      {% for people in site.data.alumni %}
-        {% if people.role == "MS" %}
-          {% if people.col == 1 %}
-            <div class="row">
-                  {% if people.website %}
-                    <p><a href="{{ people.website }}">{{ people.name }}</a></p>
-                  {% else %}
-                    <p>{{ people.name }}</p>
-                  {% endif %}
-              <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
-              <br>
-            </div>
-          {% endif %}
+<div class="row">
+  <h4>Masters</h4>
+  <div class="column">
+    {% for people in site.data.alumni %}
+      {% if people.role == "MS" %}
+        {% if people.col == 1 %}
+          <div class="row">
+                {% if people.website %}
+                  <p><a href="{{ people.website }}">{{ people.name }}</a></p>
+                {% else %}
+                  <p>{{ people.name }}</p>
+                {% endif %}
+            <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
+            <br>
+          </div>
         {% endif %}
-      {% endfor %}
-    </div>
-    <div class="column">
-      {% for people in site.data.alumni %}
-        {% if people.role == "MS" %}
-          {% if people.col == 2 %}
-            <div class="row">
-                  {% if people.website %}
-                    <p><a href="{{ people.website }}">{{ people.name }}</a></p>
-                  {% else %}
-                    <p>{{ people.name }}</p>
-                  {% endif %}
-              <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
-              <br>
-            </div>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
+      {% endif %}
+    {% endfor %}
   </div>
+  <div class="column">
+    {% for people in site.data.alumni %}
+      {% if people.role == "MS" %}
+        {% if people.col == 2 %}
+          <div class="row">
+                {% if people.website %}
+                  <p><a href="{{ people.website }}">{{ people.name }}</a></p>
+                {% else %}
+                  <p>{{ people.name }}</p>
+                {% endif %}
+            <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
+            <br>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
 
-  <div class="row">
-    <h4>Undergraduate</h4>
-    <div class="column">
-      {% for people in site.data.alumni %}
-        {% if people.role == "BS" %}
-          {% if people.col == 1 %}
-            <div class="row">
-                  {% if people.website %}
-                    <p><a href="{{ people.website }}">{{ people.name }}</a></p>
-                  {% else %}
-                    <p>{{ people.name }}</p>
-                  {% endif %}
-              <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
-              <br>
-            </div>
-          {% endif %}
+<div class="row">
+  <h4>Undergraduate</h4>
+  <div class="column">
+    {% for people in site.data.alumni %}
+      {% if people.role == "BS" %}
+        {% if people.col == 1 %}
+          <div class="row">
+                {% if people.website %}
+                  <p><a href="{{ people.website }}">{{ people.name }}</a></p>
+                {% else %}
+                  <p>{{ people.name }}</p>
+                {% endif %}
+            <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
+            <br>
+          </div>
         {% endif %}
-      {% endfor %}
-    </div>
-    <div class="column">
-      {% for people in site.data.alumni %}
-        {% if people.role == "BS" %}
-          {% if people.col == 2 %}
-            <div class="row">
-                  {% if people.website %}
-                    <p><a href="{{ people.website }}">{{ people.name }}</a></p>
-                  {% else %}
-                    <p>{{ people.name }}</p>
-                  {% endif %}
-              <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
-              <br>
-            </div>
-          {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="column">
+    {% for people in site.data.alumni %}
+      {% if people.role == "BS" %}
+        {% if people.col == 2 %}
+          <div class="row">
+                {% if people.website %}
+                  <p><a href="{{ people.website }}">{{ people.name }}</a></p>
+                {% else %}
+                  <p>{{ people.name }}</p>
+                {% endif %}
+            <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
+            <br>
+          </div>
         {% endif %}
-      {% endfor %}
-    </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<div class="row">
+  <h4>International Summer Interns</h4>
+  <div class="column">
+    {% for people in site.data.alumni %}
+      {% if people.role == "Intern" %}
+        {% if people.col == 1 %}
+          <div class="row">
+                {% if people.website %}
+                  <p><a href="{{ people.website }}">{{ people.name }}</a></p>
+                {% else %}
+                  <p>{{ people.name }}</p>
+                {% endif %}
+            <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
+            <br>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+  <div class="column">
+    {% for people in site.data.alumni %}
+      {% if people.role == "Intern" %}
+        {% if people.col == 2 %}
+          <div class="row">
+                {% if people.website %}
+                  <p><a href="{{ people.website }}">{{ people.name }}</a></p>
+                {% else %}
+                  <p>{{ people.name }}</p>
+                {% endif %}
+            <p><i> Class of {{ people.year }}{% if people.now %}, {{ people.now }} {% endif %}</i></p>
+            <br>
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
   </div>
 </div>

@@ -1,5 +1,14 @@
 # Masters Students
-
+- name: Sesha Sai Rakesh
+  role: MS
+  year: "2025"
+  now: 
+  col: 2
+- name: Sameer Dohadwalla
+  role: MS
+  year: "2024"
+  now: 
+  col: 1
 - name: Rushabha Balaji
   role: MS
   year: "2024"
@@ -69,14 +78,24 @@
   year: "2024"
   now: 
   col: 2
-- name: Wenyi (Morty) Zhang
+- name: Kewei Chen
   role: MS
   year: "2024"
   now: 
   col: 1
-- name: Wenhao Chen
+- name: Test
   role: MS
   year: "2024"
+  now: 
+  col: 2
+- name: Wenyi (Morty) Zhang
+  role: MS
+  year: "2025"
+  now: 
+  col: 1
+- name: Wenhao Chen
+  role: MS
+  year: "2025"
   now: 
   col: 2
 
@@ -127,10 +146,30 @@
   role: BS
   year: "2025"
   col: 2
-
-# Intern
-- name: Pratyaksh Mundra
-  role: Intern
-  year: "2024"
+- name: Yichen Yu
+  role: BS
+  year: "2026"
   now: 
   col: 1
+- name: Gavin Roberts
+  role: BS
+  year: "2023"
+  now: 
+  col: 2
+- name: Junyi Xu
+  role: BS
+  year: "2026"
+  now: 
+  col: 1
+- name: YungYi Sun
+  role: BS
+  year: "2026"
+  now: 
+  col: 2
+- name: Sonny Cao
+  role: BS
+  year: "2026"
+  now: 
+  col: 1
+
+

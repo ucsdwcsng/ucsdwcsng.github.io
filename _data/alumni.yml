@@ -36,6 +36,11 @@
   website: https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de
 
 #masters
+- name: Isamu Poy
+  role: MS
+  year: "2023"
+  now: 
+  col: 1
 - name: Yizheng Yu
   role: MS
   year: "2023"
@@ -425,6 +430,26 @@
   now:
   col: 2
 #Intl Summer Interns
+- name: Pratyaksh Mundra
+  role: Intern
+  year: "2024"
+  now: 
+  col: 1
+- name: Omm Prakash
+  role: Intern
+  year: "2023"
+  now: 
+  col: 2
+- name: Satyam Srivastava
+  role: Intern
+  year: "2023"
+  now: 
+  col: 1
+- name: Zhe Ou
+  role: Intern
+  year: "2023"
+  now: 
+  col: 2 
 - name: Rushang Gupta
   role: Intern
   school: IITD

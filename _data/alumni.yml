@@ -36,6 +36,82 @@
   website: https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de
 
 #masters
+- name: Yizheng Yu
+  role: MS
+  year: "2023"
+  now: 
+  col: 1
+- name: Ajay Kanchiraju
+  role: MS
+  year: "2023"
+  now: 
+  col: 2
+
+- name: Sureel Shah
+  role: MS
+  year: "2023"
+  now: 
+  col: 1
+- name: Radhika Mathuria
+  role: MS
+  year: "2023"
+  now: Tarana Wireless CA
+  col: 2
+
+- name: Puja Shukla
+  role: MS
+  year: "2023"
+  now: Marvell CA
+  col: 1
+- name: Joshua Orozco
+  role: MS
+  year: "2023"
+  now: 
+  col: 2
+
+- name: Hari Prasad Sankar
+  role: MS
+  year: "2023"
+  now: Tarana Wireless CA
+  col: 1
+- name: Gaurav Singh
+  role: MS
+  year: "2023"
+  now: Apple CA
+  col: 2
+
+- name: Shubham Jain
+  role: MS
+  year: "2023"
+  now: Qualcomm SD
+  col: 1
+- name: Pratik Ratadiya
+  role: MS
+  year: "2023"
+  now: Stealth Startup
+  col: 2
+
+- name: Siddharth Mohan
+  role: MS
+  year: "2023"
+  now: Intel CA
+  col: 1
+- name: Kamalakannan Subramani
+  role: MS
+  year: "2022"
+  now: Apple CA
+  col: 2
+
+- name: Harsh Deshpande
+  role: MS
+  year: "2023"
+  now: JPMorgan Chase
+  col: 1
+- name: Abhishek Khare
+  role: MS
+  year: "2022"
+  now: Samsung SJ
+  col: 2
 - name: Howard Chi
   role: MS
   year: "2022"
@@ -44,12 +120,12 @@
 - name: Sanjeev Anthia Ganesh 
   role: MS
   year: "2022"
-  now: 
+  now: Apple CA
   col: 2
 - name: Gautham Reddy
   role: MS
   year: "2021"
-  now: Broadcom SJ
+  now: Marvell -> PhD at NCSU
   col: 1
 - name: Nitish Kulshrestha
   role: MS
@@ -74,12 +150,12 @@
 - name: Xiangwei Shao
   role: MS
   year: "2021"
-  now: Huawei
+  now: Huawei, China
   col: 2
 - name: Hou-Wei Lin
   role: MS
   year: "2021"
-  now: Amazon SJ
+  now: Amazon Seattle
   col: 1
 - name: Yeswanth Guntupalli
   role: MS
@@ -89,7 +165,7 @@
 - name: Yeswanth Reddy Guddeti
   role: MS
   year: "2020"
-  now:
+  now: Samsung, Bangalore
   col: 1
 - name: Aman Goyal
   role: MS

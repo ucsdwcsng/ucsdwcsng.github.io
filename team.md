@@ -82,13 +82,7 @@ title: Team
       <div class="cell cell--12 cell--md-4 cell--lg-3">
         <div class="card card--flat">
           <div class="card__image">
-            <!-- {% if people.website %}
-              <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
                 <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
-              </a>
-            {% else %} -->
-                <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
-            <!-- {% endif %} -->
             <div class="overlay overlay--bottom">
               <header>
               {% if people.website %}
@@ -106,6 +100,7 @@ title: Team
   {% endfor %}
 </div>
 
+
 <h3>Collaborations and Postdoctoral Researchers</h3>
 <div class="article-list grid grid--sm grid--p-3">
 {% for people in site.data.people %}
@@ -113,14 +108,7 @@ title: Team
    <div class="cell cell--12 cell--md-4 cell--lg-3">
       <div class="card card--flat">
         <div class="card__image">
-          <!-- {% if people.website %} -->
-            <!-- Wrap image (not image but text only) with a hyperlink if a website URL is available -->
-            <!-- <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
-              <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
-            </a>
-          {% else %} -->
             <img class="image" src="{{ people.picture }}" alt="Profile image of {{ people.name }}" />
-          <!-- {% endif %} -->
           <div class="overlay overlay--bottom">
             <header>
               {% if people.website %}
@@ -193,19 +181,6 @@ title: Team
     {% if people.role == "PhD" %}
       <div class="cell cell--12 cell--md-4 cell--lg-3">
         <div class="card card--flat">
-          <!-- {% if people.website %}
-            <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
-              <div class="card__image">
-                <img class="image" src="{{ people.picture }}" />
-                <div class="overlay overlay--bottom" style="color: white;">
-                  <header>
-                    <p>{{ people.name }}</p>
-                    <p><i style="color: white">Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
-                  </header>
-                </div>
-              </div>
-            </a>
-          {% else %} -->
             <div class="card__image">
               <img class="image" src="{{ people.picture }}" />
               <div class="overlay overlay--bottom" style="color: white;">
@@ -219,7 +194,6 @@ title: Team
                 </header>
               </div>
             </div>
-          <!-- {% endif %} -->
         </div>
       </div>
     {% endif %}
@@ -231,16 +205,6 @@ title: Team
       {% if people.role == "PhD" %}
         <div class="cell cell--12 cell--md-4 cell--lg-3">
           <div class="card card--flat">
-            <!-- {% if people.website %}
-              <a href="{{ people.website }}" target="_blank" rel="noopener noreferrer">
-                <div class="card__image-placeholder">
-                  <div class="placeholder-content">
-                    <p>{{ people.name }}</p>
-                    <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
-                  </div>
-                </div>
-              </a>
-            {% else %} -->
               <div class="card__image-placeholder">
                 <div class="placeholder-content">
                   {% if people.website %}
@@ -251,7 +215,6 @@ title: Team
                   <p><i>Class of {{ people.year }}{% if people.now %}, {{ people.now }}{% endif %}</i></p>
                 </div>
               </div>
-            <!-- {% endif %} -->
           </div>
         </div>
       {% endif %}

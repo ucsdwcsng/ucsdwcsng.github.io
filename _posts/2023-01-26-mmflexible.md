@@ -5,7 +5,7 @@ short_title: "mmFlexible"
 tags: Communications
 cover: /assets/images/pubpic/dpa.png
 authors: "Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia"
-# needed for publist.html
+# needed for publications/
 author_list:
 
     - name: Ish Kumar Jain # url field is optional

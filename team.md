@@ -1,6 +1,7 @@
 ---
 layout: articles
 title: Team
+permalink: team/
 ---
 <style>
   i {

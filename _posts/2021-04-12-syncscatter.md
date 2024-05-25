@@ -4,7 +4,7 @@ title: "SyncScatter: Enabling WiFi like synchronization and range for WiFi backs
 short_title: "SyncScatter"
 tags: Backscatter Communications 
 cover: /assets/images/pubpic/syncscatter.png
-authors: "Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, Dinesh Bharadia" # needed for publist.html
+authors: "Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, Dinesh Bharadia" # needed for publications/
 author_list:
     - name: Manideep Dunna
       url: https://manideepabc.github.io/

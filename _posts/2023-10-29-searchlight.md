@@ -4,7 +4,7 @@ title: "Searchlight: An Accurate, Sensitive, and Fast RF Energy Detection System
 short_title: "SearchLight"
 tags: Spectrum-Sensing
 cover: /assets/images/searchlight.png
-authors: "Richard Bell, Kyle Wason, Tianyi Hu, Isamu Poy, Fred Harris, Dinesh Bharadia" # needed for publist.html
+authors: "Richard Bell, Kyle Wason, Tianyi Hu, Isamu Poy, Fred Harris, Dinesh Bharadia" # needed for publications/
 author_list:
     - name: Richard Bell
       email: rcbell@ucsd.edu

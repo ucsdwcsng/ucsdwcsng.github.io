@@ -4,7 +4,7 @@ title: "ForceSticker: Wireless, Batteryless, Thin & Flexible Force Sensors"
 short_title: "ForceSticker"
 tags: Backscatter
 cover: /assets/images/force-sticker-UCSD-teaser.jpg
-authors: "Agrim Gupta, Daegue Park, Shayaun Bashar, Cedric Girerd, Nagarjun Bhat, Siddhi Mundhra, Tania Morimoto, Dinesh Bharadia" # needed for publist.html
+authors: "Agrim Gupta, Daegue Park, Shayaun Bashar, Cedric Girerd, Nagarjun Bhat, Siddhi Mundhra, Tania Morimoto, Dinesh Bharadia" # needed for publications/
 author_list:
     - name: Agrim Gupta
       url: https://agrim9.github.io/

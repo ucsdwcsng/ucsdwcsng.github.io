@@ -5,9 +5,27 @@ short_title: "mmFlexible"
 tags: Communications
 cover: /assets/images/pubpic/dpa.png
 authors: "Ish Kumar Jain, Rohith Reddy Vennam, Raghav Subbaraman, and Dinesh Bharadia"
+# needed for publications/
+author_list:
+
+    - name: Ish Kumar Jain # url field is optional
+      url: https://ishjain.github.io/
+      email: ikjain@ucsd.edu
+    - name: Rohith Reddy Vennam
+      url: https://acsweb.ucsd.edu/~rvennam/
+      email: rvennam@ucsd.edu
+    - name: Raghav Subbaraman
+      url: https://rsubbaraman.github.io/
+      email: rsubbara@ucsd.edu
+    - name: Dinesh Bharadia
+      url: https://dineshb-ucsd.github.io/
+      email: dineshb@ucsd.edu
+eqcon: false #Put true if you want equal contrribution on pub page
 conference: "Infocom 2023"
+conference_site: https://infocom2023.ieee-infocom.org/program
 paper: /files/mmflexible.pdf
 video: https://www.youtube.com/embed/Xo1JbZHfBCY
+video_str: Video
 slides: /files/slides_mmflexible.pdf
 github: https://github.com/ucsdwcsng/dpa
 press:

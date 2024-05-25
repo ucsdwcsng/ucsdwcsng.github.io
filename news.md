@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: article
-permalink: /news.html
+permalink: /allnews.html
 ---
 
 {% for article in site.data.news.news %}

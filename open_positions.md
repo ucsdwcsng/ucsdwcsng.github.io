@@ -3,7 +3,7 @@ title: "WCSNG - Opportunities"
 layout: article
 excerpt: "Openings"
 ##sitemap: false
-##permalink: /vacancies.html
+permalink: /vacancies.html
 ---
 
 # Open positions

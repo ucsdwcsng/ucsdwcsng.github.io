@@ -25,20 +25,6 @@ carousels:
     font-size: 34px; /* You can adjust this value to suit your design needs */
   }
 </style>
-<!--<h2><a href="/wireless.html">Wireless Sensing</a></h2>
-<div><img src="/assets/images/UWB-tracking.png" height="400" width="100%"/></div>
-<h2><a href="/6g.html">Towards 6G</a></h2>
-<div><img src="/assets/images/greenmo2.jpg" height="400" width="100%"/></div>
-<h2><a href="/vehicle.html">Autonomous Vehicles</a></h2>
-<div><img src="/assets/images/vehicle.png" height="400" width="100%"/></div>
-<h2><a href="/iot.html">Ubiquitous IoT</a></h2>
-<div><img src="/assets/images/pcb.jpeg" height="400" width="100%"/></div>
-<h2><a href="/spectrum.html">Spectrum Sensing</a></h2>
-<div><img src="/assets/images/spectrumsensing/spectrogram.jpg" height="400" width="100%"/></div>
-<h2><a href="/security.html">Security and Privacy</a></h2>
-<div><img src="/assets/images/Spoof_Setup.png" height="400" width="100%"/></div>
-<h2> Join Our Team! </h2>
-We are always looking for new group members with passion, talent, and grit!-->
 
 Our mission is to tackle significant real-world problems by identifying key challenges and developing groundbreaking solutions. We adopt a holistic research approach, blending rigorous theoretical exploration with practical implementations. Through this integrated process, we create, test, and refine prototypes, ensuring that our innovations are not only pioneering but also practical and ready for real-world application. Our cycle of continuous improvement drives us to adapt and evolve our solutions to meet changing needs effectively.
 <!-- #### Mission Statement
@@ -53,10 +39,10 @@ Our research group is at the forefront of developing innovative sensing, communi
 
 #### Key Research Areas 
 
-<div><a href="https://ucsdwcsng.github.io/wireless.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/6g.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/iot.html"><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/spectrum.html"><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/wireless-sensing.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/communication.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/backscatter.html"><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://ucsdwcsng.github.io/spectrum_sensing.html"><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://ucsdwcsng.github.io/vehicle.html"><img src="/assets/images/main_page/Slide5.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://ucsdwcsng.github.io/security.html"><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></a></div><hr>
 

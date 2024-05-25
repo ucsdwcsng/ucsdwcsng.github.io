@@ -278,11 +278,11 @@
   year: "2023"
   now: Fast Enterprises Colorado
   col: 2 
-- name: Raini Wu
-  role: BS
-  year: "2022"
-  now: PhD at UCSD
-  col: 1
+# - name: Raini Wu
+#   role: BS
+#   year: "2022"
+#   now: PhD at UCSD
+#   col: 1
 - name: Wen Tian
   role: BS
   year: "2022"
@@ -359,11 +359,11 @@
   year: 2020
   now:
   col: 2
-- name: Raini Wu
-  role: SRIP
-  year: 2020
-  now:
-  col: 1
+# - name: Raini Wu
+#   role: SRIP
+#   year: 2020
+#   now:
+#   col: 1
 - name: Tyler Chang
   role: SRIP
   year: 2020

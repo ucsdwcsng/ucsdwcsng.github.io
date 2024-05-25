@@ -1,13 +1,14 @@
 ---
 layout: research
-permalink: spectrum
+permalink: spectrum_sensing
 heading: Spectrum Sensing
 pubtag: Spectrum-Sensing
 carousels:
   - images:
-    - image: /assets/images/atkinson.jpeg
     - image: /assets/images/spectrumsensing/pcb_only.jpg
     - image: /assets/images/spectrumsensing/spectrogram.jpg
+    - image: /assets/images/spectrumsensing/raghav_sensing.jpg
+    - image: /assets/images/pubpic/spectrum_sensing/searchlight.png
 people:
   - Dinesh Bharadia
   - Raghav Subbaraman
@@ -32,7 +33,7 @@ crammed into ever-more-congested bandwidth. Added to this, the nature of usage v
 Our architecture **SweepSense**, combines sweep-frequency downconversion with simultaneous sampling and achieves **large bandwidth, high-time resolution** sensing. Through our work, we show that **SweepSense** can be implemented on existing radios with minimal cost overheads, and provides promising performance over state-of-art.
 
 <div>
-  <a><img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/spectrum_sensing/sweepsense_spectrogram.png" width="75%" style="float: center" ></a>
+  <a><img src="/assets/images/pubpic/spectrum_sensing/sweepsense_spectrogram.png" width="75%" style="float: center" ></a>
   <br>
   <a href="https://github.com/ucsdsysnet/SweepSense/tree/master"> SweepSense spectrogram of the 2.4 GHz ISM band showing WiFi and Bluetooth transmissions. 100 MHz bandwidth available with only a 25 MSps radio. </a>
 </div>

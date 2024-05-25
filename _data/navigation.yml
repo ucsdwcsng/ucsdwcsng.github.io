@@ -25,13 +25,13 @@ header:
       # @end locale config
     subfolderitems:
       - name: "Wireless Sensing"
-        url: /wireless.html
+        url: /wireless-sensing.html
       - name: "Towards 6G"
-        url: /6g.html
+        url: /communication.html
       - name: "Ubiquitous IoT"
-        url: /iot.html
+        url: /backscatter.html
       - name: "Spectrum Sensing"
-        url: /spectrum.html
+        url: /spectrum_sensing.html
       - name: "Autonomous Vehicles"
         url: /vehicle.html
       - name: "Security and Privacy"

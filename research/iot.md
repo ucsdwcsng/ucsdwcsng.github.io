@@ -1,12 +1,18 @@
 ---
 layout: research
-permalink: iot
+permalink: backscatter
 heading: Ubiquitous IoT
 pubtag: Backscatter
 carousels:
   - images:
     - image: /assets/images/rice_chip.jpeg
     - image: /assets/images/pcb.jpeg
+    - image: /assets/images/backscatter_chip.png
+    - image: /assets/images/pubpic/Hitchhike_prototype.png
+    - image: /assets/images/pubpic/force_sensing/wiforce_sensor.png
+    - image: /assets/images/pubpic/force_sensing/wiforce_sensor_detail.png
+    - image: /assets/images/pubpic/force_sensing/force_sensor_usecases.png
+    
 people:
   - Dinesh Bharadia
   - Manideep Dunna

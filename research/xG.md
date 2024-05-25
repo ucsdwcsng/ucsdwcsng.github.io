@@ -1,6 +1,6 @@
 ---
 layout: research
-permalink: 6g
+permalink: communication
 heading: Towards xG
 pubtag: Communications
 carousels:

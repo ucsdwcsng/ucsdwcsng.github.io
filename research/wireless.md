@@ -1,6 +1,6 @@
 ---
 layout: research
-permalink: wireless
+permalink: wireless-sensing
 heading: Wireless Sensing
 pubtag: Wireless-Sensing
 carousels:
@@ -12,6 +12,7 @@ people:
   - Dinesh Bharadia
   - Roshan Ayyalasomayajula
   - Aditya Arun
+  - Ish Kumar Jain
   - Shunsuke Saruwatari
   - Wei Sun
   - Vaibhav Anand

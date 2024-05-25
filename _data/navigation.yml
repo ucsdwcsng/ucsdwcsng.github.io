@@ -33,9 +33,9 @@ header:
       - name: "Spectrum Sensing"
         url: /spectrum_sensing.html
       - name: "Autonomous Vehicles"
-        url: /vehicle.html
+        url: /vehicular.html
       - name: "Security and Privacy"
-        url: /security.html
+        url: /privacy.html
   
   - titles:
       # @start locale config

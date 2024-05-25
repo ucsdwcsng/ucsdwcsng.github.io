@@ -1,4 +1,5 @@
 ## How to Update WCSNG Website
+
 ### Home Page
 To update the images in the carousel, go to index.md and update the image paths under the carousels in the fronnt matter.  
 To change the research areas or their overview gifs, update the coressponding heading, link, and path in the body of index.md.

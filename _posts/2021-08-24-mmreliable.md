@@ -15,6 +15,7 @@ author_list:
     - name: Dinesh Bharadia
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
+eqcon: false #Put true if you want equal contrribution on pub page
 conference: "Sigcomm 2021"
 conference_site: https://conferences.sigcomm.org/sigcomm/2021/program.html
 paper: /files/mmreliable.pdf
@@ -23,6 +24,11 @@ dataset: https://github.com/ucsdwcsng/mMobile
 github: https://github.com/ucsdwcsng/mmReliable
 video: https://www.youtube.com/embed/w2ZUX00-p_A
 video_str: Video
+miscs:  # whatever you need to add Extra
+    - content_type: Poster
+      content_url: /files/greenmo_poster.pdf # hat tip: do not use tabs for idnentation, yaml doesnt support it
+    - content_type: Github Repo/Artefacts
+      content_url: https://github.com/ucsdwcsng/GreenMO_Mobicom23_Artefacts
 description:
     - text: "Millimeter-wave communication with high throughput and high reliability is poised to be a gamechanger for V2X and VR applications. However, mmWave links are notorious for low reliability since they suffer from frequent outages due to blockage and user mobility. We build mmReliable, a reliable mmWave system that implements multi-beamforming and user tracking to handle environmental vulnerabilities. It creates constructive multi-beam patterns and optimizes their angle, phase, and amplitude to maximize the signal strength at the receiver. Multi-beam links are reliable since they are resilient to occasional blockages of few constituent beams compared to a single-beam system. We implement mmReliable on a 28 GHz testbed with 400 MHz bandwidth, and a 64 element phased array supporting 5G NR waveforms. Rigorous indoor and outdoor experiments demonstrate that mmReliable achieves close to 100% reliability providing 2.3x improvement in the throughput-reliability product than single-beam systems."
       image: /assets/images/respic/5G/mmreliable.png

@@ -1,25 +1,25 @@
 ---
 layout: publication
-title: "Fourier Meets Gardner : "
+title: "Fourier Meets Gardner : Robust Blind Waveform Characterization"
 short_title: ""
 tags: Spectrum-Sensing Communications
-cover: /assets/images/pubpic/rfsynth.png
-authors: "Srivatsan Rajagopal, Radhika Mathuria and Dinesh Bharadia"
+cover: /assets/images/pubpic/sig_proc_modality_flow.png
+authors: "Radhika Mathuria, Srivatsan Rajagopal and Dinesh Bharadia"
 author_list:
-    - name: Srivatsan Rajagopal
-      email: srajagopal@ucsd.edu
     - name: Radhika Mathuria
       email: rmathuria@ucsd.edu
+    - name: Srivatsan Rajagopal
+      email: srajagopal@ucsd.edu
     - name: Dinesh Bharadia
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
 eqcon: true
 conference: "IEEE DySPAN 2024"
 conference_site: https://dyspan2024.ieee-dyspan.org/
-paper: /files/rfsynth.pdf
+paper: /files/FourierMeetsGardner.pdf
 description:
     - title: Abstract
-      image: /assets/images/pubpic/rfsynth.png
+      image: /assets/images/pubpic/sig_proc_modality_flow.png
       text: "Waveform Characterization is crucial for various
 spectrum sensing applications such as anomaly detection and
 measuring spectrum utilization. It consists of detecting the

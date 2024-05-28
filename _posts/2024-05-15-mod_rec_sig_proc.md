@@ -13,7 +13,7 @@ author_list:
     - name: Dinesh Bharadia
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
-eqcon: true
+eqcon: false
 conference: "IEEE DySPAN 2024"
 conference_site: https://dyspan2024.ieee-dyspan.org/
 paper: /files/FourierMeetsGardner.pdf

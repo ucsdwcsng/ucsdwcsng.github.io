@@ -11,7 +11,6 @@ permalink: research/
   }
 </style>
 
-#### Key Research Areas 
 
 <div><a href="https://ucsdwcsng.github.io/wireless-sensing.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
 <div><a href="https://ucsdwcsng.github.io/communication.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>

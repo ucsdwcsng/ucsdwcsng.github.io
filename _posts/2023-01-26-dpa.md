@@ -21,7 +21,7 @@ author_list:
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
 eqcon: false #Put true if you want equal contrribution on pub page
-conference: "Infocom 2023"
+conference: "Infocom 2023 [Submitted: July 2022, Accepted: Dec 2022, Presented: May 2023]"
 conference_site: https://infocom2023.ieee-infocom.org/program
 paper: /files/mmflexible.pdf
 video: https://www.youtube.com/embed/Xo1JbZHfBCY

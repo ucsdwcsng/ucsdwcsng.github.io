@@ -118,6 +118,8 @@ header:
   - titles:
       en : &EN Hosted Events
     subfolderitems:
+      - name: Mobicom'24 Open-AI RAN 
+        url: https://wcsng.ucsd.edu/open-ai-ran-2024/
       - name: Mobicom'23 mmNets
         url: https://wcsng.ucsd.edu/mmNets2023/
       - name: Mobicom'23 S<sup>3</sup>

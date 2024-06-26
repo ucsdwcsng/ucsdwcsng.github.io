@@ -7,7 +7,7 @@ cover: /assets/images/pubpic/beamarmor.png
 authors: "Frederik Zumegen, Ish Kumar Jain, and Dinesh Bharadia"
 # needed for publications/
 author_list:
-    - name Frederik Zumegan
+    - name: Frederik Zumegan
       url: https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de
       email: fzumegen@ethz.ch
     - name: Ish Kumar Jain # url field is optional

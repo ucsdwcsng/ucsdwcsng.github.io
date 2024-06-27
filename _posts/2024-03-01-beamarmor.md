@@ -7,7 +7,7 @@ cover: /assets/images/pubpic/beamarmor.png
 authors: "Frederik Zumegen, Ish Kumar Jain, and Dinesh Bharadia"
 # needed for publications/
 author_list:
-    - name Frederik Zumegan
+    - name: Frederik Zumegan
       url: https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de
       email: fzumegen@ethz.ch
     - name: Ish Kumar Jain # url field is optional
@@ -31,11 +31,10 @@ miscs:  # whatever you need to add Extra
 
 
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
-
-    # - title: "mmFlexible End-End Design Overview"
-    #   text: "Implementation overview for mmFlexible with four main components: Data traffic generator, Fast beam scan angle estimation, a scheduler, and our FSDA algorithm."
-    #   image: /assets/images/respic/5G/mmreliable_overview.png
-    #   image_width: 800 # px
+     - title: "BeamArmor is implemented with real-time RAN (srsRAN) with a EdgeRIC controller"
+       text: ""
+       image: /assets/images/respic/5G/beamarmor_poster.png
+       image_width: 900 # px
 
 
 

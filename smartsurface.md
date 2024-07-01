@@ -1,9 +1,7 @@
 ---
 layout: page
 title: "Adaptive Smart Surfaces for Wireless Channel Morphing to enable full multiplexing and multi-user gains"
-## excerpt: "Bringing Interference Alignment to Reality"
-permalink: smartsurfaces
-##tags: miscellanious
+permalink: smartsurfaces/
 ---
 
 

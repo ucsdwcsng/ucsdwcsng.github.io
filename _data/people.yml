@@ -2,26 +2,10 @@
   role: Principal Investigator
   picture: /assets/images/teampic/dinesh.jpg
   website: https://dineshb-ucsd.github.io
-- name: Manideep Dunna
-  role: PhD
-  picture: /assets/images/teampic/manideep.jpg
-  website: https://manideepabc.github.io
-- name: Ish Kumar Jain
-  role: PhD
-  picture: /assets/images/teampic/ish.jpg
-  website: https://ishjain.github.io
 - name: Hadi Givehchian
   role: PhD
   picture: /assets/images/teampic/hadi.jpg
   website: https://www.linkedin.com/in/hadi-givehchian-515144105/
-- name: Aditya Arun
-  role: PhD
-  picture: /assets/images/teampic/aditya.jpg
-  website: https://wcsng.ucsd.edu/aarun/
-- name: Raghav Subbaraman
-  role: PhD
-  picture: /assets/images/teampic/raghav.jpg
-  website: https://rsubbaraman.github.io
 - name: Agrim Gupta
   role: PhD
   picture: /assets/images/teampic/agrim.png
@@ -55,6 +39,10 @@
   role: PhD
   picture: /assets/images/teampic/adel.JPG  
   website: https://www.linkedin.com/in/adel-heidari-85490321a/
+- name: Pushkal Mishra
+  role: PhD
+  picture: /assets/images/teampic/pushkal.jpeg
+  website: https://www.linkedin.com/in/pushkal-mishra-014829218/
 - name: Srivatsan Rajagopal
   role: Postdoc
   picture: /assets/images/teampic/srivatsan.jpg

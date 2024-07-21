@@ -6,32 +6,71 @@ excerpt: "Openings"
 permalink: /vacancies.html
 ---
 
-# Open positions
+# Applying to the WCSNG Lab at UCSD
 
-We are always looking for new group members with passion, talent, and grit!
+Welcome to the Wireless Communication, Sensing, and Networking Group (WCSNG) at UCSD, directed by Professor Dinesh Bharadia. We are excited to have you consider joining our dynamic and innovative research team. Also the best way to reach to me is to contact some of the lab members and they can relay your application or pitch your application to me -- word of mouth works really well. 
 
-<!--You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+## Current Openings
 
-### Current open positions
+We are currently looking for experts in the following areas:
 
-You find the current job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf).
+### Hardware/FPGA/Firmware/PCB Development
+- Experience with Software-Defined Radio (SDR) is always most welcome.
 
-It might be interesting to look at some past job advertisements. While the projects keep changing, the themes are still roughly the same. You can download them [here]({{ site.baseurl }}/downloads/PD.pdf), [here]({{ site.baseurl }}/downloads/PHD1.pdf), or [here]({{ site.baseurl }}/downloads/PHD2.pdf).
--->
+### Software/Systems/SDR/Rust/C++
+- Experience with 5G is always most welcome.
 
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoctoral scholar, please send an email directly to **dineshb [at] ucsd.edu**. State briefly why you are interested and attach a CV. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. 
+If you have expertise in any of these areas, please highlight this in your application.
 
-<!--There are  postdoc scholarship available.  I'd be happy to support you after you apply to our group. Take a look at the [veni fellowship](http://www.nwo.nl/en/funding/our-funding-instruments/nwo/innovational-research-incentives-scheme/veni/index.html) or the [Marie Curie fellowship](http://ec.europa.eu/research/mariecurieactions/about-msca/actions/if/index_en.htm).-->
+Below are the guidelines for different categories of applicants:
 
-### UCSD Students
-If you are a student at UCSD looking for a project, contact me (or any group member) through email or stop by my office. We routinely work with graduate and undergraduate students
-on all our projects.
+## Postdoctoral Researchers
 
-### Bachelor's / Master's students from elsewhere
-If you are interested in pursuing a Master's degree at UCSD, see [https://apply.grad.ucsd.edu/home](https://apply.grad.ucsd.edu/home). Sometimes, we work with students on summer internships if we get exceptional applicants (this usually means good academic standing and a personal recommendation).
+If you are interested in a postdoctoral position in our lab, please email Professor Dinesh Bharadia directly at dineshb_at_the_rate_ucsd.edu with the subject line "Postdoctoral Researcher Application: [Your Name]". Include your CV, a brief description of your research interests, and how you believe you can contribute to our ongoing projects.
+
+**Note:** Professor Dinesh Bharadia periodically searches his email for postdoctoral applications and may respond after a month. If you do not receive a response, please reply to the email you sent (do not send a fresh email).
+
+## Prospective PhD Students
+
+Prospective PhD students should email Professor Dinesh Bharadia at dineshb_at_the_rate_ucsd.edu with the subject line "Prospective PhD Student: [Your Name]". Please include your CV, a statement of purpose, and any relevant publications or research experience. We are looking for highly motivated individuals who are passionate about wireless communication, sensing, and networking.
+
+**Note:** Professor Dinesh Bharadia periodically searches his email for prospective PhD student applications and may respond after a month. If you do not receive a response, please reply to the email you sent (do not send a fresh email).
+
+## Incoming Master's Students
+
+Incoming master's students interested in joining our research group should consider the following:
+
+- Our lab is highly popular, and all members have a strong track record of securing jobs post-graduation.
+- Joining our lab is a rigorous endeavor. You will be expected to work diligently and contribute significantly to our research projects.
+- If you perform well in your first quarter with the lab, you will continue to work with us until you graduate.
+
+If you are up for the challenge and are committed to excellence, please email Professor Dinesh Bharadia at dineshb_at_the_rate_ucsd.edu with the subject line "Incoming Master's Student: [Your Name]". Include your CV and a brief statement of your research interests.
+
+**Note:** Professor Dinesh Bharadia periodically searches his email for incoming master's student applications and may respond after a month. If you do not receive a response, please reply to the email you sent (do not send a fresh email).
+
+## Current Undergraduate Students at UCSD
+
+Current undergraduate students at UCSD who are interested in joining our research group should email Professor Dinesh Bharadia at dineshb_at_the_rate_ucsd.edu with the subject line "UCSD Undergraduate Student: [Your Name]". Please include your CV, a brief description of your research interests, and any relevant coursework or projects.
+
+**Note:** Professor Dinesh Bharadia periodically searches his email for undergraduate student applications and may respond after a month. If you do not receive a response, please reply to the email you sent (do not send a fresh email).
+
+## Summer Internships
+
+Students interested in summer internships should apply through the following link: [Summer Internship Application Form](https://docs.google.com/forms/d/1WHmk5N9JUXD08eksjwkA3sfbxFvWdRiHt38NrJixNWA/edit#settings). This link is updated each year, so please check back regularly for the latest application information.
+
+**Note:** Professor Dinesh Bharadia periodically searches his email for summer internship applications and may respond after a month. If you do not receive a response, please reply to the email you sent (do not send a fresh email).
+
+
+We look forward to receiving your applications and potentially welcoming you to the WCSNG family!
+
+---
+
+Professor Dinesh Bharadia  
+Director, Wireless Communication, Sensing, and Networking Group (WCSNG)  
+University of California, San Diego  
+dineshb_at_the_rate_ucsd.edu  
+[WCSNG Lab Website](https://wcsng.ucsd.edu)  
+
 
 <figure>
 <img src="/assets/images/bear.jpg" width="95%">

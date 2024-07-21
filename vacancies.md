@@ -6,8 +6,6 @@ excerpt: "Openings"
 permalink: /vacancies.html
 ---
 
-# Applying to the WCSNG Lab at UCSD
-
 Welcome to the Wireless Communication, Sensing, and Networking Group (WCSNG) at UCSD, directed by Professor Dinesh Bharadia. We are excited to have you consider joining our dynamic and innovative research team. Also the best way to reach to me is to contact some of the lab members and they can relay your application or pitch your application to me -- word of mouth works really well. 
 
 ## Current Openings

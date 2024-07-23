@@ -1,20 +1,26 @@
 ---
 layout: page
-title: "Adaptive Smart Surfaces for Wireless Channel Morphing to enable full multiplexing and multi-user gains"
+# title: "Adaptive Smart Surfaces for Wireless Channel Morphing to enable full multiplexing and multi-user gains"
 permalink: smartsurfaces/
 ---
 
 
 ---
+<style>
+.justified-title {
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: space-between;
+      font-size: 30px;
+    width: 100%;
+}
 
-<!-- ### NSDI 2021
-```
-Authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and Dinesh Bharadia
-```
- -->
+</style>
 
-<!-- #### <a href="{{ site.url }}{{ site.baseurl }}/files/syncscatter.pdf" style="background-color: white; color: orange;">[Paper]</a> <a href="{{ site.url }}{{ site.baseurl }}/files/nsdi21_slides_dunna.pdf" style="background-color: white; color: purple;">[Slides]</a> <a href="https://drive.google.com/file/d/1HLOmupRVde8Akssg3BT88-4PR7vTBsR5/view?usp=sharing">[Video]</a>
- -->
+<h1 class="justified-title">
+  Adaptive Smart Surfaces for Wireless Channel Morphing
+</h1>
 
 
 ### Synopsis
@@ -22,13 +28,20 @@ Authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and
 
 <!-- In today's wireless networks, the typical operating paradigm is to have different users occupying different frequency band such that they don't interfere. Multiple user MIMO (mu-MIMO) has been previously attempted to solve this problem and have multiple users communicating over a single frequency band. However, mu-MIMO implementations have never been robust since it requires favorable channel conditions not always guaranteed in real wireless channels. Typical reasons for this is that user locations being close to each other (Fig. 1) makes the channels correlated, and does not allow for efficient interference separations, as interference is almost indistinguishable from the intended users' signals. -->
 
-<div class="col-sm-12 clearfix">
+<!-- <div class="col-sm-12 clearfix">
 
 <div class="col-sm-9" style="float: left;">
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig.png" width="100%" height="250px" style="float: center" > 
  <!--</a> a href="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig1.jpg"-->
- <p style="font-size:20px">Fig 1: Smartsurface can lead to multiplexing gain</p>
+ <!-- <p style="font-size:20px">Fig 1: Smartsurface can lead to multiplexing gain</p>
+</div> -->
+
+<div class="col-sm-12 clearfix">
+    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig.png" width="60%" height="250px" style="display: block; margin: auto;">
+        <p style="font-size:20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
 </div>
+
 
 
 <!-- <div class="col-sm-6" style="float: left;">
@@ -46,63 +59,104 @@ Authors: Manideep Dunna, Miao Meng, Po-Han Wang, Chi Zhang, Patrick Mercier, and
 ### Personnel
 
 
-<div class="row">
+<!-- <div class="row">
 
 
-<!--div class="col-sm-3" style="float: left;">
- <p style="font-size:20px">Dinesh Bharadia: PI, UC San Diego</p>
-<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg" width="50%" height="250px" style="float: center" > </a>
-</div>
-
-<div class="col-sm-3" style="float: left;">
- <p style="font-size:20px">Daniel Sievenpiper: PI, UC San Diego</p>
-<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" width="50%"  height="250px" style="float: center" > </a>
-</div>
-
-<div class="col-sm-3" style="float: left;">
- <p style="font-size:20px">Alireza Vahid: PI, CU Denver</p>
-<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" width="100%"  height="250px" style="float: center" > </a>
-</div>
-
-
-<div class="col-sm-3" style="float: left;">
- <p style="font-size:20px">Manideep Dunna: Ph.D. Student, UC San Diego</p>
-<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" width="50%"  height="250px" style="float: center" > </a>
-</div>
--->
-
-<div class="col-sm-3" style="float: left; margin-right: 20px;">
+<div class="col-sm-4" style="float: left; margin-right: 20px;">
     <p style="font-size:20px">Dinesh Bharadia: PI, UC San Diego</p>
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg" width="200px" height="200px" style="display: block; margin: auto;">
     </a>
 </div>
 
-<div class="col-sm-3" style="float: left; margin-right: 20px;">
+<div class="col-sm-4" style="float: left; margin-right: 20px;">
     <p style="font-size:20px">Daniel Sievenpiper: PI, UC San Diego</p>
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" width="200px" height="200px" style="display: block; margin: auto;">
     </a>
 </div>
 
-<div class="col-sm-3" style="float: left; margin-right: 20px;">
+<div class="col-sm-4" style="float: left; margin-right: 20px;">
     <p style="font-size:20px">Alireza Vahid: PI, CU Denver</p>
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" width="200px" height="200px" style="display: block; margin: auto;">
     </a>
 </div>
 
-<div class="col-sm-3" style="float: left;">
-    <p style="font-size:20px">Manideep Dunna: Ph.D. Student, UC San Diego</p>
+<div class="col-sm-4" style="float: left;">
+    <p style="font-size:20px">Dr. Manideep Dunna, UC San Diego</p>
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" width="200px" height="200px" style="display: block; margin: auto;">
     </a>
 </div>
 
 
-<div class="col-sm-3" style="float: left;">
- <p style="font-size:20px">Xiaozhen Yang: Ph.D. Student, UC San Diego</p>
-<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg" width="200px"  height="200px" style="display: block; margin: auto;"> </a>
+<div class="col-sm-4" style="float: left;margin-left: 10px">
+ <p style="font-size:20px">Dr. Xiaozhen Yang, UC San Diego</p>
+<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg" width="200px"  height="200px" style=" margin: auto;"> </a> -->
+
+<style>
+    .team-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px; /* Space between items */
+    }
+    
+    .team-member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px; /* Ensure all items have the same width */
+        text-align: center;
+    }
+
+    .team-member img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover; /* Ensures images fit well within the given dimensions */
+    }
+
+    .team-member p {
+        font-size: 20px;
+        margin: 10px 0 0 0; /* Space above the caption */
+    }
+</style>
+
+<div class="team-container">
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg" alt="Dinesh Bharadia">
+        </a>
+        <p>Dinesh Bharadia: PI, UC San Diego</p>
+    </div>
+
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" alt="Daniel Sievenpiper">
+        </a>
+        <p>Daniel Sievenpiper: PI, UC San Diego</p>
+    </div>
+
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" alt="Alireza Vahid">
+        </a>
+        <p>Alireza Vahid: PI, CU Denver</p>
+    </div>
+
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" alt="Manideep Dunna">
+        </a>
+        <p>Dr. Manideep Dunna, UC San Diego</p>
+    </div>
+
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg" alt="Xiaozhen Yang">
+        </a>
+        <p>Dr. Xiaozhen Yang, UC San Diego</p>
+    </div>
 </div>
 
 </div>
@@ -122,7 +176,7 @@ Manideep Dunna, Chi Zhang, Daniel Sievenpiper, Dinesh Bharadia
 
 <div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Xiaozhen_ACES.pdf"> Simultaneous Beam-Steering and Polarization COnversion Using a Varactor-Integrated Metasurface</a> <br>
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Xiaozhen_ACES.pdf"> Simultaneous Beam-Steering and Polarization Conversion Using a Varactor-Integrated Metasurface</a> <br>
 Xiaozhen Yang, Dinesh Bharadia, Daniel Sievenpiper
 </div>
 </div>

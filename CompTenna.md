@@ -69,6 +69,10 @@ tags: Communications
 <p style="margin-top:1cm; font-size:20px; text-align: justify;"> This project will investigate the foundations of computational antennas (CompTenna) and novel methods to increase network capacity and enable new wireless sensing. It includes three research tasks. (1) CompTenna Foundations: develop CompTenna hardware, its computational model, and simulator. The goal is to synthesize a first-pass physical CompTenna design in a time-efficient manner, based on targeted high-level application needs. (2) Speeding Up the Network Using CompTenna: develop techniques to leverage all the degrees of freedom enabled by the CompTenna in an energy-efficient manner. In particular, this project focuses on how to use CompTenna to create optimal beamforming for single-user and multi-user communications and distributed interference management. (3) Doing More with CompTenna: develop foundations and methods for a layered joint sensing and communications architecture. </p>
 
 
+<p style="font-size:16px; font-weight: bold; text-align: left; margin-bottom: 20px;">
+    Research made possible by NSF Award Number: 2211805
+</p>
+
 <h3 style="margin-bottom: 20px;">Faculty</h3>
 
 
@@ -104,32 +108,77 @@ tags: Communications
     <p style="font-size:20px">Taiyun Chi: PI, Rice University</p>
 </div>
 
+
+<div class="col-sm-3" style="float: left;margin-left: 25px;margin-right: 30px;">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/ish.jpg" width="200px" height="200px" style="display: block; margin: auto;">
+    </a>
+    <p style="font-size:20px">Dr.Ish Jain, UC San Diego</p></div>
+
+
+
+<div class="col-sm-3" style="float: left;margin-left: 25px;margin-right: 30px;">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/rohith.jpg" width="200px" height="200px" style="display: block; margin: auto;">
+    </a>
+    <p style="font-size:20px">Rohith Reddy, Ph.D. Student UC San Diego</p>
+</div>
+
+<div class="col-sm-3" style="float: left;margin-left: 25px;margin-right: 30px;">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/nagarjun.jpg" width="200px" height="200px" style="display: block; margin: auto;">
+    </a>
+    <p style="font-size:20px">Nagarjun Bhat, Ph.D. Student UC San Diego</p>
+</div>
+</div>
+
+
+
+<h3 style="margin-bottom: 20px;">Publications</h3>
+
+
+<div class="row">
+    <div class="container">
+        <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/rfiducial.pdf">
+            R-fiducial: Millimeter Wave Radar Fiducials for Sensing Traffic Infrastructure
+        </a> 
+        <br>
+        Manideep Dunna, Kshitiz Bansal, Sanjeev Anthia Ganesh, Eamon Patamasing, Dinesh Bharadia
+        <br>
+        <a style="color: blue; text-decoration: underline;" href="https://wcsng.ucsd.edu/rfiducial/">
+            R-Fiducial
+        </a>
+    </div>
 </div>
 
 
-
-
-### Publications
-
-
-<div class = "row">
-<div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/rfiducial.pdf"> R-fiducial: Millimeter Wave Radar Fiducials for Sensing Traffic Infrastructure</a> <br>
-Manideep Dunna, Kshitiz Bansal, Sanjeev Anthia Ganesh, Eamon Patamasing, Dinesh Bharadia
-</div>
-</div>
-
-<div class = "row">
-<div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/mohan2014retrorefleciton.pdf"> Retroreflection with Amplification for Long Range mmWave Sensing</a> <br>
-Siddharth Mohan, Kshitiz Bansal, Manideep Dunna, Dinesh Bharadia
-</div>
+<div class="row">
+    <div class="container">
+        <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/mohan2014retrorefleciton.pdf">
+            Retroreflection with Amplification for Long Range mmWave Sensing
+        </a> 
+        <br>
+        Siddharth Mohan, Kshitiz Bansal, Manideep Dunna, Dinesh Bharadia
+        <br>
+        <a style="color: blue; text-decoration: underline;" href="https://dl.acm.org/doi/pdf/10.1145/3615360.3625090">
+            Retroreflection
+        </a>
+    </div>
 </div>
 
-<div class = "row">
-<div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf"> mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array</a> <br>
-Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, Dinesh Bharadia
+
+<div class="row">
+    <div class="container">
+        <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/mmspoof.pdf">
+            mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array
+        </a> 
+        <br>
+        Rohith Reddy Vennam, Ish Kumar Jain, Kshitiz Bansal, Joshua Orozco, Puja Shukla, Aanjhan Ranganathan, Dinesh Bharadia
+        <br>
+        <a style="color: blue; text-decoration: underline;" href="https://wcsng.ucsd.edu/mmspoof/">
+            More details on the UCSD website
+        </a>
+    </div>
 </div>
-</div>
+
 

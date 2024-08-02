@@ -39,12 +39,12 @@ Our research group is at the forefront of developing innovative sensing, communi
 
 #### Key Research Areas 
 
-<div><a href="https://ucsdwcsng.github.io/wireless-sensing.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/communication.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/backscatter.html"><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/spectrum_sensing.html"><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/vehicular.html"><img src="/assets/images/main_page/Slide5.JPG"  width="100%"/></a></div><hr>
-<div><a href="https://ucsdwcsng.github.io/privacy.html"><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/wireless-sensing.html"><img src="/assets/images/main_page/Slide2.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/communication.html"><img src="/assets/images/main_page/Slide1.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/backscatter.html"><img src="/assets/images/main_page/Slide3.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/spectrum_sensing.html"><img src="/assets/images/main_page/Slide4.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/vehicular.html"><img src="/assets/images/main_page/Slide5.JPG"  width="100%"/></a></div><hr>
+<div><a href="https://wcsng.ucsd.edu/privacy.html"><img src="/assets/images/main_page/Slide6.JPG"  width="100%"/></a></div><hr>
 
 
 

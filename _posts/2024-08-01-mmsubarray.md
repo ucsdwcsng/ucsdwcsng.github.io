@@ -32,7 +32,7 @@ conference: "Small Satellite Conference 2024"
 conference_site: https://smallsat.org/
 paper: /files/mmsubarray.pdf
 # slides: /files/mmspoof_slides.pdf
-video: https://www.youtube.com/embed/p-aG4bl1Q-M
+video: https://www.youtube.com/embed/uGWcX8MJM4Y
 # video_str: 1 min teaser
 # miscs: # additional items
 #     - content_type: Slides

@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "mmSubArray: Enabling Joint Satellite and 5G Networks With Full-Spectrum Utilization in Millimeter-Wave Bands"
+title: "mmSubArray: Enabling Joint Satellite-Terrestrial Networks in Millimeter-wave Band"
 short_title: "mmSubArray"
 tags: Communications
 cover:  /assets/images/mmsubarray/proposed_mmsubarray.jpg
@@ -31,7 +31,7 @@ conference_site: https://digitalcommons.usu.edu/smallsat/2024/all2024/41/
 conference: "Small Satellite Conference 2024"
 conference_site: https://smallsat.org/
 paper: /files/mmsubarray.pdf
-# slides: /files/mmspoof_slides.pdf
+slides: /files/Smallsat-mmSubArray.pdf
 video: https://www.youtube.com/embed/uGWcX8MJM4Y
 # video_str: 1 min teaser
 # miscs: # additional items
@@ -49,7 +49,7 @@ description:
     - text: "This paper presents mmSubArray: Array of Sub-band Phased Arrays, a novel solution utilizing commercial off-the-shelf phased arrays to achieve full-spectrum utilization and enable joint satellite and terrestrial networks. Through extensive simulations and real-world measurements, we demonstrate the interference challenges and evaluate the efficacy of our approach. Additionally, we have open-sourced our Python simulator and hardware implementation source codes, providing valuable tools for industrial deployment and future research."
       image: /assets/images/mmsubarray/proposed_mmsubarray.jpg
       image_width: 800 # px (check this image resolution and how it populate on webpage)
-    - text: "<p style='color: red;'>This website is still under construction. Full details will be available after August 3rd, 2024.</p>"
+    # - text: "<p style='color: red;'>This website is still under construction. Full details will be available after August 3rd, 2024.</p>"
     #   image: /assets/images/mmsubarray/proposed_mmsubarray.pdf
     #   image_width: 800 # px (check this image resolution and how it populate on webpage)
 # medias:

@@ -11,6 +11,16 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
+      - name: Print Environment Variables (Before Proxy Test)
+        run: env | sort
+
+      # **PROXY TESTING** 
+      - name: Set https_proxy (Test)
+        run: echo "https_proxy=http://webproxy.ucsd.edu:3128" >> $GITHUB_ENV
+
+      - name: Print Environment Variables (After Proxy Test)
+        run: env | sort
+        
       - name: Checkout code
         uses: actions/checkout@v4
 

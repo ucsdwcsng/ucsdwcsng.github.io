@@ -6,6 +6,13 @@
   col: 2
   picture: /assets/images/teampic/chi.jpg
   website: http://dword1511.info/me/
+- name: Wei Sun
+  role: Postdoc
+  year: "2024"
+  now: Assistant Professor at Wichita State University
+  col: 2
+  picture: /assets/images/teampic/wei.jpg
+  website: https://sunwit.github.io/
 #phd
 - name: Roshan Ayyalasomayajula
   role: PhD

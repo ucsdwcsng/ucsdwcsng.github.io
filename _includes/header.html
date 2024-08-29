@@ -27,7 +27,7 @@
         <li class="navigation__item navigation__folder" style="margin: 0 6px;">
           <a onclick="this.parentElement.classList.toggle('hovered')" style="color: white;">
             {%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}
-            <span>⌄</span>
+            <!-- <span>⌄</span> -->
           </a>
           <ul style="margin: 0; padding: 0; list-style: none;">
             {%- for entry in _item.subfolderitems -%}

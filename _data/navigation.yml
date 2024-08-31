@@ -29,14 +29,14 @@ header:
       - name: "Towards 6G"
         url: /communication.html
       - name: "Ubiquitous IoT"
-        url: /backscatter.html
+        url: /ubiquitousIoT.html
       - name: "Spectrum Sensing"
         url: /spectrum_sensing.html
       - name: "Autonomous Vehicles"
         url: /vehicular.html
       - name: "Security and Privacy"
         url: /privacy.html
-  
+
   - titles:
       # @start locale config
       en      : &EN       Team
@@ -118,7 +118,7 @@ header:
   - titles:
       en : &EN Hosted Events
     subfolderitems:
-      - name: Mobicom'24 Open-AI RAN 
+      - name: Mobicom'24 Open-AI RAN
         url: https://wcsng.ucsd.edu/open-ai-ran-2024/
       - name: Mobicom'23 mmNets
         url: https://wcsng.ucsd.edu/mmNets2023/

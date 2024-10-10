@@ -16,6 +16,9 @@ people:
   - Dinesh Bharadia
   - Ish Kumar Jain
   - Agrim Gupta
+  - Archana Bura
+  - Sushila Seshasayee
+  - Ali Mamaghani
   - Ushasi Ghosh
   - Rohith Reddy Vennam
   - Raghav Subbaraman

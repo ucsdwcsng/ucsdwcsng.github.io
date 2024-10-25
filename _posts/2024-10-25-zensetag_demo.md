@@ -9,6 +9,7 @@ conference_site: https://www.sigmobile.org/mobicom/2024/
 authors: "Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, Dinesh Bharadia"
 author_list:
     - name: Ishan Bansal
+      url: https://b-ishan.github.io/
       email: isbansal@ucsd.edu
     - name: Nagarjun Bhat
       email: nbhat@ucsd.edu

@@ -1,9 +1,9 @@
 ---
 layout: publication
-title : "ZenseTag: Real-Time Passive RFID Sensing"
+title : "Demo - ZenseTag: Real-Time Passive RFID Sensing"
 short_title: "ZenseTag-Demo"
 tags: Backscatter
-cover: /assets/images/zensetag/zeta-overview.jpg
+cover: /assets/images/zensetag/zeta-demo-overview.jpg
 conference: "ACM MobiCom'24 Demo"
 conference_site: https://www.sigmobile.org/mobicom/2024/
 authors: "Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, Dinesh Bharadia"

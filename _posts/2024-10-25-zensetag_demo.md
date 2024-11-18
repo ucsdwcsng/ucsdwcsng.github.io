@@ -26,9 +26,9 @@ paper: /files/demo_zensetag_mobicom24.pdf
 video: https://www.youtube.com/embed/7mvNrl5CLU8
 video_str: Demonstration of ZenseTag
 #slides: https://www.usenix.org/system/files/nsdi24_slides-ko.pdf
-# miscs:  # whatever you need to add Extra
-#     - content_type: Project Website
-#       content_url: https://edgeric.github.io
+miscs:  # whatever you need to add Extra
+    - content_type: Project Webpage
+      content_url: https://wcsng.ucsd.edu/zensetag
 #     - content_type: Poster
 #       content_url: /files/edgeric_poster.pdf # hat tip: do not use tabs for idnentation, yaml doesnt support it
 #     - content_type: Github Repo

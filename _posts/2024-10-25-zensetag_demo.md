@@ -21,11 +21,9 @@ author_list:
     - name: Dinesh Bharadia
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
-# paper: https://arxiv.org/html/2406.01888v1
 paper: /files/demo_zensetag_mobicom24.pdf
 video: https://www.youtube.com/embed/7mvNrl5CLU8
 video_str: Demonstration of ZenseTag
-#slides: https://www.usenix.org/system/files/nsdi24_slides-ko.pdf
 miscs:  # whatever you need to add Extra
     - content_type: Project Webpage
       content_url: https://wcsng.ucsd.edu/zensetag
@@ -35,6 +33,7 @@ miscs:  # whatever you need to add Extra
 #       content_url: https://github.com/ushasigh/EdgeRIC-A-real-time-RIC.git
     
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
+    - title: Winner of Best Demo - Runner Up at MobiCom 2024 
     - title: Applications for ZenseTag
       text: "Sensing enables interaction with and quantification of the natural world, yet the adoption of sensing systems is limited due to battery dependence, complex interfaces, energy-harvesting needs, and readout latency. To address these issues, we introduce ZenseTag—a miniaturized, sticker-like platform that interfaces commercial sensors directly with COTS RFID tags. ZenseTag leverages the impedance response of these sensors to stimuli at Radio Frequencies, specifically tuned to the UHF RFID band. It integrates reliable differential analog sensing hardware with robust software for accurate, low-latency readouts, even amidst multipath effects. \nFor demonstration, a PC will connect to an Impinj RF reader, which is linked to a high-gain antenna positioned near the trialing ZenseTag. The tag consists of a ZenseTag PCB interfaced with a sticker-like antenna and two RF ICs, with one IC connected to a sensor for specific applications. For example, testing the soil moisture tag will require a pot of dry soil, while the light sensor will need an external light source. \nTo showcase ZenseTag's capabilities in detecting soil moisture, force, and luminosity, we will vary the soil moisture by adding water to the pot, press and release the force-sensitive resistor (FSR), and cover/uncover the photodiode. The response for each application will be displayed on a GUI developed for this purpose. Additionally, the demonstration will highlight ZenseTag’s robustness against obstacles and the movement of people around the sensors. We have thoroughly evaluated all three sensors: soil moisture, force, and light."    
       image: /assets/images/zensetag/zeta-apps.jpg

@@ -479,6 +479,9 @@ source0=layout.comment source1=page.comment -%}
               <center>
                 <img width="768" height="432" max-width="100%" src="{{page.cover}}" frameborder="0"
                   allowfullscreen></iframe>
+                  {% if page.cover_caption %}
+                  <p class="cover-caption">{{ page.cover_caption }}</p>
+                  {% endif %}
               </center>
               <br>
               <center>

@@ -39,8 +39,8 @@ permalink: greencomm/
 
 <div class="col-sm-12 clearfix">
     <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/barplot_energy.png" width="60%" height="250px" style="display: block; margin: auto;">
-        <p style="margin-top:1cm; font-size:20px; text-align: center;">Fig 1: UE power consumption breakdown for running different application</p>
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/intro_fin.png" width="60%" height="250px" style="display: block; margin: auto;">
+        <p style="font-size:20px; text-align: center;">Fig 1: Impact of densification on UE and base-station power consumption</p>
 </div>
 
 
@@ -131,33 +131,33 @@ permalink: greencomm/
         <p>Dinesh Bharadia: PI, UC San Diego</p>
     </div>
 
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" alt="Alireza Vahid">
-    </a>
-    <p> Alireza Vahid: PI, Rochester Institute of Technology</p>
-</div>
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" alt="Alireza Vahid">
+        </a>
+        <p> Alireza Vahid: PI, Rochester Institute of Technology</p>
+    </div>
 
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpeg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpeg" alt="Sajjad Nassirpour">
-    </a>
-    <p> Sajjad Nassirpour, San Diego State University</p>
-</div>
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpeg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpeg" alt="Sajjad Nassirpour">
+        </a>
+        <p> Sajjad Nassirpour, San Diego State University</p>
+    </div>
 
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/agrim.pnj">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" alt="Agrim Gupta">
-    </a>
-    <p> Agrim Gupta, UC San Diego</p>
-</div>
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/agrim.pnj">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/agrmi.png" alt="Agrim Gupta">
+        </a>
+        <p> Agrim Gupta, UC San Diego</p>
+    </div>
 
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/adel.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/adel.jpg" alt="Adel Heidari">
-    </a>
-    <p> Adel Heidari, UC San Diego</p>
-</div>
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/adel.jpg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/adel.JPG" alt="Adel Heidari">
+        </a>
+        <p> Adel Heidari, UC San Diego</p>
+    </div>
 </div>
 
 

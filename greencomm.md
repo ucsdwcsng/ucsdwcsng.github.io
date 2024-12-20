@@ -147,7 +147,7 @@ permalink: greencomm/
 
     <div class="team-member">
         <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/agrim.pnj">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/agrmi.png" alt="Agrim Gupta">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/agrim.png" alt="Agrim Gupta">
         </a>
         <p> Agrim Gupta, UC San Diego</p>
     </div>

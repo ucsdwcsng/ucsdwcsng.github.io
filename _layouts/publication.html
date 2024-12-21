@@ -426,6 +426,13 @@ source0=layout.comment source1=page.comment -%}
                     href='{{page.conference_site}}'>{{page.conference}}</a></span></center>
               {% endif %}
 
+              <!-- Conditional Banner Below Conference Information -->
+              {% if page.banner %}
+              <div style="margin-top: 10px; padding: 10px 20px; background-color: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 5px; text-align: center; font-weight: bold; color: #007BFF;">
+                {{ page.banner }}
+              </div>
+              {% endif %}
+
               <div class="table-like" style="justify-content:space-evenly;max-width:1000px;margin:auto;padding:5px">
                 {% if page.paper != blank %}
                 <div>

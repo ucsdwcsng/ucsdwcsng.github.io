@@ -523,6 +523,23 @@ source0=layout.comment source1=page.comment -%}
               </center>
               {% endfor %}
 
+              <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 20px;">
+                {% for video in page.driving_video %}
+                  <div style="flex: 1 1 calc(50% - 20px); background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd; border-radius: 8px;">
+                    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+                      <iframe 
+                        src="{{ video.video_link }}" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;" 
+                        allowfullscreen>
+                      </iframe>
+                    </div>
+                    <p style="font-size: 14px; color: #555; text-align: center; margin-top: 10px;">
+                      {{ video.desc }}
+                    </p>
+                  </div>
+                {% endfor %}
+              </div>              
+
               <!-- <center><h1>Planning to Explore</h1></center>
       <div style="width:800px; margin:0 auto; text-align=right">
         The agent first leverages planning to explore in self-supervised manner, without task-specific rewards, to learn a global world model. After the exploration phase, it receives reward functions to adapt to multiple tasks, such as standing, walking, running, and using either zero or few tasks-specific interactions.

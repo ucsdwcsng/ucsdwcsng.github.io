@@ -469,14 +469,14 @@ source0=layout.comment source1=page.comment -%}
 
               <!-- Conditional Banner Below Conference Information -->
               {% if page.banner %}
-              <div style="margin-top: 10px; padding: 10px 20px; background-color: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 5px; text-align: center; font-weight: bold; color: #007BFF;">
+              <div style="margin-top: 10px; margin-bottom: 30px; padding: 10px 20px; background-color: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 5px; text-align: center; font-weight: bold; color: #007BFF;">
                 {{ page.banner }}
               </div>
               {% endif %}
 
               {% if page.video!= blank %}
               <center>
-                <iframe width="768" height="432" max-width="100%" src="{{page.video}}" frameborder="0"
+                <iframe width="768" height="432" max-width="100%" src="{{page.video}}" frameborder="1"
                   allowfullscreen></iframe>
               </center>
               <br>

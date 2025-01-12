@@ -474,6 +474,37 @@ source0=layout.comment source1=page.comment -%}
               </div>
               {% endif %}
 
+
+              <!-- Putting the html for video matrix here -->
+              
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 20px; margin-bottom: 40px; background-color: rgba(18, 18, 18, 0.8); color: white; padding: 20px; border-radius: 8px;">
+                <!-- Header Row -->
+                {% for case in page.video_matrix %}
+                  <div style="text-align: center; font-weight: bold; font-size: 18px; padding: 10px; border-bottom: 2px solid white;">
+                    {{ case.case }}
+                  </div>
+                {% endfor %}
+                
+                <!-- Video Rows -->
+                {% assign rows = "Camera,Camera + LiDAR,Camera + RADAR" | split: ',' %}
+                {% for row_index in (0..2) %}
+                  {% for case in page.video_matrix %}
+                    <div style="padding: 10px; border: 1px solid #ddd; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1);">
+                      <img 
+                        src="{{ case.videos[row_index].link }}" 
+                        style="width: 100%; height: auto; border-radius: 8px;" 
+                        alt="{{ case.videos[row_index].description }}">
+                      <p style="text-align: center; margin-top: 10px; font-size: 14px;">{{ case.videos[row_index].description }}</p>
+                    </div>
+                  {% endfor %}
+                {% endfor %}
+              </div>
+              <center>
+                <hr>
+              </center>
+              
+              <!-- End of code for video matrix here -->
+
               {% if page.video!= blank %}
               <center>
                 <iframe width="768" height="432" max-width="100%" src="{{page.video}}" frameborder="1"
@@ -483,7 +514,7 @@ source0=layout.comment source1=page.comment -%}
               <center>
                 <hr>
               </center>
-              {% else %}
+              {% elsif page.cover!= blank %}
               <center>
                 <img width="768" height="432" max-width="100%" src="{{page.cover}}" frameborder="0"
                   allowfullscreen></iframe>

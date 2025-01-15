@@ -475,27 +475,31 @@ source0=layout.comment source1=page.comment -%}
               {% endif %}
 
 
-              <!-- Putting the html for video matrix here -->
-              
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 20px; margin-bottom: 40px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding: 20px; border-radius: 8px;">
-                <!-- Header Row -->
-                {% for case in page.video_matrix %}
-                  <div style="text-align: center; font-weight: bold; font-size: 18px; padding: 10px; border-bottom: 2px solid rgb(0, 0, 0);">
-                    {{ case.case }}
-                  </div>
-                {% endfor %}
-                
+              <!-- HTML code for video matrix here -->
+              <!-- Title for video matrix -->
+              <center>
+                <span style="font-size:23px; font-weight: bold; text-align: center">{{ page.video_matrix.title }}</span>
+              </center>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 5px; margin-bottom: 40px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding: 20px; border-radius: 8px;">
                 <!-- Video Rows -->
-                {% assign rows = "Camera, Camera + LiDAR, Camera + RADAR" | split: ',' %}
-                {% for row_index in (0..2) %}
-                  {% for case in page.video_matrix %}
-                    <div style="padding: 10px; border: 1px solid #ddd; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1);">
-                      <img 
-                        src="{{ case.videos[row_index].link }}" 
-                        style="width: 100%; height: auto; border-radius: 8px;" 
-                        alt="{{ case.videos[row_index].description }}">
-                      <p style="text-align: center; margin-top: 10px; font-size: 18px; font-weight: bold;">{{ case.videos[row_index].description }}</p>
-                    </div>
+                {% for case in page.video_matrix.examples %}
+                  <!-- Header Row for text -->
+                  <div style="grid-column: span 3; text-align: center; font-weight: bold; font-size: 18px; padding: 10px; border-bottom: 2px solid rgb(0, 0, 0);"> {{ case.case }} </div>
+                  <!-- Text description -->
+                  <div style="grid-column: span 3; width:1000px; text-align: justified; font-size: 20px; padding: 10px;">
+                    {{ case.text }}
+                  </div>
+                  <!-- Hard-coded to 3 input types -->
+                  {% for column_index in (0..2) %}
+                  <div style="padding: 10px; border: 1px solid #ddd; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1);">
+                    <!-- Short caption -->
+                    <p style="text-align: center; margin-top: 10px; font-size: 16px; font-weight: bold;">Input: {{ case.videos[column_index].description }}</p>
+                    <!-- Inserting video here -->
+                    <img 
+                    src="{{ case.videos[column_index].link }}" 
+                    style="width: 100%; height: auto; border-radius: 8px;" 
+                    alt="{{ case.videos[column_index].description }}">
+                  </div>
                   {% endfor %}
                 {% endfor %}
               </div>

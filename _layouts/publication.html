@@ -474,40 +474,49 @@ source0=layout.comment source1=page.comment -%}
               </div>
               {% endif %}
 
-
-              <!-- HTML code for video matrix here -->
-              <!-- Title for video matrix -->
-              <center>
-                <span style="font-size:23px; font-weight: bold; text-align: center">{{ page.video_matrix.title }}</span>
-              </center>
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 5px; margin-bottom: 40px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding: 20px; border-radius: 8px;">
-                <!-- Video Rows -->
-                {% for case in page.video_matrix.examples %}
-                  <!-- Header Row for text -->
-                  <div style="grid-column: span 3; text-align: center; font-weight: bold; font-size: 18px; padding: 10px; border-bottom: 2px solid rgb(0, 0, 0);"> {{ case.case }} </div>
-                  <!-- Text description -->
-                  <div style="grid-column: span 3; width:1000px; text-align: justified; font-size: 20px; padding: 10px;">
-                    {{ case.text }}
-                  </div>
-                  <!-- Hard-coded to 3 input types -->
-                  {% for column_index in (0..2) %}
-                  <div style="padding: 10px; border: 1px solid #ddd; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1);">
-                    <!-- Short caption -->
-                    <p style="text-align: center; margin-top: 10px; font-size: 16px; font-weight: bold;">Input: {{ case.videos[column_index].description }}</p>
-                    <!-- Inserting video here -->
-                    <img 
-                    src="{{ case.videos[column_index].link }}" 
-                    style="width: 100%; height: auto; border-radius: 8px;" 
-                    alt="{{ case.videos[column_index].description }}">
-                  </div>
+              {% if page.video_matrix != blank %}
+                <!-- HTML code for video matrix here -->
+                <!-- Overview -->
+                <center>
+                  <span style="font-size:23px; font-weight: bold">Overview</span>
+                </center>
+                <div style="width:1000px; margin:0 auto; text-align: justified;">{{page.video_matrix.overview.text}}</div>
+                 <br>
+                <center>
+                  <hr>
+                </center>
+                <!-- Title for video matrix -->
+                <center>
+                  <span style="font-size:23px; font-weight: bold; text-align: center">{{ page.video_matrix.title }}</span>
+                </center>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 5px; margin-bottom: 40px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding: 20px; border-radius: 8px;">
+                  <!-- Video Rows -->
+                  {% for case in page.video_matrix.examples %}
+                    <!-- Header Row for text -->
+                    <div style="flex: 1 1 100%; text-align: center; font-weight: bold; font-size: 18px; padding: 2px;"> {{ case.case }} </div>
+                    <!-- Text description -->
+                    <div style="flex: 1 1 100%; text-align: justified; font-size: 20px; padding: 2px;">
+                      {{ case.text }}
+                    </div>
+                    <!-- Hard-coded to 3 input types -->
+                      {% for column_index in (0..2) %}
+                        <div style="flex: 1 1 calc(33.333% - 20px); padding: 10px; border: 1px solid #ddd; border-radius: 8px; background-color: rgba(255, 255, 255, 0.1);">
+                          <!-- Short caption -->
+                          <p style="text-align: center; margin-top: 10px; font-size: 16px; font-weight: bold;">Input: {{ case.videos[column_index].description }}</p>
+                          <!-- Inserting video here -->
+                          <img 
+                            src="{{ case.videos[column_index].link }}" 
+                            style="width: 100%; height: auto; border-radius: 8px;" 
+                            alt="{{ case.videos[column_index].description }}">
+                        </div>                
+                    {% endfor %}
                   {% endfor %}
-                {% endfor %}
-              </div>
-              <center>
-                <hr>
-              </center>
-              
-              <!-- End of code for video matrix here -->
+                </div>
+                <center>
+                  <hr>
+                </center>
+                <!-- End of code for video matrix here -->
+              {% endif %}
 
               {% if page.video!= blank %}
               <center>
@@ -519,17 +528,23 @@ source0=layout.comment source1=page.comment -%}
                 <hr>
               </center>
               {% elsif page.cover!= blank %}
-              <center>
-                <img width="768" height="432" max-width="100%" src="{{page.cover}}" frameborder="0"
-                  allowfullscreen></iframe>
-                  {% if page.cover_caption %}
-                  <p class="cover-caption">{{ page.cover_caption }}</p>
+                {% if page.disp_cover != blank %}
+                  {% if page.disp_cover == "False" %}
+                    <!-- Don't add the image to website -->
                   {% endif %}
-              </center>
-              <br>
-              <center>
-                <hr>
-              </center>
+                {% else %}
+                  <center>
+                    <img width="768" height="432" max-width="100%" src="{{page.cover}}" frameborder="0"
+                    allowfullscreen></iframe>
+                    {% if page.cover_caption %}
+                    <p class="cover-caption">{{ page.cover_caption }}</p>
+                    {% endif %}
+                  </center>
+                  <br>
+                  <center>
+                    <hr>
+                  </center>
+                {% endif %}
               {% endif %}
 
               {% for desc in page.description %}

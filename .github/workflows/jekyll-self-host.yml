@@ -13,7 +13,7 @@ jobs:
     steps:
 
       - name: Finding secret
-        run: echo "${{ secrets.RSYNC_WCSNG }}" > secret.txt
+        run: echo "${{ secrets.RSYNC_WCSNG }}" > ./secret.txt
 
       - name: Print Environment Variables (Before Proxy Test)
         run: env | sort

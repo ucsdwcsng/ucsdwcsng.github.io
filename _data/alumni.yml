@@ -13,6 +13,13 @@
   col: 2
   picture: /assets/images/teampic/wei.jpg
   website: https://sunwit.github.io/
+- name: Srivatsan Rajagopal
+  role: Postdoc
+  year: "2024"
+  col: 2
+  now: Technicl Staff, Zyphra
+  picture: /assets/images/teampic/srivatsan.jpg
+  website: https://www.linkedin.com/in/srivatsan-rajagopal-5458b621b/
 #phd
 - name: Roshan Ayyalasomayajula
   role: PhD
@@ -56,6 +63,18 @@
   col: 2
   picture: /assets/images/teampic/raghav.jpg
   website: https://rsubbaraman.github.io
+- name: Hadi Givehchian
+  role: PhD
+  year: "2024"
+  now: Apple
+  col: 2
+  picture: /assets/images/teampic/hadi.jpg
+  website: https://www.linkedin.com/in/hadi-givehchian-515144105/
+- name: Richard Bell
+  role: PhD
+  year: "2024"
+  col: 2
+  picture: /assets/images/teampic/richard.png
 # - name: Hans Yu
 #   role: PhD
 #   year: "2019"

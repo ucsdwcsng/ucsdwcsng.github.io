@@ -36,26 +36,26 @@ description: # all combinations are possible: (title+text+image, title+image, te
       image: /assets/images/zensetag/sigar-design.jpg
       image_width: 800 # px  
 
-citation:
-    - text: "Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, and Dinesh Bharadia. 2025. Demo Abstract - SIGAR: Sensor Integration Gateway using Augmented Reality. In Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys '25). Association for Computing Machinery, New York, NY, USA, 696–697. https://doi.org/10.1145/3715014.3724364"
-      bibtex: "
-      <pre xml:space=\"preserve\">
-      @inproceedings{10.1145/3715014.3724364,
-      author = {Bansal, Ishan and Bhat, Nagarjun and Gupta, Agrim and Govindarajan, Harine and Bharadia, Dinesh},
-      title = {Demo Abstract - SIGAR: Sensor Integration Gateway using Augmented Reality},
-      year = {2025},
-      isbn = {9798400714795},
-      publisher = {Association for Computing Machinery},
-      address = {New York, NY, USA},
-      url = {https://doi.org/10.1145/3715014.3724364},
-      doi = {10.1145/3715014.3724364},
-      abstract = {We introduce SIGAR, a Sensor Integration Gateway using Augmented Reality, which combines RFID-based passive sensing with AR for real-time visualization. Using batteryless, wireless RFID sensors, SIGAR eliminates the need for power sources, enabling sustainable and cost-effective monitoring. A mobile app automatically detects sensors within the camera's field of view and overlays realtime sensory data onto the physical environment. Demonstrated through applications like force, soil moisture and light sensing, SIGAR provides intuitive, context-aware insights for environmental monitoring, inventory management, and more. This fusion of AR and passive sensing bridges digital and physical worlds, offering scalable, low-power IoT solutions.},
-      booktitle = {Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems},
-      pages = {696–697},
-      numpages = {2},
-      location = {UC Irvine Student Center., Irvine, CA, USA},
-      series = {SenSys '25}
-      }
-      </pre>
-      "
+# citation:
+#     - text: "Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, and Dinesh Bharadia. 2025. Demo Abstract - SIGAR: Sensor Integration Gateway using Augmented Reality. In Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems (SenSys '25). Association for Computing Machinery, New York, NY, USA, 696–697. https://doi.org/10.1145/3715014.3724364"
+#       bibtex: "
+#       <pre xml:space=\"preserve\">
+#       @inproceedings{10.1145/3715014.3724364,
+#       author = {Bansal, Ishan and Bhat, Nagarjun and Gupta, Agrim and Govindarajan, Harine and Bharadia, Dinesh},
+#       title = {Demo Abstract - SIGAR: Sensor Integration Gateway using Augmented Reality},
+#       year = {2025},
+#       isbn = {9798400714795},
+#       publisher = {Association for Computing Machinery},
+#       address = {New York, NY, USA},
+#       url = {https://doi.org/10.1145/3715014.3724364},
+#       doi = {10.1145/3715014.3724364},
+#       abstract = {We introduce SIGAR, a Sensor Integration Gateway using Augmented Reality, which combines RFID-based passive sensing with AR for real-time visualization. Using batteryless, wireless RFID sensors, SIGAR eliminates the need for power sources, enabling sustainable and cost-effective monitoring. A mobile app automatically detects sensors within the camera's field of view and overlays realtime sensory data onto the physical environment. Demonstrated through applications like force, soil moisture and light sensing, SIGAR provides intuitive, context-aware insights for environmental monitoring, inventory management, and more. This fusion of AR and passive sensing bridges digital and physical worlds, offering scalable, low-power IoT solutions.},
+#       booktitle = {Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems},
+#       pages = {696–697},
+#       numpages = {2},
+#       location = {UC Irvine Student Center., Irvine, CA, USA},
+#       series = {SenSys '25}
+#       }
+#       </pre>
+#       "
 ---

@@ -169,7 +169,7 @@ permalink: greencomm/
 
 <div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/greenmo"> Greenmo: Enabling virtualized, sustainable massive mimo with a single rf chain</a> <br>
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/greenmo.pdf"> Greenmo: Enabling virtualized, sustainable massive mimo with a single rf chain</a> <br>
 Agrim Gupta, Sajjad Nassirpour, Manideep Dunna, Eamon Patamasing, Alireza Vahid, Dinesh Bharadia
 </div>
 </div>

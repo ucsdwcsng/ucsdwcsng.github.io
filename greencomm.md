@@ -19,7 +19,7 @@ permalink: greencomm/
 </style>
 
 <h1 class="justified-title">
-  Energy-Efficient Wireless Networks: Optimizing Power for UEs and Base-Stations
+  Cross-Layer Interference Management: Bringing Interference Alignment to Reality
 </h1>
 
 

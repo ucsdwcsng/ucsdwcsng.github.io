@@ -209,7 +209,7 @@ Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 
 <div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Ariv_alireza.pdf"> Control and Placement of Finite-Resolution Intelligent Surfaces in IoT Systems with Imperfect CSI </a> <br>
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Arxiv_alireza.pdf"> Control and Placement of Finite-Resolution Intelligent Surfaces in IoT Systems with Imperfect CSI </a> <br>
 Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 </div>
 </div>

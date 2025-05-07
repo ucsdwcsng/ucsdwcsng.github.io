@@ -167,6 +167,13 @@ permalink: greencomm/
 
 ### Publications
 
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/greenmo"> Greenmo: Enabling virtualized, sustainable massive mimo with a single rf chain</a> <br>
+Agrim Gupta, Sajjad Nassirpour, Manideep Dunna, Eamon Patamasing, Alireza Vahid, Dinesh Bharadia
+</div>
+</div>
+
 
 <div class = "row">
 <div class="container">
@@ -191,6 +198,29 @@ Massive MIMO </a> <br>
 Adel Heidari, Agrim Gupta, Ish Kumar Jain, Dinesh Bharadia
 </div>
 </div>
+
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/BeamDesign_RIS.pdf"> Beamforming Design in Reconfigurable Intelligent Surface-Assisted IoT Networks Based on Discrete Phase Shifters and Imperfect CSI </a> <br>
+Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
+</div>
+</div>
+
+
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Ariv_alireza.pdf"> Control and Placement of Finite-Resolution Intelligent Surfaces in IoT Systems with Imperfect CSI </a> <br>
+Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
+</div>
+</div>
+
+<div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/PowEff.pdf"> Power-Efficient Analog Front-End Interference Suppression With Binary Antennas</a> <br>
+Sajjad Nassirpour, Agrim Gupta, Alireza Vahid, Dinesh Bharadia
+</div>
+</div>
+
 
 <!-- <div class = "row">
 <div class="container">

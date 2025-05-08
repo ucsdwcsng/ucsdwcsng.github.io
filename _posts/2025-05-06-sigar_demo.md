@@ -21,7 +21,7 @@ author_list:
     - name: Dinesh Bharadia
       url: https://dineshb-ucsd.github.io/
       email: dineshb@ucsd.edu
-paper: /files/demo_sigar_sensys25.pdf
+paper: https://dl.acm.org/doi/pdf/10.1145/3715014.3724364
 # video: https://www.youtube.com/embed/7mvNrl5CLU8
 # video_str: Demonstration of ZenseTag
 miscs:  # whatever you need to add Extra

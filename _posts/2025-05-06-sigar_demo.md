@@ -31,6 +31,7 @@ miscs:  # whatever you need to add Extra
       content_url:  https://dl.acm.org/doi/10.1145/3715014.3724364
     
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
+    - title: Winner of Best Demo - Runner Up at SenSys 2025
     - title: Overview of SIGAR
       text: "We introduce SIGAR, a Sensor Integration Gateway using Augmented Reality, which combines RFID-based passive sensing with AR for real-time visualization. Using batteryless, wireless RFID sensors, SIGAR eliminates the need for power sources, enabling sustainable and cost-effective monitoring. A mobile app automatically detects sensors within the camera's field of view and overlays realtime sensory data onto the physical environment. Demonstrated through applications like force, soil moisture and light sensing, SIGAR provides intuitive, context-aware insights for environmental monitoring, inventory management, and more. This fusion of AR and passive sensing bridges digital and physical worlds, offering scalable, low-power IoT solutions."    
       image: /assets/images/zensetag/sigar-design.jpg

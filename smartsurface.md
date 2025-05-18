@@ -54,6 +54,11 @@ permalink: smartsurfaces/
 
 <p style="margin-top:1cm; font-size:20px"> In this project, we increase the multiplexing capability of the wireless channel by creating new multipath in the channel. We achieve this by designing smartsurfaces that can be deployed on walls as shown in Fig. 1c to create diverse paths from a UE to Basestation. The smartsurfaces create a strong reflection and makes the wireless channel well-conditioned to support multiple spatial streams. </p>
 
+<h1 class="justified-title">
+  Polar-RIS: Practical Limits of RIS Performance
+</h1>
+
+<p style="margin-top:1cm; font-size:20px">Our research addressed a critical challenge in modern wireless communication: maximizing the performance of MIMO (Multiple-Input Multiple-Output) systems in crowded sub-6GHz frequencies. While MIMO technology enables faster data rates by transmitting multiple data streams simultaneously, its effectiveness depends heavily on maintaining strong, diverse signal paths between devices. Through detailed simulations and theoretical analysis, we demonstrated how subtle polarization mismatches-caused by device orientations and environmental reflections-severely degrade MIMO performance in real-world indoor environments. To overcome this, we developed Polar-RIS, an innovative smart surface technology that actively corrects polarization distortions while amplifying signals.  </p>
 
 
 ### Personnel

@@ -150,14 +150,7 @@ permalink: smartsurfaces/
         </a>
         <p>Dr. Manideep Dunna, UC San Diego</p>
     </div>
-
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg" alt="Xiaozhen Yang">
-        </a>
-        <p>Dr. Xiaozhen Yang, UC San Diego</p>
-    </div>
-
+    
     <div class="team-member">
         <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG" alt="Golnaz Salehi">
@@ -165,7 +158,7 @@ permalink: smartsurfaces/
         <p>Golnaz Salehi, UC San Diego</p>
     </div>
 
-</div>
+
 
 </div>
 

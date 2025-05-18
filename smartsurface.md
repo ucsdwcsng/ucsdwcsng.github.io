@@ -157,6 +157,14 @@ permalink: smartsurfaces/
         </a>
         <p>Dr. Xiaozhen Yang, UC San Diego</p>
     </div>
+
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG" alt="Golnaz Salehi">
+        </a>
+        <p>Golnaz Salehi, UC San Diego</p>
+    </div>
+
 </div>
 
 </div>

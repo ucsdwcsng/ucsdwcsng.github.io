@@ -138,6 +138,13 @@ permalink: smartsurfaces/
     </div>
 
     <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg" alt="Peixing Li">
+        </a>
+        <p>Peixing Li, UC San Diego</p>
+    </div>
+
+    <div class="team-member">
         <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" alt="Manideep Dunna">
         </a>

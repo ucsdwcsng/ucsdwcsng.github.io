@@ -138,13 +138,6 @@ permalink: smartsurfaces/
     </div>
 
     <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" alt="Alireza Vahid">
-        </a>
-        <p>Alireza Vahid: PI, CU Denver</p>
-    </div>
-
-    <div class="team-member">
         <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" alt="Manideep Dunna">
         </a>
@@ -156,6 +149,13 @@ permalink: smartsurfaces/
             <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG" alt="Golnaz Salehi">
         </a>
         <p>Golnaz Salehi, UC San Diego</p>
+    </div>
+
+    <div class="team-member">
+        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg">
+            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg" alt="Nagarjun Bhat">
+        </a>
+        <p>Nagarjun Bhat, UC San Diego</p>
     </div>
 
 

@@ -38,34 +38,25 @@ permalink: smartsurfaces/
     </div>
   </div>
 
-  <!-- Row 2: Two images side by side -->
-  <div class="row mb-4">
-    <div class="col-md-6 text-center">
-      <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png">
-        <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png" class="img-fluid" style="max-height: 250px;">
-      </a>
-      <p style="font-size: 20px;">Fig 2: Interference alignment visualization</p>
-    </div>
-
-    <div class="col-md-6 text-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" class="img-fluid" style="max-height: 250px;">
-      <p style="font-size: 20px;">Fig 3: TX-RX antenna mismatch causing loss</p>
-    </div>
-  </div>
-
   <!-- Row 3: Wider image + narrower one -->
-  <div class="row mb-4">
-    <div class="col-md-8 text-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" class="img-fluid">
-      <p style="font-size: 20px;">Fig 4: Polarization of an EM wave changes upon reflection and scattering</p>
-    </div>
-    <div class="col-md-4 text-center">
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" class="img-fluid">
-      <p style="font-size: 20px;">Fig 5: Antenna mismatch illustration</p>
-    </div>
+<div class="row mb-4">
+  <!-- RIS_intro image (wider) -->
+  <div class="col-md-8 text-center">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png"
+         class="img-fluid"
+         style="max-height: 300px; width: auto;">
+    <p style="font-size: 20px;">Fig 4: Polarization of an EM wave changes upon reflection and scattering</p>
   </div>
 
+  <!-- tx_rx_mismatch image (narrower) -->
+  <div class="col-md-4 text-center">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg"
+         class="img-fluid"
+         style="max-height: 300px; width: auto;">
+    <p style="font-size: 20px;">Fig 5: Antenna mismatch illustration</p>
+  </div>
 </div>
+
 
 
 <p style="margin-top:1cm; font-size:20px"> In the past , we have demonstrated how the multiplexing capability of the wireless channel can be increased by creating new multipath in the channel. We achieved this by designing smartsurfaces that can be deployed on walls as to create diverse paths from a UE to Basestation. The smartsurfaces create a strong reflection and makes the wireless channel well-conditioned to support multiple spatial streams. </p>

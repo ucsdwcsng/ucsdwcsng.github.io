@@ -45,7 +45,7 @@ permalink: smartsurfaces/
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png"
          class="img-fluid"
          style="max-height: 300px; width: auto;">
-    <p style="font-size: 20px;">Fig 4: Polarization of an EM wave changes upon reflection and scattering and arrives at random at the UE</p>
+    <p style="font-size: 20px;">Fig 2: Polarization of an EM wave changes upon reflection and scattering and arrives at random at the UE</p>
   </div>
 
   <!-- tx_rx_mismatch image (narrower) -->
@@ -53,7 +53,7 @@ permalink: smartsurfaces/
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg"
          class="img-fluid"
          style="max-height: 300px; width: auto;">
-    <p style="font-size: 20px;">Fig 5: Antenna Polarization mismatch at the receiver causes signal loss</p>
+    <p style="font-size: 20px;">Fig 3: Antenna Polarization mismatch at the receiver causes signal loss</p>
   </div>
 </div>
 

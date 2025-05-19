@@ -28,27 +28,47 @@ permalink: smartsurfaces/
 
 <!-- In today's wireless networks, the typical operating paradigm is to have different users occupying different frequency band such that they don't interfere. Multiple user MIMO (mu-MIMO) has been previously attempted to solve this problem and have multiple users communicating over a single frequency band. However, mu-MIMO implementations have never been robust since it requires favorable channel conditions not always guaranteed in real wireless channels. Typical reasons for this is that user locations being close to each other (Fig. 1) makes the channels correlated, and does not allow for efficient interference separations, as interference is almost indistinguishable from the intended users' signals. -->
 
-<div class="col-sm-12 clearfix">
+<div class="container-fluid">
 
-<div class="col-sm-9" style="float: left;">
- <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig.png" width="100%" height="250px" style="float: center" > 
- </a> a href="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig1.jpg"-->
- <p style="font-size:20px">Fig 1: Smartsurface can lead to multiplexing gain</p>
+  <!-- Row 1: Full-width image -->
+  <div class="row mb-4">
+    <div class="col-md-12 text-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig.png" class="img-fluid" style="max-height: 250px;">
+      <p style="font-size: 20px;">Fig 1: Smartsurface can lead to multiplexing gain</p>
+    </div>
+  </div>
+
+  <!-- Row 2: Two images side by side -->
+  <div class="row mb-4">
+    <div class="col-md-6 text-center">
+      <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png" class="img-fluid" style="max-height: 250px;">
+      </a>
+      <p style="font-size: 20px;">Fig 2: Interference alignment visualization</p>
+    </div>
+
+    <div class="col-md-6 text-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" class="img-fluid" style="max-height: 250px;">
+      <p style="font-size: 20px;">Fig 3: TX-RX antenna mismatch causing loss</p>
+    </div>
+  </div>
+
+  <!-- Row 3: Wider image + narrower one -->
+  <div class="row mb-4">
+    <div class="col-md-8 text-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" class="img-fluid">
+      <p style="font-size: 20px;">Fig 4: Polarization of an EM wave changes upon reflection and scattering</p>
+    </div>
+    <div class="col-md-4 text-center">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" class="img-fluid">
+      <p style="font-size: 20px;">Fig 5: Antenna mismatch illustration</p>
+    </div>
+  </div>
+
 </div>
 
-</div>
 
-
-
-<div class="col-sm-6" style="float: left;">
- <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png" width="100%" height="250px" style="float: center" > </a>
- <p style="font-size:20px">Fig. 2</p>
-</div>
-
-</div>
-
-
-<p style="margin-top:1cm; font-size:20px"> In the past , we have demonstrated how to increase the multiplexing capability of the wireless channel by creating new multipath in the channel. We achieved this by designing smartsurfaces that can be deployed on walls as to create diverse paths from a UE to Basestation. The smartsurfaces create a strong reflection and makes the wireless channel well-conditioned to support multiple spatial streams. </p>
+<p style="margin-top:1cm; font-size:20px"> In the past , we have demonstrated how the multiplexing capability of the wireless channel can be increased by creating new multipath in the channel. We achieved this by designing smartsurfaces that can be deployed on walls as to create diverse paths from a UE to Basestation. The smartsurfaces create a strong reflection and makes the wireless channel well-conditioned to support multiple spatial streams. </p>
 
 <h1 class="justified-title">
   Polar-RIS: Practical Limits of RIS Performance
@@ -56,19 +76,19 @@ permalink: smartsurfaces/
 
 <p style="margin-top:1cm; font-size:20px">Our research addressed a critical challenge in modern wireless communication: maximizing the performance of MIMO (Multiple-Input Multiple-Output) systems in crowded sub-6GHz frequencies. While MIMO technology enables faster data rates by transmitting multiple data streams simultaneously, its effectiveness depends heavily on maintaining strong, diverse signal paths between devices. Through detailed simulations and theoretical analysis, we demonstrated how subtle polarization mismatches-caused by device orientations and environmental reflections-severely degrade MIMO performance in real-world indoor environments. To overcome this, we developed Polar-RIS, an innovative smart surface technology that actively corrects polarization distortions while amplifying signals.  </p>
 
-<div class="col-sm-12 clearfix" style="display: flex; justify-content: space-between; align-items: flex-start;">
-  
-  <!-- RIS_intro image (73%) -->
-  <div style="width: 60%; display: flex; flex-direction: column; align-items: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" style="width: 100%; height: auto;">
-    <p style="font-size: 20px; text-align: center;">Fig 2: Polarization of a propagating electromagnetic wave changes upon reflection and scattering at material interfaces</p>
-  </div>
 
-  <!-- tx_rx_mismatch image (25%) -->
-  <div style="width: 35%; display: flex; flex-direction: column; align-items: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" style="width: 100%; height: auto;">
-    <p style="font-size: 20px; text-align: center;">Fig 3: TX-RX antenna mismatch causing loss</p>
-  </div>
+### Media Article
+
+<div style="text-align: center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/QxGTibWVc0c"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
 
 ### Personnel
 
@@ -143,18 +163,6 @@ permalink: smartsurfaces/
 </div>
 
 
-
-### Media Coverage
-
-<div style="text-align: center;">
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/QxGTibWVc0c"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen>
-  </iframe>
-</div>
 
 ### Publications
 

@@ -68,7 +68,7 @@ permalink: smartsurfaces/
 <p style="margin-top:1cm; font-size:20px">Our research addressed a critical challenge in modern wireless communication: maximizing the performance of MIMO (Multiple-Input Multiple-Output) systems in crowded sub-6GHz frequencies. While MIMO technology enables faster data rates by transmitting multiple data streams simultaneously, its effectiveness depends heavily on maintaining strong, diverse signal paths between devices. Through detailed simulations and theoretical analysis, we demonstrated how subtle polarization mismatches-caused by device orientations and environmental reflections-severely degrade MIMO performance in real-world indoor environments. To overcome this, we developed Polar-RIS, an innovative smart surface technology that actively corrects polarization distortions while amplifying signals.  </p>
 
 
-### Media Article
+<h3>Media Article</h3>
 
 <div style="text-align: center;">
   <iframe width="560" height="315"
@@ -80,8 +80,7 @@ permalink: smartsurfaces/
   </iframe>
 </div>
 
-
-### Personnel
+<h3>Team Members</h3>
 
 <style>
     .team-container {
@@ -155,7 +154,7 @@ permalink: smartsurfaces/
 
 
 
-### Publications
+<h3>Publications</h3>
 
 
 <div class = "row">

@@ -45,7 +45,7 @@ permalink: smartsurfaces/
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png"
          class="img-fluid"
          style="max-height: 300px; width: auto;">
-    <p style="font-size: 20px;">Fig 4: Polarization of an EM wave changes upon reflection and scattering</p>
+    <p style="font-size: 20px;">Fig 4: Polarization of an EM wave changes upon reflection and scattering and arrives at random at the UE</p>
   </div>
 
   <!-- tx_rx_mismatch image (narrower) -->
@@ -53,7 +53,7 @@ permalink: smartsurfaces/
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg"
          class="img-fluid"
          style="max-height: 300px; width: auto;">
-    <p style="font-size: 20px;">Fig 5: Antenna mismatch illustration</p>
+    <p style="font-size: 20px;">Fig 5: Antenna Polarization mismatch at the receiver causes signal loss</p>
   </div>
 </div>
 
@@ -152,30 +152,29 @@ permalink: smartsurfaces/
     <p>Nagarjun Bhat, UC San Diego</p>
 </div>
 
-
-
-<h3>Publications</h3>
-
-
-<div class = "row">
-<div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/scattermimo.pdf"> ScatterMIMO: Enabling Virtual MIMO using smartsurfaces</a> <br>
-Manideep Dunna, Chi Zhang, Daniel Sievenpiper, Dinesh Bharadia
-</div>
 </div>
 
-<div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Xiaozhen_ACES.pdf"> Simultaneous Beam-Steering and Polarization Conversion Using a Varactor-Integrated Metasurface</a> <br>
+  <h3>Publications</h3>
+
+<div class="row">
+    <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/scattermimo.pdf">
+      ScatterMIMO: Enabling Virtual MIMO using smartsurfaces
+    </a><br>
+    Manideep Dunna, Chi Zhang, Daniel Sievenpiper, Dinesh Bharadia
+  </div>
+
+<div class = "row">
+<a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Xiaozhen_ACES.pdf"> Simultaneous Beam-Steering and Polarization Conversion Using a Varactor-Integrated Metasurface
+</a> <br>
 Xiaozhen Yang, Dinesh Bharadia, Daniel Sievenpiper
 </div>
-</div>
 
 <div class = "row">
-<div class="container">
 <a style="background-color: white; color: orange;" href="{{ site.url }}{{ site.baseurl }}/files/Arxiv_alireza.pdf"> Control and Placement of Intelligent Surfaces for IoT systems</a> <br>
 Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 </div>
+
 </div>
 
 <!-- <div class = "row">

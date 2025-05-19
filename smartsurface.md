@@ -62,10 +62,15 @@ permalink: smartsurfaces/
 
 <div class="col-sm-12 clearfix">
     <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/RIS_intro.pdf" width="60%" height="250px" style="display: block; margin: auto;">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/RIS_intro.png" width="60%" height="250px" style="display: block; margin: auto;">
         <p style="font-size:20px; text-align: center;">Fig 2: Polarization of a propagating electromagnetic wave changes upon reflection and scattering at material interfaces</p>
 </div>
 
+<div class="col-sm-12 clearfix">
+    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/RISapUE1.png" width="60%" height="250px" style="display: block; margin: auto;">
+        <p style="font-size:20px; text-align: center;">Fig 3: Coordinate system for the Tx-RIS-UE setup</p>
+</div>
 
 ### Personnel
 

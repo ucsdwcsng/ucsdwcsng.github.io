@@ -28,48 +28,22 @@ permalink: smartsurfaces/
 
 <!-- In today's wireless networks, the typical operating paradigm is to have different users occupying different frequency band such that they don't interfere. Multiple user MIMO (mu-MIMO) has been previously attempted to solve this problem and have multiple users communicating over a single frequency band. However, mu-MIMO implementations have never been robust since it requires favorable channel conditions not always guaranteed in real wireless channels. Typical reasons for this is that user locations being close to each other (Fig. 1) makes the channels correlated, and does not allow for efficient interference separations, as interference is almost indistinguishable from the intended users' signals. -->
 
-<!-- <div class="col-sm-12 clearfix">
+<div class="col-sm-12 clearfix">
 
 <div class="col-sm-9" style="float: left;">
  <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig.png" width="100%" height="250px" style="float: center" > 
- <!--</a> a href="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig1.jpg"-->
- <!-- <p style="font-size:20px">Fig 1: Smartsurface can lead to multiplexing gain</p>
-</div> -->
-
-<!-- <div class="col-sm-12 clearfix">
-    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" width="60%" height="250px" style="display: block; margin: auto;">
-        <p style="font-size:20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
+ </a> a href="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig1.jpg"-->
+ <p style="font-size:20px">Fig 1: Smartsurface can lead to multiplexing gain</p>
 </div>
-
-<div class="col-sm-12 clearfix">
-    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" width="60%" height="250px" style="display: block; margin: auto;">
-        <p style="font-size:20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
-</div> -->
-
-<div class="col-sm-12 clearfix" style="display: flex; justify-content: space-between; align-items: flex-start;">
-  
-  <!-- RIS_intro image (73%) -->
-  <div style="width: 73%; display: flex; flex-direction: column; align-items: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" style="width: 100%; height: auto;">
-    <p style="font-size: 20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
-  </div>
-
-  <!-- tx_rx_mismatch image (25%) -->
-  <div style="width: 25%; display: flex; flex-direction: column; align-items: center;">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" style="width: 100%; height: auto;">
-    <p style="font-size: 20px; text-align: center;">Fig 2: TX-RX antenna mismatch causing loss</p>
-  </div>
 
 </div>
 
 
 
-<!-- <div class="col-sm-6" style="float: left;">
+<div class="col-sm-6" style="float: left;">
  <a href="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png"><img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/ia_fig2.png" width="100%" height="250px" style="float: center" > </a>
  <p style="font-size:20px">Fig. 2</p>
-</div> -->
+</div>
 
 </div>
 
@@ -82,56 +56,21 @@ permalink: smartsurfaces/
 
 <p style="margin-top:1cm; font-size:20px">Our research addressed a critical challenge in modern wireless communication: maximizing the performance of MIMO (Multiple-Input Multiple-Output) systems in crowded sub-6GHz frequencies. While MIMO technology enables faster data rates by transmitting multiple data streams simultaneously, its effectiveness depends heavily on maintaining strong, diverse signal paths between devices. Through detailed simulations and theoretical analysis, we demonstrated how subtle polarization mismatches-caused by device orientations and environmental reflections-severely degrade MIMO performance in real-world indoor environments. To overcome this, we developed Polar-RIS, an innovative smart surface technology that actively corrects polarization distortions while amplifying signals.  </p>
 
-<div class="col-sm-12 clearfix">
-    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/RIS_intro.png" width="60%" height="250px" style="display: block; margin: auto;">
-        <p style="font-size:20px; text-align: center;">Fig 2: Polarization of a propagating electromagnetic wave changes upon reflection and scattering at material interfaces</p>
-</div>
+<div class="col-sm-12 clearfix" style="display: flex; justify-content: space-between; align-items: flex-start;">
+  
+  <!-- RIS_intro image (73%) -->
+  <div style="width: 60%; display: flex; flex-direction: column; align-items: center;">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" style="width: 100%; height: auto;">
+    <p style="font-size: 20px; text-align: center;">Fig 2: Polarization of a propagating electromagnetic wave changes upon reflection and scattering at material interfaces</p>
+  </div>
 
-<div class="col-sm-12 clearfix">
-    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/RISapUE1.png" width="60%" height="250px" style="display: block; margin: auto;">
-        <p style="font-size:20px; text-align: center;">Fig 3: Coordinate system for the Tx-RIS-UE setup</p>
-</div>
+  <!-- tx_rx_mismatch image (25%) -->
+  <div style="width: 35%; display: flex; flex-direction: column; align-items: center;">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" style="width: 100%; height: auto;">
+    <p style="font-size: 20px; text-align: center;">Fig 3: TX-RX antenna mismatch causing loss</p>
+  </div>
 
 ### Personnel
-
-
-<!-- <div class="row">
-
-
-<div class="col-sm-4" style="float: left; margin-right: 20px;">
-    <p style="font-size:20px">Dinesh Bharadia: PI, UC San Diego</p>
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg" width="200px" height="200px" style="display: block; margin: auto;">
-    </a>
-</div>
-
-<div class="col-sm-4" style="float: left; margin-right: 20px;">
-    <p style="font-size:20px">Daniel Sievenpiper: PI, UC San Diego</p>
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" width="200px" height="200px" style="display: block; margin: auto;">
-    </a>
-</div>
-
-<div class="col-sm-4" style="float: left; margin-right: 20px;">
-    <p style="font-size:20px">Alireza Vahid: PI, CU Denver</p>
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" width="200px" height="200px" style="display: block; margin: auto;">
-    </a>
-</div>
-
-<div class="col-sm-4" style="float: left;">
-    <p style="font-size:20px">Dr. Manideep Dunna, UC San Diego</p>
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" width="200px" height="200px" style="display: block; margin: auto;">
-    </a>
-</div>
-
-
-<div class="col-sm-4" style="float: left;margin-left: 10px">
- <p style="font-size:20px">Dr. Xiaozhen Yang, UC San Diego</p>
-<a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/XiaozhenYang.jpg" width="200px"  height="200px" style=" margin: auto;"> </a> -->
 
 <style>
     .team-container {
@@ -203,6 +142,8 @@ permalink: smartsurfaces/
     <p>Nagarjun Bhat, UC San Diego</p>
 </div>
 
+
+
 ### Media Coverage
 
 <div style="text-align: center;">
@@ -214,10 +155,6 @@ permalink: smartsurfaces/
     allowfullscreen>
   </iframe>
 </div>
-
-</div>
-
-
 
 ### Publications
 

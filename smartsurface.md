@@ -24,7 +24,7 @@ permalink: smartsurfaces/
 
 
 ### Synopsis
-<p style="font-size:20px"> Modern wireless standards promise to enable high throughput wireless links by using multiple antennas on the UEs and Basestations. However, the increase in the number of antennas do not lead to proportional increase in the achieved link througput. The primary reason for this is that the wireless channel do not have good enough multipath and is not well conditioned to support projected MIMO throughput. As shown in Fig. 1a, closely spaced antennas on the device have correlated wireless channels and do not allow for efficient spatial multiplexing of data streams. </p>
+<p style="font-size:20px"> Modern wireless standards promise to enable high throughput wireless links by using multiple antennas on the UEs and Basestations. However, the increase in the number of antennas do not lead to proportional increase in the achieved link througput. The primary reason for this is that the wireless channel do not have good enough multipath and is not well conditioned to support projected MIMO throughput. For example, closely spaced antennas on a user device have correlated wireless channels and do not allow for efficient spatial multiplexing of data streams. </p>
 
 <!-- In today's wireless networks, the typical operating paradigm is to have different users occupying different frequency band such that they don't interfere. Multiple user MIMO (mu-MIMO) has been previously attempted to solve this problem and have multiple users communicating over a single frequency band. However, mu-MIMO implementations have never been robust since it requires favorable channel conditions not always guaranteed in real wireless channels. Typical reasons for this is that user locations being close to each other (Fig. 1) makes the channels correlated, and does not allow for efficient interference separations, as interference is almost indistinguishable from the intended users' signals. -->
 
@@ -36,10 +36,32 @@ permalink: smartsurfaces/
  <!-- <p style="font-size:20px">Fig 1: Smartsurface can lead to multiplexing gain</p>
 </div> -->
 
+<!-- <div class="col-sm-12 clearfix">
+    <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" width="60%" height="250px" style="display: block; margin: auto;">
+        <p style="font-size:20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
+</div>
+
 <div class="col-sm-12 clearfix">
     <div class="col-sm-9" style="display: flex; flex-direction: column; align-items: center; margin: auto;">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/pubpic/smartsurface_fig.png" width="60%" height="250px" style="display: block; margin: auto;">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" width="60%" height="250px" style="display: block; margin: auto;">
         <p style="font-size:20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
+</div> -->
+
+<div class="col-sm-12 clearfix" style="display: flex; justify-content: space-between; align-items: flex-start;">
+  
+  <!-- RIS_intro image (73%) -->
+  <div style="width: 73%; display: flex; flex-direction: column; align-items: center;">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/RIS_intro.png" style="width: 100%; height: auto;">
+    <p style="font-size: 20px; text-align: center;">Fig 1: Smartsurface can lead to multiplexing gain</p>
+  </div>
+
+  <!-- tx_rx_mismatch image (25%) -->
+  <div style="width: 25%; display: flex; flex-direction: column; align-items: center;">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/smartsurface/tx_rx_mismatch.jpg" style="width: 100%; height: auto;">
+    <p style="font-size: 20px; text-align: center;">Fig 2: TX-RX antenna mismatch causing loss</p>
+  </div>
+
 </div>
 
 
@@ -52,7 +74,7 @@ permalink: smartsurfaces/
 </div>
 
 
-<p style="margin-top:1cm; font-size:20px"> In this project, we increase the multiplexing capability of the wireless channel by creating new multipath in the channel. We achieve this by designing smartsurfaces that can be deployed on walls as shown in Fig. 1c to create diverse paths from a UE to Basestation. The smartsurfaces create a strong reflection and makes the wireless channel well-conditioned to support multiple spatial streams. </p>
+<p style="margin-top:1cm; font-size:20px"> In the past , we have demonstrated how to increase the multiplexing capability of the wireless channel by creating new multipath in the channel. We achieved this by designing smartsurfaces that can be deployed on walls as to create diverse paths from a UE to Basestation. The smartsurfaces create a strong reflection and makes the wireless channel well-conditioned to support multiple spatial streams. </p>
 
 <h1 class="justified-title">
   Polar-RIS: Practical Limits of RIS Performance
@@ -146,45 +168,54 @@ permalink: smartsurfaces/
         <p>Dinesh Bharadia: PI, UC San Diego</p>
     </div>
 
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" alt="Daniel Sievenpiper">
-        </a>
-        <p>Daniel Sievenpiper: PI, UC San Diego</p>
-    </div>
-
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg" alt="Peixing Li">
-        </a>
-        <p>Peixing Li, UC San Diego</p>
-    </div>
-
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" alt="Manideep Dunna">
-        </a>
-        <p>Dr. Manideep Dunna, UC San Diego</p>
-    </div>
-    
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG" alt="Golnaz Salehi">
-        </a>
-        <p>Golnaz Salehi, UC San Diego</p>
-    </div>
-
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg" alt="Nagarjun Bhat">
-        </a>
-        <p>Nagarjun Bhat, UC San Diego</p>
-    </div>
-
-
-
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" alt="Daniel Sievenpiper">
+    </a>
+    <p>Daniel Sievenpiper: PI, UC San Diego</p>
 </div>
 
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg" alt="Peixing Li">
+    </a>
+    <p>Peixing Li, UC San Diego</p>
+</div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/manideep.jpg" alt="Manideep Dunna">
+    </a>
+    <p>Dr. Manideep Dunna, UC San Diego</p>
+</div>
+    
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/golnaz.JPG" alt="Golnaz Salehi">
+    </a>
+    <p>Golnaz Salehi, UC San Diego</p>
+</div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg" alt="Nagarjun Bhat">
+    </a>
+    <p>Nagarjun Bhat, UC San Diego</p>
+</div>
+
+### Media Coverage
+
+<div style="text-align: center;">
+  <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/QxGTibWVc0c"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div>
+
+</div>
 
 
 

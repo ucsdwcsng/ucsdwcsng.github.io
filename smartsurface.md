@@ -137,7 +137,26 @@ permalink: smartsurfaces/
     </a>
     <p>Nagarjun Bhat, UC San Diego</p>
 </div>
+<div class="team-member">
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpeg">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpeg" alt="Dr. Sajjad Nassirpour">
+  </a>
+  <p>Dr. Sajjad Nassirpour, SDSU</p>
+</div>
 
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg" alt="Dr. Xiaozhen Yang">
+    </a>
+    <p>Dr. Xiaozhen Yang, UC San Diego</p>
+</div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.png" alt="Alireza Vahid">
+    </a>
+    <p>Alireza Vahid: PI, Rochester Institute of Technology</p>
+  </div>
 
 
 <div class="team-member">
@@ -153,7 +172,6 @@ permalink: smartsurfaces/
     </a>
     <p>Dinesh Bharadia: PI, UC San Diego</p>
   </div>
-
 
 </div>
 
@@ -196,13 +214,13 @@ Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 </div>
 
 
-<!-- <div class = "row">
+<div class = "row">
 <div class="container">
 <a style="background-color: white; color: orange;" href="https://doi.org/10.1016/j.acha.2021.03.004"> Ranking recovery from limited pairwise comparisons using low-rank matrix completion</a> <br>
     Levy, Tal and Vahid, Alireza and Giryes, Raja<br>
     Harmonic Analysis Journal, 2021
 </div>
-</div>--!>
+</div>
 
 
 

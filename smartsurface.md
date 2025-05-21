@@ -132,32 +132,13 @@ permalink: smartsurfaces/
 </div>
 
 <div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/nagarjun.jpg">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/nagarjun.jpg" alt="Nagarjun Bhat">
     </a>
     <p>Nagarjun Bhat, UC San Diego</p>
 </div>
 
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpg" alt="Dr. Sajjad Nassirpour">
-    </a>
-    <p>Dr. Sajjad Nassirpour, SDSU</p>
-</div>
 
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg" alt="Dr. Xiaozhen Yang">
-    </a>
-    <p>Dr. Xiaozhen Yang, UC San Diego</p>
-</div>
-
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.jpg" alt="Alireza Vahid">
-    </a>
-    <p>Alireza Vahid: PI, Rochester Institute of Technology</p>
-  </div>
 
 <div class="team-member">
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">

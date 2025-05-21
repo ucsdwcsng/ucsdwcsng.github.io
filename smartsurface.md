@@ -227,7 +227,7 @@ Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 <div class="container">
 <a style="background-color: white; color: orange;" href="https://ieeexplore.ieee.org/document/10462034"> Multifunctional Metasurface: Simultaneous Beam Steering, Polarization Conversion, and Phase Offset</a> <br>
     Xiaozhen Yang, Erda Wen, Dinesh Bharadia, Daniel F. Sievenpiper<br>
-    IEEE Transactions on Antennas and Propagation
+    IEEE Transactions on Antennas and Propagation, 2024
 </div>
 </div>
 

@@ -145,8 +145,8 @@ permalink: smartsurfaces/
 </div>
 
 <div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg" alt="Dr. Xiaozhen Yang">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhen.jpeg ">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhen.jpeg " alt="Dr. Xiaozhen Yang">
     </a>
     <p>Dr. Xiaozhen Yang, UC San Diego</p>
 </div>

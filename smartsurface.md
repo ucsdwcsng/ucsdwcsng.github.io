@@ -110,20 +110,6 @@ permalink: smartsurfaces/
 </style>
 
 <div class="team-container">
-    <div class="team-member">
-        <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg">
-            <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg" alt="Dinesh Bharadia">
-        </a>
-        <p>Dinesh Bharadia: PI, UC San Diego</p>
-    </div>
-
-<div class="team-member">
-    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" alt="Daniel Sievenpiper">
-    </a>
-    <p>Daniel Sievenpiper: PI, UC San Diego</p>
-</div>
-
 <div class="team-member">
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/PeixingLi.jpg" alt="Peixing Li">
@@ -147,10 +133,46 @@ permalink: smartsurfaces/
 
 <div class="team-member">
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg">
-        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/Nbha.jpg" alt="Nagarjun Bhat">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/nagarjun.jpg" alt="Nagarjun Bhat">
     </a>
     <p>Nagarjun Bhat, UC San Diego</p>
 </div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/sajjad.jpg" alt="Dr. Sajjad Nassirpour">
+    </a>
+    <p>Dr. Sajjad Nassirpour, SDSU</p>
+</div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/xiaozhenyang.jpg" alt="Dr. Xiaozhen Yang">
+    </a>
+    <p>Dr. Xiaozhen Yang, UC San Diego</p>
+</div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/alireza.jpg" alt="Alireza Vahid">
+    </a>
+    <p>Alireza Vahid: PI, Rochester Institute of Technology</p>
+  </div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/DanSievenpiper.jpeg" alt="Daniel Sievenpiper">
+    </a>
+    <p>Daniel Sievenpiper: PI, UC San Diego</p>
+</div>
+
+<div class="team-member">
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/dinesh.jpg" alt="Dinesh Bharadia">
+    </a>
+    <p>Dinesh Bharadia: PI, UC San Diego</p>
+  </div>
+
 
 </div>
 
@@ -175,17 +197,6 @@ Xiaozhen Yang, Dinesh Bharadia, Daniel Sievenpiper
 Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 </div>
 
-</div>
-
-<!-- <div class = "row">
-<div class="container">
-<a style="background-color: white; color: orange;" href="https://doi.org/10.1016/j.acha.2021.03.004"> Ranking recovery from limited pairwise comparisons using low-rank matrix completion</a> <br>
-    Levy, Tal and Vahid, Alireza and Giryes, Raja<br>
-    Harmonic Analysis Journal, 2021
-</div>
-</div>
-
-
 <div class = "row">
 <div class="container">
 <a style="background-color: white; color: orange;" href="https://ieeexplore.ieee.org/abstract/document/9518272"> Capacity of the Torn Paper Channel with Lost Pieces</a> <br>
@@ -197,10 +208,22 @@ Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia
 
 <div class = "row">
 <div class="container">
-<a style="background-color: white; color: orange;" href="https://ieeexplore.ieee.org/abstract/document/9348147"> Communicating over the Torn-Paper Channel</a> <br>
-    Shomorony, Ilan and Vahid, Alireza<br>
+<a style="background-color: white; color: orange;" href="https://ieeexplore.ieee.org/abstract/document/10220203"> Beamforming Design in Reconfigurable Intelligent Surface-Assisted IoT Networks Based on Discrete Phase Shifters and Imperfect CSI</a> <br>
+    Sajjad Nassirpour, Alireza Vahid, Dinh-Thuan Do, Dinesh Bharadia<br>
     Globecom 2020
 </div>
-</div> -->
+</div>
+
+
+<!-- <div class = "row">
+<div class="container">
+<a style="background-color: white; color: orange;" href="https://doi.org/10.1016/j.acha.2021.03.004"> Ranking recovery from limited pairwise comparisons using low-rank matrix completion</a> <br>
+    Levy, Tal and Vahid, Alireza and Giryes, Raja<br>
+    Harmonic Analysis Journal, 2021
+</div>
+</div>--!>
+
+
+
 
 

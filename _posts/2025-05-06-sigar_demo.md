@@ -29,6 +29,8 @@ miscs:  # whatever you need to add Extra
 #       content_url: https://wcsng.ucsd.edu/zensetag
     - content_type: Digital Library
       content_url:  https://dl.acm.org/doi/10.1145/3715014.3724364
+    - content_type: Poster
+      content_url:  /files/sigar_poster.pdf
     
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
     - title: Winner of Best Demo - Runner Up at SenSys 2025

@@ -329,7 +329,7 @@ ulx li {
   min-height: 50vh;
   position: relative;
   text-align: center;
-  background: url(../images/backgrounds/header.png) no-repeat center center/cover;
+  background: url(../images/backgrounds/hongkong.jpg) no-repeat center center/cover;
 }
 .site-header::before {
   content: "";

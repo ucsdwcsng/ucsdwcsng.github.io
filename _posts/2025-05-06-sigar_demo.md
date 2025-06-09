@@ -4,7 +4,7 @@ title : "Demo - SIGAR: Sensor Integration Gateway using Augmented Reality"
 short_title: "Sigar-Demo"
 tags: Backscatter
 cover: /assets/images/zensetag/sigar-intro.jpg
-conference: "ACM SenSys'25 Demo"
+conference: "ACM/IEEE SenSys'25 Demo"
 conference_site: https://sensys.acm.org/2025/
 authors: "Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, Dinesh Bharadia"
 author_list:

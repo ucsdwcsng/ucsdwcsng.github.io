@@ -1,175 +1,49 @@
 # Masters Students
-- name: Sesha Sai Rakesh
+- name: Kishore Rajendran
   role: MS
-  year: "2025"
-  now: 
-  col: 2
-- name: Sameer Dohadwalla
-  role: MS
-  year: "2024"
-  now: 
-  col: 1
-- name: Rushabha Balaji
-  role: MS
-  year: "2024"
-  now: PhD at UCLA
-  col: 2
-- name: Suriyaa M
-  role: MS
-  year: "2024"
-  now: Apple CA
-  col: 1
-- name: Madhumitha Venkatesh
-  role: MS
-  year: "2024"
-  now: 
-  col: 2
-- name: Zih-Hao Fu
-  role: MS
-  year: "2024"
+  year: "2026"
   now: 
   col: 1
 
-- name: Jiaming Jin
-  role: MS
-  year: "2024"
-  now: 
-  col: 2
-- name: Evan Lo
-  role: MS
-  year: "2024"
-  now: 
-  col: 1
-
-- name: Danny Vo
-  role: MS
-  year: "2024"
-  now: 
-  col: 2
-- name: Vaibhav Anand
-  role: MS
-  year: "2024"
-  now: 
-  col: 1
 
 - name: William Hunter
   role: MS
   year: "2024"
   now: 
-  col: 2
-- name: Harine Govindarajan
-  role: MS
-  year: "2025"
-  now: 
   col: 1
+
 
 - name: Ishan Bansal
   role: MS
   year: "2025"
   now: 
-  col: 2
-- name: Avyakta Kalipattapu
-  role: MS
-  year: "2024"
-  now: 
   col: 1
-- name: Sandeep Nair
-  role: MS
-  year: "2024"
-  now: 
-  col: 2
-- name: Kewei Chen
-  role: MS
-  year: "2024"
-  now: 
-  col: 1
+
 # - name: Test # Use as a test subject
 #   role: MS
 #   year: "2024"
 #   now: 
 #   col: 2
-- name: Wenyi (Morty) Zhang
-  role: MS
-  year: "2025"
-  now: 
-  col: 1
-- name: Wenhao Chen
-  role: MS
-  year: "2025"
-  now: 
-  col: 2
+
 
 # Undergrad
 
-- name: Sharfa Pital
+- name: Maiyun Zhang
   role: BS
-  year: "2025"
+  year: "2027"
   now: 
   col: 1
-- name: Shayaun Bashar
+- name: Luke Wilson
   role: BS
-  year: "2024"
-  now: 
-  col: 2
-
-- name: Zhengyu (Van) Huang
-  role: BS
-  year: "2024"
+  year: "2026"
   now: 
   col: 1
 
-- name: Kanishka Roy
-  role: BS
-  year: "2024"
-  now: 
-  col: 2
-
-- name: Wenshuo Zang
-  role: BS
-  col: 2
-- name: Yucheng Huang
-  role: BS
-  year: "2024"
-  now: 
-  col: 1
-- name: Ameya Mandale
-  role: BS
-  year: "2024"
-  now: 
-  col: 2
-- name: Anuj Jain
-  role: BS
-  year: "2024"
-  now: 
-  col: 1
-- name: Hou-Wai (Hugh) Wan
-  role: BS
-  year: "2025"
-  col: 2
 - name: Yichen Yu
   role: BS
   year: "2026"
   now: 
   col: 1
-- name: Gavin Roberts
-  role: BS
-  year: "2023"
-  now: 
-  col: 2
-- name: Junyi Xu
-  role: BS
-  year: "2026"
-  now: 
-  col: 1
-- name: YungYi Sun
-  role: BS
-  year: "2026"
-  now: 
-  col: 2
-- name: Sonny Cao
-  role: BS
-  year: "2026"
-  now: 
-  col: 1
+
 
 

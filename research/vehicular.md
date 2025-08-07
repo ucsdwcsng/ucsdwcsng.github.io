@@ -10,6 +10,7 @@ people:
   - Kshitiz Bansal
   - Manideep Dunna
   - Rohith Reddy Vennam
+  - Pushkal Mishra
   - Dinesh Bharadia
 ---
 

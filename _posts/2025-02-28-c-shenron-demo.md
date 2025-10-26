@@ -10,6 +10,7 @@ conference_site: https://sensys.acm.org/2025/
 authors: "Pushkal Mishra, Satyam Srivastava, Jerry Li, Kshitiz Bansal, Dinesh Bharadia"
 author_list:
     - name: Pushkal Mishra
+      url: https://pushkalm11.github.io/
       email:  pumishra@ucsd.edu
     - name: Satyam Srivastava
       url: https://satyam-53.github.io/

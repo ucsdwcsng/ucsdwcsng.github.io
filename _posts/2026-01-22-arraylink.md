@@ -4,10 +4,9 @@ title: "Satellites are closer than you think: A near field MIMO approach for Gro
 short_title: "ArrayLink"
 tags: Communications
 cover:  /assets/images/arraylink/arraylink_cover.png
-authors: "Rohith Reddy Vennam, Luke Wilson , Ish Kumar Jain , Dinesh Bharadia"
+authors: "Rohith Reddy Vennam, Luke Wilson, Ish Kumar Jain, Dinesh Bharadia"
 # needed for publications/
 author_list:
-
     - name: Rohith Reddy Vennam
       url: https://acsweb.ucsd.edu/~rvennam/
       email: rvennam@ucsd.edu
@@ -33,9 +32,8 @@ github: https://github.com/ucsdwcsng/ArrayLink
 description:  
     - text: "The rapid growth of low Earth orbit (LEO) satellite constellations has revolutionized broadband access, Earth observation, and direct-to-device connectivity. However, the expansion of ground station infrastructure has not kept pace, creating a critical bottleneck in satellite-to-ground backhaul capacity. Traditional parabolic dish antennas, though effective for geostationary (GEO) satellites, are ill-suited for dense, fast-moving LEO networks due to mechanical steering delays and their inability to track multiple satellites simultaneously. Phased array antennas offer electronically steerable beams and multi-satellite support. However, their integration into ground stations is limited by the high cost, hardware issues, and complexity of achieving sufficient antenna gain."
       image: /assets/images/arraylink/arraylink_motivation.png
-      image_width: 800 # px (check this image resolution and how it populate on webpage)
-
-    - text: "We introduce \textit{ArrayLink}, a distributed phased array architecture that coherently combines multiple small, commercially available panels to achieve high-gain beamforming and unlock line-of-sight MIMO spatial multiplexing with minimal additional capital expenditure. By spacing 16 \(32\times32\) panels across a kilometer‐scale aperture, \textit{ArrayLink} enters the radiative near-field, focusing energy in both angle and range while supporting up to four simultaneous spatial streams on a single feeder link. Through rigorous theoretical analysis, detailed 2D beam pattern simulations and real-world hardware experiments, we show that \textit{ArrayLink} (i) achieves dish-class gain exceeding that of a 1.47 m reflector, (ii) maintains four parallel streams at ranges of hundreds of kilometers (falling to two beyond 2000 km), and (iii) exhibits tight agreement across theory, simulation, and experiment with minimal variance. These findings pave the way for a practical and scalable approach to boosting satellite backhaul capacity."
+      image_width: 800 # px (check this image resolution and how it populate on webpage) 
+    - text: "We introduce ArrayLink, a distributed phased array architecture that coherently combines multiple small, commercially available panels to achieve high-gain beamforming and unlock line-of-sight MIMO spatial multiplexing with minimal additional capital expenditure. By spacing 16 \(32x32\) panels across a kilometer‐scale aperture, ArrayLink enters the radiative near-field, focusing energy in both angle and range while supporting up to four simultaneous spatial streams on a single feeder link. Through rigorous theoretical analysis, detailed 2D beam pattern simulations and real-world hardware experiments, we show that ArrayLink (i) achieves dish-class gain exceeding that of a 1.47 m reflector, (ii) maintains four parallel streams at ranges of hundreds of kilometers (falling to two beyond 2000 km), and (iii) exhibits tight agreement across theory, simulation, and experiment with minimal variance. These findings pave the way for a practical and scalable approach to boosting satellite backhaul capacity."
     #   image: /assets/images/mmsubarray/proposed_joint_satellite_5G.png
     #   image_width: 800 # px (check this image resolution and how it populate on webpage)
     # - text: "<p style='color: red;'>This website is still under construction. Full details will be available after August 3rd, 2024.</p>"

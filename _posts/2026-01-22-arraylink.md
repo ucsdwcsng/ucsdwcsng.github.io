@@ -5,6 +5,7 @@ short_title: "ArrayLink"
 tags: Communications
 cover:  /assets/images/arraylink/arraylink_cover.png
 authors: "Rohith Reddy Vennam, Luke Wilson, Ish Kumar Jain, Dinesh Bharadia"
+disp_cover: "False"
 # needed for publications/
 author_list:
     - name: Rohith Reddy Vennam

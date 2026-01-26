@@ -20,6 +20,11 @@
   col: 2 
   picture: /assets/images/teampic/srivatsan.jpg
   website: https://www.linkedin.com/in/srivatsan-rajagopal-5458b621b/
+- name: Archana Bura
+  role: Postdoc
+  year: "2025"
+  picture: /assets/images/teampic/archana.jpg  
+  website: https://sites.google.com/tamu.edu/archanabura/home
 #phd
 - name: Roshan Ayyalasomayajula
   role: PhD
@@ -662,7 +667,7 @@
   col: 2
 #Intl Summer Interns
 
-- name: Pulak Malhotra
+- name: Pulak Mehrotra
   role: Intern
   year: "2025"
   now: BITS Pilani --> MS at Columbia

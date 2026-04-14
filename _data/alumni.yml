@@ -102,19 +102,28 @@
   website: https://www.linkedin.com/in/frederik-zumegen-428ba11b5/?originalSubdomain=de
 
 #masters
-- name: Sesha Sai Rakesh
+
+
+- name: Haochen Wang
   role: MS
-  year: "2025"
-  now:
+  year: "2026"
+  now: PhD at Virginia Tech
+  col: 1
+- name: Qingyuan (Pearson) Zheng
+  role: MS
+  year: "2026"
+  now: PhD at Duke University
   col: 2
-
-
 - name: William Hunter
   role: MS
   year: "2024"
   now: PhD at UCSD
   col: 1
-
+- name: Sesha Sai Rakesh
+  role: MS
+  year: "2025"
+  now:
+  col: 2
 
 - name: Ishan Bansal
   role: MS

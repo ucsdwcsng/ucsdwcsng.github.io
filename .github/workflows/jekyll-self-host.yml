@@ -1,9 +1,8 @@
 name: Build and Deploy Jekyll Site
 
 on:
-  # Runs on pushes targeting the main branch
   push:
-    branches: ["master"]
+    branches: ["master", "main"]
 
 
 jobs:
@@ -33,6 +32,17 @@ jobs:
 
       - name: Run Jekyll build
         run: docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "JEKYLL_ENV=production bundle exec jekyll build"
+
+      - name: Verify static subsites in _site
+        run: |
+          set -e
+          for path in s3 s3-workshop open-ai-ran-2024; do
+            if [ -d "$path" ]; then
+              test -d "_site/${path}" || { echo "Missing _site/${path} — Jekyll did not copy source folder."; exit 1; }
+              test -f "_site/${path}/index.html" || { echo "Missing _site/${path}/index.html"; exit 1; }
+              echo "OK: _site/${path}/"
+            fi
+          done
 
       - name: Deploy to self hosted website
         run: |

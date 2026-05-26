@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: "Satellites are closer than you think: A near field MIMO approach for Ground stations"
+title: "Satellites are closer than you think: A near field MIMO approach for Ground stations (ArrayLink)"
 short_title: "ArrayLink"
 tags: Communications
 cover:  /assets/images/arraylink/arraylink_cover.png
@@ -22,14 +22,17 @@ author_list:
 eqcon: false #Put true if you want equal contrribution on pub page
 conference: "IEEE INFOCOM 2026 [Submitted: July 2025, Accepted: Dec 2025]"
 conference_site: https://infocom2026.ieee-infocom.org/
-paper: /files/arraylink.pdf
-# slides: /files/mmsubarray_slides.pdf
-# video: https://www.youtube.com/embed/uGWcX8MJM4Y
+paper: /files/arraylink_paper.pdf
+slides: /files/arraylink_slides.pdf
+video: https://www.youtube.com/embed/HJBeDMcrmWs
 github: https://github.com/ucsdwcsng/ArrayLink
-# video_str: 1 min teaser
-# miscs: # additional items
-#     - content_type: Slides
-#       content_url: https://wcsng.ucsd.edu/files/mmspoof_slides.pdf
+video_str: Demo
+miscs:  # whatever you need to add Extra
+    - content_type: Poster
+      content_url: /files/arraylink_poster.pdf # hat tip: do not use tabs for idnentation, yaml doesnt support it
+    # - content_type: Demo
+    #   content_url: https://youtu.be/HJBeDMcrmWs # hat tip: do not use tabs for idnentation, yaml doesnt support it
+
 description:  
     - text: "The rapid growth of low Earth orbit (LEO) satellite constellations has revolutionized broadband access, Earth observation, and direct-to-device connectivity. However, the expansion of ground station infrastructure has not kept pace, creating a critical bottleneck in satellite-to-ground backhaul capacity. Traditional parabolic dish antennas, though effective for geostationary (GEO) satellites, are ill-suited for dense, fast-moving LEO networks due to mechanical steering delays and their inability to track multiple satellites simultaneously. Phased array antennas offer electronically steerable beams and multi-satellite support. However, their integration into ground stations is limited by the high cost, hardware issues, and complexity of achieving sufficient antenna gain."
       image: /assets/images/arraylink/arraylink_motivation.png

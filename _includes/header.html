@@ -1,4 +1,4 @@
-<header class="header header--dark" style="background: #182B49; width: 100%; position: fixed; top: 0; left: 0; z-index: 1050; padding: 2px 0;">
+<header class="header header--dark" style="background: linear-gradient(180deg, #22395f 0%, #182B49 100%); width: 100%; position: fixed; top: 0; left: 0; z-index: 1050; padding: 6px 0; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.28); border-bottom: 2px solid #FFCD00;">
   <div class="main" style="max-width: 1200px; margin: 0 auto; padding: 2px 10px;">
     <div class="header__title" style="display: flex; justify-content: space-between; align-items: center;">
       <div class="header__brand" style="flex-shrink: 0;">
@@ -6,7 +6,7 @@
         {%- assign _paths_root = site.paths.root | default: site.data.variables.default.paths.root -%}
         {%- include snippets/get-nav-url.html path=_paths_root -%}
         {%- if site.title -%}
-        <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}" style="color: white; margin-left: 5px;">{{ site.title }}</a>
+        <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}" style="color: white; margin-left: 8px; font-weight: 600; letter-spacing: 0.4px;">{{ site.title }}</a>
         {%- endif -%}
       </div>
       <button class="nav-bar-toggle button" onclick="document.getElementsByClassName('navigation')[0].classList.toggle('collapsed')" style="margin-left: 5px;">
@@ -28,11 +28,11 @@
         <li class="navigation__item navigation__folder" style="margin: 0 6px;">
           <a onclick="this.parentElement.classList.toggle('hovered')" style="color: white;">
             {%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}
-            <!-- <span>⌄</span> -->
+            <span class="navigation__caret">&#9662;</span>
           </a>
-          <ul style="margin: 0; padding: 0; list-style: none;">
+          <ul class="navigation__dropdown">
             {%- for entry in _item.subfolderitems -%}
-            <li><a href="{{ entry.url }}" style="color: white; padding: 2.4px 6px; display: block;">{{ entry.name }}</a></li>
+            <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
             {%- endfor -%}
           </ul>
         </li>
@@ -44,11 +44,11 @@
         <li class="navigation__item navigation__folder" style="margin: 0 6px;">
           <a onclick="this.parentElement.classList.toggle('hovered')" style="color: white;">
             {%- if _item.title -%}{{ _item.title }}{%- else -%}{{ __return }}{%- endif -%}
-            <span>⌄</span>
+            <span class="navigation__caret">&#9662;</span>
           </a>
-          <ul style="margin: 0; padding: 0; list-style: none;">
+          <ul class="navigation__dropdown">
             {%- for entry in _item.subfolderitems -%}
-            <li><a href="{{ entry.url }}" style="color: white; padding: 2.4px 6px; display: block;">{{ entry.name }}</a></li>
+            <li><a href="{{ entry.url }}">{{ entry.name }}</a></li>
             {%- endfor -%}
           </ul>
         </li>

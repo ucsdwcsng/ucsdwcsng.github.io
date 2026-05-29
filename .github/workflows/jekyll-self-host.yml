@@ -1,9 +1,11 @@
 name: Build and Deploy Jekyll Site
 
+# Requires an online self-hosted runner for this repo/org. If no runner is available,
+# jobs stay "Queued" until one connects — that is not a branch or YAML error.
 on:
   push:
     branches: ["master", "main"]
-
+  workflow_dispatch:
 
 jobs:
   # Build job 
@@ -36,7 +38,7 @@ jobs:
       - name: Verify static subsites in _site
         run: |
           set -e
-          for path in s3 s3-workshop open-ai-ran-2024; do
+          for path in s3 s3-workshop open-ai-ran-2024 open-ai-ran-2026; do
             if [ -d "$path" ]; then
               test -d "_site/${path}" || { echo "Missing _site/${path} — Jekyll did not copy source folder."; exit 1; }
               test -f "_site/${path}/index.html" || { echo "Missing _site/${path}/index.html"; exit 1; }

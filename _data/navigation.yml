@@ -118,6 +118,8 @@ header:
   - titles:
       en : &EN Hosted Events
     subfolderitems:
+      - name: Mobicom'26 Open-AI RAN
+        url: https://wcsng.ucsd.edu/open-ai-ran-2026/
       - name: Mobicom'25 Open-AI RAN
         url: https://wcsng.ucsd.edu/open-ai-ran-2025/
       - name: Mobicom'24 Open-AI RAN

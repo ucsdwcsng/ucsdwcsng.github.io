@@ -5,11 +5,15 @@ aside:
 title: Wireless Communications Sensing and Networking
 carousels:
   - images:
+    - image: /assets/images/picpic/graduation_2024.jpg
     - image: /assets/images/picpic/graduation_2023.jpg
     - image: /assets/images/picpic/birch_2022.jpg
     - image: /assets/images/picpic/roshan_graduation.jpg
     - image: /assets/images/picpic/diwali.jpg
+    - image: /assets/images/picpic/diwalifirework.jpg
     - image: /assets/images/picpic/frisbee.jpg
+    - image: /assets/images/picpic/dinner_2022.jpg
+    - image: /assets/images/picpic/group_christmas21.jpg
     - image: /assets/images/picpic/manibday.jpg
 # article_header:
 #   type: overlay

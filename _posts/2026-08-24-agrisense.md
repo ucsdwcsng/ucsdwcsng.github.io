@@ -3,7 +3,7 @@ layout: publication
 title: "AgriSense: Battery-Free Soil Sensing for Next-Gen Connected Agriculture"
 short_title: "AgriSense"
 tags: Backscatter
-# cover: /assets/images/agrisense/agrisense-overview.jpg # TODO: add cover image
+cover: /assets/images/agrisense/agrisense-overview.png
 authors: "Ishan Bansal, Nagarjun Bhat, Agrim Gupta, Harine Govindarajan, Dinesh Bharadia" # needed for publications/
 author_list:
     - name: Ishan Bansal
@@ -42,8 +42,46 @@ description: # all combinations are possible: (title+text+image, title+image, te
       # image_width: 800 # px
     - title: Automated Data Harvesting at Scale
       text: "To read thousands of battery-free nodes without fixed reader infrastructure, we mount an RFID reader on a drone that flies a fixed path over the field and harvests data from every node en-route over a wireless backhaul. For a representative 5-hectare field (250m x 200m) with a 2000-node sensor grid, a 10km drone path at 3m/s covers the whole deployment in about 60 minutes. Compared to active sensor networks (~$350,000 total) and vanilla battery-free networks with fixed readers (~$225,000 total), our drone-based approach brings the total cost down to roughly $5,000 — a 50-70x cost reduction over conventional systems."
-      # image: /assets/images/agrisense/agrisense-drone-harvesting.jpg # TODO: add image
-      # image_width: 800 # px
+      image: /assets/images/agrisense/agrisense-drone-harvesting.png
+      image_width: 800 # px
+    - text: "
+        <table style=\"border-collapse: collapse; width: 100%; max-width: 900px; margin: 0 auto; text-align: center; font-size: 15px;\">
+          <thead>
+            <tr style=\"background-color: #f2f2f2;\">
+              <th style=\"border: 1px solid #ccc; padding: 8px;\">Cost Category</th>
+              <th style=\"border: 1px solid #ccc; padding: 8px;\">Active Sensor Networks</th>
+              <th style=\"border: 1px solid #ccc; padding: 8px;\">Vanilla Battery-free Networks</th>
+              <th style=\"border: 1px solid #ccc; padding: 8px;\">Our Approach</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">Nodes</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$200,000<br>($100/node)</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$2,000<br>($1/node)</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$2,000<br>($1/node)</td>
+            </tr>
+            <tr>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">Gateways / Equipment</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$10,000<br>(4-5 LoRa-WANs)</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$200,000<br>(200 fixed readers)</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$2,000<br>(drone + reader)</td>
+            </tr>
+            <tr>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">Long Term (10yr) Maintenance</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">$150,000<br>(batteries + labor)</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$20,000<br>(readers + labor)</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$1,000<br>(basic servicing)</td>
+            </tr>
+            <tr style=\"font-weight: bold;\">
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">Total Gross</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$350,000</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$225,000</td>
+              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$5,000</td>
+            </tr>
+          </tbody>
+        </table>
+        "
     - title: From Labs to Landscapes
       text: "We validated the full pipeline end-to-end: from linear soil moisture transduction (IDC capacitance vs. volumetric water content, characterized against the Topp model at 915 MHz) to autonomous aerial harvesting with a drone-mounted RFID reader flying over dense ZenseTag deployments, to spatial insights delivered through an AR application. Dense sensor deployment is what makes precise spatial mapping possible in the first place, and each stage of this pipeline was validated in real field conditions rather than lab-only settings."
       # image: /assets/images/agrisense/agrisense-field-validation.jpg # TODO: add image

@@ -28,68 +28,119 @@ miscs:  # whatever you need to add Extra
 #    - content_type: Poster
 #      content_url:  /files/poster-agrisense.pdf # TODO: add poster PDF, then uncomment
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
-    - title: The Illusion of Sparse Data
-      text: "Sparse sensor deployments create a false sense of security: with only a handful of nodes spread across a field, the system interpolates that the gaps between sensors are in an optimal state, so the field appears 100% healthy according to the sensor reports. In reality, hidden dry zones degrade crop yields and threats fall between the sensors — interpolation creates false confidence. The sensors said the field was fine."
-      # image: /assets/images/agrisense/agrisense-sparse-data.jpg # TODO: add image
-      # image_width: 800 # px
-    - title: Why Data Stays Sparse
-      text: "Deployment and maintenance costs are what prevent dense sensing from scaling. At $100+ per node, prohibitive unit cost means dense deployment bankrupts the operation. On top of that, the battery trap makes long-term, large-scale maintenance impossible — replacing thousands of buried batteries even every few years is untenable across a large field."
-      # image: /assets/images/agrisense/agrisense-cost-problem.jpg # TODO: add image
-      # image_width: 800 # px
-    - title: "Deploy & Forget: Permanent Soil Intelligence"
-      text: "AgriSense builds on our ZenseTag battery-free sensing platform to make dense soil sensing viable: each node costs about $1 to deploy, needs no batteries to replace, and offers a perpetual operating life. This removes the two biggest barriers to scale — unit cost and maintenance — enabling truly dense, permanent soil intelligence."
-      # image: /assets/images/agrisense/agrisense-zensetag-platform.jpg # TODO: add image
-      # image_width: 800 # px
-    - title: Automated Data Harvesting at Scale
-      text: "To read thousands of battery-free nodes without fixed reader infrastructure, we mount an RFID reader on a drone that flies a fixed path over the field and harvests data from every node en-route over a wireless backhaul. For a representative 5-hectare field (250m x 200m) with a 2000-node sensor grid, a 10km drone path at 3m/s covers the whole deployment in about 60 minutes. Compared to active sensor networks (~$350,000 total) and vanilla battery-free networks with fixed readers (~$225,000 total), our drone-based approach brings the total cost down to roughly $5,000 — a 50-70x cost reduction over conventional systems."
+    - title: "The Data Problem Holding AI Agriculture Back"
+      text: "AI promises to transform farming — precision irrigation, predictive disease control, autonomous fertigation. But AI is only as smart as the data feeding it. Today's sensor networks are sparse by design: at $100+ per node, farmers can afford only a handful of sensors per field, leaving vast swaths of land entirely unmeasured. AI models interpolate across these blind regions and routinely get it wrong — one study found that missing data streams alone cause 35% water waste. The missing ingredient isn't better AI models. It's dense, continuous, ground-truth data from the soil itself. Without it, AI for agriculture remains a distant promise."
+      image: /assets/images/agrisense/agrisense-ai-data-gap.jpg
+      image_width: 800 # px
+    - title: "The Sensing Bottleneck — and How We Break It"
+      text: "Two forces conspire to keep field sensing sparse. First, <b>prohibitive node cost</b>: at $100+ per sensor, deploying the thousands of nodes needed for true spatial coverage would bankrupt any farm operation. Second, <b>the battery trap</b>: even if you could afford the upfront cost, replacing thousands of buried batteries every few years across a large field is operationally impossible at scale. AgriSense breaks both barriers at once. By decoupling sensing from power using RFID — pairing a standard soil sensor directly with an ultra-low-cost passive RFID tag — we produce a sensor node that costs about <b>$1, needs zero batteries, and operates indefinitely</b>. This is the ZenseTag platform: sticker-like, flexible, and built entirely from commercial off-the-shelf components. No batteries to replace. No complex electronics. Just perpetual soil intelligence."
+      image: /assets/images/agrisense/agrisense-zensetag-platform.jpg
+      image_width: 800 # px
+    - title: "Field-Scale Data Harvesting: 70x Cheaper, Zero Infrastructure"
+      text: "Cheap sensors alone don't solve the problem — you still need to read them across a large field. Conventional battery-free networks address this with fixed RFID readers, but 200 fixed readers for a 5-hectare field costs $200,000 in infrastructure alone. AgriSense takes a radically different approach: a single RFID reader mounted on a drone reads every node en-route as it flies a pre-planned path. A 10km drone flight at 3m/s covers a 5-hectare field with 2,000 sensor nodes in 60 minutes — with no fixed infrastructure at all. The total system cost, including a decade of maintenance, comes to roughly $5,000. That's 70x cheaper than conventional active sensor networks and more than 40x cheaper than fixed battery-free infrastructure."
       image: /assets/images/agrisense/agrisense-drone-harvesting.png
       image_width: 800 # px
     - text: "
-        <table style=\"border-collapse: collapse; width: 100%; max-width: 900px; margin: 0 auto; text-align: center; font-size: 15px;\">
+        <center><table style=\"border-collapse: collapse; width: 90%; max-width: 900px; text-align: center; font-size: 15px;\">
           <thead>
-            <tr style=\"background-color: #f2f2f2;\">
-              <th style=\"border: 1px solid #ccc; padding: 8px;\">Cost Category</th>
-              <th style=\"border: 1px solid #ccc; padding: 8px;\">Active Sensor Networks</th>
-              <th style=\"border: 1px solid #ccc; padding: 8px;\">Vanilla Battery-free Networks</th>
-              <th style=\"border: 1px solid #ccc; padding: 8px;\">Our Approach</th>
+            <tr>
+              <th style=\"border: 1px solid #999; padding: 10px; background-color: #4a4a4a; color: #fff;\">Cost Category</th>
+              <th style=\"border: 1px solid #999; padding: 10px; background-color: #8b1a1a; color: #fff;\">Active Sensor Networks</th>
+              <th style=\"border: 1px solid #999; padding: 10px; background-color: #8b1a1a; color: #fff;\">Battery-free Networks</th>
+              <th style=\"border: 1px solid #999; padding: 10px; background-color: #2e6b2e; color: #fff;\">Our Approach</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">Nodes</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$200,000<br>($100/node)</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$2,000<br>($1/node)</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$2,000<br>($1/node)</td>
+            <tr style=\"background-color: #fdf0f0;\">
+              <td style=\"border: 1px solid #999; padding: 9px; font-weight: bold;\">Nodes</td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #8b1a1a; font-weight: bold;\">$200,000<br><span style=\"font-weight:normal;\">($100/node)</span></td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #8b1a1a; font-weight: bold;\">$2,000<br><span style=\"font-weight:normal;\">($1/node)</span></td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #2e6b2e; font-weight: bold;\">$2,000<br><span style=\"font-weight:normal;\">($1/node)</span></td>
             </tr>
-            <tr>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">Gateways / Equipment</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$10,000<br>(4-5 LoRa-WANs)</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$200,000<br>(200 fixed readers)</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$2,000<br>(drone + reader)</td>
+            <tr style=\"background-color: #fff8f8;\">
+              <td style=\"border: 1px solid #999; padding: 9px; font-weight: bold;\">Gateways / Equipment</td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #8b1a1a; font-weight: bold;\">$10,000<br><span style=\"font-weight:normal;\">(4-5 LoRa-WANs)</span></td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #8b1a1a; font-weight: bold;\">$200,000<br><span style=\"font-weight:normal;\">(200 fixed readers)</span></td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #2e6b2e; font-weight: bold;\">$2,000<br><span style=\"font-weight:normal;\">(drone + reader)</span></td>
             </tr>
-            <tr>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">Long Term (10yr) Maintenance</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">$150,000<br>(batteries + labor)</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$20,000<br>(readers + labor)</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$1,000<br>(basic servicing)</td>
+            <tr style=\"background-color: #fdf0f0;\">
+              <td style=\"border: 1px solid #999; padding: 9px; font-weight: bold;\">Long Term (10yr) Maintenance</td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #8b1a1a; font-weight: bold;\">$150,000<br><span style=\"font-weight:normal;\">(batteries + labor)</span></td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #8b1a1a; font-weight: bold;\">~$20,000<br><span style=\"font-weight:normal;\">(readers + labor)</span></td>
+              <td style=\"border: 1px solid #999; padding: 9px; color: #2e6b2e; font-weight: bold;\">~$1,000<br><span style=\"font-weight:normal;\">(basic servicing)</span></td>
             </tr>
-            <tr style=\"font-weight: bold;\">
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">Total Gross</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$350,000</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$225,000</td>
-              <td style=\"border: 1px solid #ccc; padding: 8px;\">~$5,000</td>
+            <tr style=\"background-color: #fff;\">
+              <td style=\"border: 1px solid #999; padding: 9px; font-weight: bold;\">Total Gross</td>
+              <td style=\"border: 1px solid #999; padding: 9px; background-color: #8b1a1a; color: #fff; font-weight: bold; font-size: 16px;\">~$350,000</td>
+              <td style=\"border: 1px solid #999; padding: 9px; background-color: #8b1a1a; color: #fff; font-weight: bold; font-size: 16px;\">~$225,000</td>
+              <td style=\"border: 1px solid #999; padding: 9px; background-color: #2e6b2e; color: #fff; font-weight: bold; font-size: 16px;\">~$5,000</td>
             </tr>
           </tbody>
-        </table>
+        </table></center>
+        <p style=\"text-align:center; font-weight: bold; margin-top: 8px; color: #2e6b2e;\">Field: 5ha @ 250m x 200m &nbsp;|&nbsp; 2000 nodes @ 50x40 grid &nbsp;|&nbsp; Drone path: 10km @ 3m/s &nbsp;|&nbsp; Duration: 60 min</p>
+        <div style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin: 28px 0 8px 0;\">
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:10px; padding:18px 28px; text-align:center; min-width:140px;\">
+            <div style=\"font-size:32px; font-weight:bold;\">$1</div>
+            <div style=\"font-size:13px; margin-top:4px;\">per sensor node</div>
+          </div>
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:10px; padding:18px 28px; text-align:center; min-width:140px;\">
+            <div style=\"font-size:32px; font-weight:bold;\">70x</div>
+            <div style=\"font-size:13px; margin-top:4px;\">cost reduction</div>
+          </div>
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:10px; padding:18px 28px; text-align:center; min-width:140px;\">
+            <div style=\"font-size:32px; font-weight:bold;\">2,000</div>
+            <div style=\"font-size:13px; margin-top:4px;\">nodes in 60 min</div>
+          </div>
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:10px; padding:18px 28px; text-align:center; min-width:140px;\">
+            <div style=\"font-size:32px; font-weight:bold;\">0</div>
+            <div style=\"font-size:13px; margin-top:4px;\">batteries</div>
+          </div>
+        </div>
         "
-    - title: From Labs to Landscapes
-      text: "We validated the full pipeline end-to-end: from linear soil moisture transduction (IDC capacitance vs. volumetric water content, characterized against the Topp model at 915 MHz) to autonomous aerial harvesting with a drone-mounted RFID reader flying over dense ZenseTag deployments, to spatial insights delivered through an AR application. Dense sensor deployment is what makes precise spatial mapping possible in the first place, and each stage of this pipeline was validated in real field conditions rather than lab-only settings."
-      # image: /assets/images/agrisense/agrisense-field-validation.jpg # TODO: add image
+    - title: "From Lab to Landscape: End-to-End Field Validation"
+      text: "We validated every layer of the pipeline in real field conditions — not simulated or lab-only. The soil sensing physics checks out: IDC capacitance tracks volumetric water content linearly across the full soil moisture range, matching the Topp model at 915 MHz. Soil property changes directly shift the backscattered wireless signal detected by the drone-equipped RFID reader, giving a clear, reliable measurement channel. In the field, dense ZenseTag deployments were read by a drone-mounted RFID reader flying overhead, and sensor data was surfaced in real time through an AR application — letting growers see a live soil map overlaid on the physical field just by pointing a phone at it.
+        <br><br>
+        <center><iframe width=\"768\" height=\"432\" max-width=\"100%\" src=\"https://www.youtube.com/embed/CDn5hxnWvCo\" frameborder=\"1\" allowfullscreen></iframe></center>"
+      image: /assets/images/agrisense/agrisense-field-validation.jpg
+      image_width: 800 # px
+    - title: "Closing the Loop: Sensor Foundation Models for Autonomous Farm Orchestration"
+      text: "Dense, continuous soil data is the missing foundation for physical AI in agriculture. With that foundation in place, AgriSense points toward a fully autonomous precision farming pipeline. <b>Stage 1</b> uses drone-harvested sensor data to generate on-demand, high-resolution soil maps across the entire field. <b>Stage 2</b> feeds these maps into Sensor Language Foundation Models and spatial AI agents that learn the dynamics of root-zone moisture, predict stress before it becomes visible, and act as an always-on agronomy advisor. <b>Stage 3</b> closes the loop: AI decisions drive automated precision actuation systems that deliver exactly the right amount of water and nutrients to exactly the right locations — with the grower kept in the loop through an AR interface that requires zero manual data entry. The result is a farm that senses, thinks, and acts — continuously, autonomously, and at scale."
+      image: /assets/images/agrisense/agrisense-overview.png
+      image_width: 800 # px
+    - title: "Deployment at ARA: A Living Laboratory for Precision Agriculture"
+      text: "AgriSense is being deployed at the <a href=\"https://arawireless.org/\"><b>NSF ARA Wireless Living Lab</b></a> — a large-scale outdoor research testbed spanning hundreds of acres of real agricultural land in Ames, Iowa. ARA provides the wireless backbone infrastructure (towers, backhaul, edge compute) that complements AgriSense's dense ground-sensing layer: our battery-free nodes feed soil data into ARA's connected infrastructure, creating a vertically integrated stack from physical soil to AI-driven actuation. This is not a controlled greenhouse or parking-lot pilot — it is a working farm environment with real crops, real weather, and real agronomic stakes. Deploying at ARA lets us stress-test drone-based data harvesting at field scale, validate sensing accuracy across heterogeneous soil conditions, and build the ground-truth datasets that will train the next generation of Sensor Language Foundation Models for agriculture."
+      # image: /assets/images/agrisense/agrisense-ara-testbed.jpg # TODO: add ARA testbed aerial/field photo
       # image_width: 800 # px
-    - title: "Closing the Loop: Physical Sensor Foundation Models & Automated Farm Orchestration"
-      text: "Our long-term vision is a fully closed loop for precision agriculture. Stage 1 harvests data from dense sensor deployments to produce on-demand soil maps. Stage 2 feeds this data into sensor LLMs and spatial foundation models that predict root-zone dynamics and act as an agronomy agent. Stage 3 uses these predictions to drive automated closed-loop precision actuation, delivering water and nutrition based on exact spatial needs — with the grower kept in the loop through smart AR applications that require zero manual intervention. The result is autonomous, field-scale precision fertigation driven by a dense network of battery-free sensors."
-      # image: /assets/images/agrisense/agrisense-closing-the-loop.jpg # TODO: add image
-      # image_width: 800 # px
+    - title: "Awards & Recognition"
+      text: "
+        <div style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:24px; margin: 16px 0;\">
+          <div style=\"border:2px solid #c9a227; border-radius:12px; padding:20px 24px; max-width:260px; text-align:center; background:#fffdf0;\">
+            <div style=\"font-size:48px; margin-bottom:8px;\">&#127942;</div>
+            <div style=\"font-weight:bold; font-size:15px; color:#7a5c00;\">Best Paper Award</div>
+            <div style=\"font-size:13px; margin-top:6px;\">IEEE RFID 2025</div>
+            <div style=\"font-size:13px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/sensync/\">SenSync</a>: Real-Time and Accurate Passive Sensing</div>
+          </div>
+          <div style=\"border:2px solid #aaa; border-radius:12px; padding:20px 24px; max-width:260px; text-align:center; background:#f8f8f8;\">
+            <div style=\"font-size:48px; margin-bottom:8px;\">&#129352;</div>
+            <div style=\"font-weight:bold; font-size:15px; color:#444;\">Best Demo — Runner-up</div>
+            <div style=\"font-size:13px; margin-top:6px;\">ACM MobiCom 2024</div>
+            <div style=\"font-size:13px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/zensetag_demo/\">ZenseTag Demo</a>: Real-Time Passive RFID Sensing</div>
+          </div>
+          <div style=\"border:2px solid #aaa; border-radius:12px; padding:20px 24px; max-width:260px; text-align:center; background:#f8f8f8;\">
+            <div style=\"font-size:48px; margin-bottom:8px;\">&#129352;</div>
+            <div style=\"font-weight:bold; font-size:15px; color:#444;\">Best Demo — Runner-up</div>
+            <div style=\"font-size:13px; margin-top:6px;\">ACM/IEEE SenSys 2025</div>
+            <div style=\"font-size:13px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/sigar_demo/\">SIGAR</a>: Sensor Integration Gateway using AR</div>
+          </div>
+        </div>
+        "
     - title: Related Publications
-      text: "AgriSense builds directly on our line of work on battery-free RFID sensing: [ZenseTag](/zensetag/), our RFID-assisted twin-tag single antenna COTS sensor interface (ACM SenSys 2024); its [MobiCom 2024 demo](/zensetag_demo/) (Best Runner-up Demo Award); [SenSync](/sensync/), our real-time and accurate passive sensing technique (IEEE RFID 2025, Best Paper Award); the [SIGAR demo](/sigar_demo/), a sensor integration gateway using augmented reality (ACM/IEEE SenSys 2025, Best Runner-up Demo Award); and TuneTag, our long-range reliable battery-free sensing work (IEEE Journal of RFID 2025)."
+      text: "AgriSense builds on our growing line of award-winning work in battery-free RFID sensing:
+        <ul style=\"line-height:2;\">
+          <li><a href=\"https://wcsng.ucsd.edu/zensetag/\"><b>ZenseTag</b></a> — RFID-assisted twin-tag single antenna COTS sensor interface. ACM SenSys 2024.</li>
+          <li><a href=\"https://wcsng.ucsd.edu/zensetag_demo/\"><b>ZenseTag Demo</b></a> — Real-time passive RFID sensing. ACM MobiCom 2024. &nbsp;<span style=\"background:#f0f0f0; border:1px solid #aaa; border-radius:4px; padding:2px 7px; font-size:12px;\">&#129352; Best Demo Runner-up</span></li>
+          <li><a href=\"https://wcsng.ucsd.edu/sensync/\"><b>SenSync</b></a> — Real-time and accurate passive sensing. IEEE RFID 2025. &nbsp;<span style=\"background:#fffdf0; border:1px solid #c9a227; border-radius:4px; padding:2px 7px; font-size:12px;\">&#127942; Best Paper Award</span></li>
+          <li><a href=\"https://wcsng.ucsd.edu/sigar_demo/\"><b>SIGAR</b></a> — Sensor integration gateway using augmented reality. ACM/IEEE SenSys 2025. &nbsp;<span style=\"background:#f0f0f0; border:1px solid #aaa; border-radius:4px; padding:2px 7px; font-size:12px;\">&#129352; Best Demo Runner-up</span></li>
+          <li><a href=\"https://wcsng.ucsd.edu/tunetag/\"><b>TuneTag</b></a> — Long-range reliable battery-free sensing. IEEE Journal of RFID 2025.</li>
+        </ul>"
 ---

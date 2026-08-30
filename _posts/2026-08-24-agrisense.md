@@ -78,22 +78,22 @@ description: # all combinations are possible: (title+text+image, title+image, te
           </tbody>
         </table></center>
         <p style=\"text-align:center; font-weight: bold; margin-top: 8px; color: #2e6b2e;\">Field: 5ha @ 250m x 200m &nbsp;|&nbsp; 2000 nodes @ 50x40 grid &nbsp;|&nbsp; Drone path: 10km @ 3m/s &nbsp;|&nbsp; Duration: 60 min</p>
-        <div style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin: 20px 0 8px 0;\">
-          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:12px 20px; text-align:center; min-width:110px;\">
-            <div style=\"font-size:24px; font-weight:bold;\">$1</div>
-            <div style=\"font-size:12px; margin-top:4px;\">per sensor node</div>
+        <div style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin: 16px 0 8px 0;\">
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:8px 12px; text-align:center; width:110px; box-sizing:border-box;\">
+            <div style=\"font-size:26px; font-weight:bold; line-height:1.1;\">$1</div>
+            <div style=\"font-size:12px; margin-top:3px;\">per sensor node</div>
           </div>
-          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:12px 20px; text-align:center; min-width:110px;\">
-            <div style=\"font-size:24px; font-weight:bold;\">70x</div>
-            <div style=\"font-size:12px; margin-top:4px;\">cost reduction</div>
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:8px 12px; text-align:center; width:110px; box-sizing:border-box;\">
+            <div style=\"font-size:26px; font-weight:bold; line-height:1.1;\">70x</div>
+            <div style=\"font-size:12px; margin-top:3px;\">cost reduction</div>
           </div>
-          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:12px 20px; text-align:center; min-width:110px;\">
-            <div style=\"font-size:24px; font-weight:bold;\">2,000</div>
-            <div style=\"font-size:12px; margin-top:4px;\">nodes in 60 min</div>
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:8px 12px; text-align:center; width:110px; box-sizing:border-box;\">
+            <div style=\"font-size:26px; font-weight:bold; line-height:1.1;\">2,000</div>
+            <div style=\"font-size:12px; margin-top:3px;\">nodes in 60 min</div>
           </div>
-          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:12px 20px; text-align:center; min-width:110px;\">
-            <div style=\"font-size:24px; font-weight:bold;\">0</div>
-            <div style=\"font-size:12px; margin-top:4px;\">batteries</div>
+          <div style=\"background:#2e6b2e; color:#fff; border-radius:8px; padding:8px 12px; text-align:center; width:110px; box-sizing:border-box;\">
+            <div style=\"font-size:26px; font-weight:bold; line-height:1.1;\">0</div>
+            <div style=\"font-size:12px; margin-top:3px;\">batteries</div>
           </div>
         </div>
         "
@@ -114,23 +114,23 @@ description: # all combinations are possible: (title+text+image, title+image, te
     - title: "Awards & Recognition"
       text: "
         <div style=\"display:flex; flex-wrap:wrap; justify-content:center; gap:16px; margin: 12px 0;\">
-          <div style=\"border:2px solid #c9a227; border-radius:8px; padding:12px 16px; max-width:200px; text-align:center; background:#fffdf0;\">
-            <div style=\"font-size:32px; margin-bottom:6px;\">&#127942;</div>
-            <div style=\"font-weight:bold; font-size:13px; color:#7a5c00;\">Best Paper Award</div>
-            <div style=\"font-size:12px; margin-top:4px;\">IEEE RFID 2025</div>
-            <div style=\"font-size:12px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/sensync/\">SenSync</a>: Real-Time and Accurate Passive Sensing</div>
+          <div style=\"border:2px solid #c9a227; border-radius:8px; padding:10px 12px; width:190px; text-align:center; background:#fffdf0; box-sizing:border-box;\">
+            <div style=\"font-size:28px; margin-bottom:4px;\">&#127942;</div>
+            <div style=\"font-weight:bold; font-size:14px; color:#7a5c00;\">Best Paper Award</div>
+            <div style=\"font-size:13px; margin-top:3px;\">IEEE RFID 2025</div>
+            <div style=\"font-size:13px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/sensync/\">SenSync</a>: Real-Time and Accurate Passive Sensing</div>
           </div>
-          <div style=\"border:2px solid #aaa; border-radius:8px; padding:12px 16px; max-width:200px; text-align:center; background:#f8f8f8;\">
-            <div style=\"font-size:32px; margin-bottom:6px;\">&#129352;</div>
-            <div style=\"font-weight:bold; font-size:13px; color:#444;\">Best Demo — Runner-up</div>
-            <div style=\"font-size:12px; margin-top:4px;\">ACM MobiCom 2024</div>
-            <div style=\"font-size:12px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/zensetag_demo/\">ZenseTag Demo</a>: Real-Time Passive RFID Sensing</div>
+          <div style=\"border:2px solid #aaa; border-radius:8px; padding:10px 12px; width:190px; text-align:center; background:#f8f8f8; box-sizing:border-box;\">
+            <div style=\"font-size:28px; margin-bottom:4px;\">&#129352;</div>
+            <div style=\"font-weight:bold; font-size:14px; color:#444;\">Best Demo — Runner-up</div>
+            <div style=\"font-size:13px; margin-top:3px;\">ACM MobiCom 2024</div>
+            <div style=\"font-size:13px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/zensetag_demo/\">ZenseTag Demo</a>: Real-Time Passive RFID Sensing</div>
           </div>
-          <div style=\"border:2px solid #aaa; border-radius:8px; padding:12px 16px; max-width:200px; text-align:center; background:#f8f8f8;\">
-            <div style=\"font-size:32px; margin-bottom:6px;\">&#129352;</div>
-            <div style=\"font-weight:bold; font-size:13px; color:#444;\">Best Demo — Runner-up</div>
-            <div style=\"font-size:12px; margin-top:4px;\">ACM/IEEE SenSys 2025</div>
-            <div style=\"font-size:12px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/sigar_demo/\">SIGAR</a>: Sensor Integration Gateway using AR</div>
+          <div style=\"border:2px solid #aaa; border-radius:8px; padding:10px 12px; width:190px; text-align:center; background:#f8f8f8; box-sizing:border-box;\">
+            <div style=\"font-size:28px; margin-bottom:4px;\">&#129352;</div>
+            <div style=\"font-weight:bold; font-size:14px; color:#444;\">Best Demo — Runner-up</div>
+            <div style=\"font-size:13px; margin-top:3px;\">ACM/IEEE SenSys 2025</div>
+            <div style=\"font-size:13px; color:#555;\"><a href=\"https://wcsng.ucsd.edu/sigar_demo/\">SIGAR</a>: Sensor Integration Gateway using AR</div>
           </div>
         </div>
         "

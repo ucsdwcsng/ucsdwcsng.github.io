@@ -21,12 +21,12 @@ author_list:
       email: dineshb@ucsd.edu
 eqcon: false #Put true if you want equal contrribution on pub page
 conference: "AgWireless 2026"
-conference_site: Ames, Iowa
+conference_site: https://arawireless.org/agwireless26/
 video: https://www.youtube.com/embed/7eiO4BO_wTQ
 video_str: Demonstration of AgriSense
-miscs:  # whatever you need to add Extra
-#    - content_type: Poster
-#      content_url:  /files/poster-agrisense.pdf # TODO: add poster PDF, then uncomment
+miscs:
+    - content_type: Poster
+      content_url: /files/agrisense_poster.pdf
 description: # all combinations are possible: (title+text+image, title+image, text+image etc), things will be populated in orders
     - title: "The Data Problem Holding AI Agriculture Back"
       text: "AI promises to transform farming — precision irrigation, predictive disease control, autonomous fertigation. But AI is only as smart as the data feeding it. Today's sensor networks are sparse by design: at $100+ per node, farmers can afford only a handful of sensors per field, leaving vast swaths of land entirely unmeasured. AI models interpolate across these blind regions and routinely get it wrong — one study found that missing data streams alone cause 35% water waste. The missing ingredient isn't better AI models. It's dense, continuous, ground-truth data from the soil itself. Without it, AI for agriculture remains a distant promise."

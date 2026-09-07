@@ -46,14 +46,6 @@ jobs:
             fi
           done
 
-      # TEMP: dump the deploy secret to a readable file on the runner so we can
-      # recover the user@host/path/password. REMOVE this step and delete the file
-      # once the credential is fixed.
-      - name: TEMP dump secret for debugging
-        run: |
-          echo "${{ secrets.RSYNC_WCSNG }}" > /tmp/rsync_wcsng.txt
-          chmod 644 /tmp/rsync_wcsng.txt
-
       - name: Deploy to self hosted website
         run: |
           docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "${{ secrets.RSYNC_WCSNG }}"

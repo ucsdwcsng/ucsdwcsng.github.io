@@ -45,7 +45,7 @@ The mission of the overall group is to solve real-world problems by first identi
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 <h3 class="landing-section-title">Research Overview</h3>
 
-<p class="landing-body">WCSNG designs sensing, communication, networking technologies for robots, autonomous systems, and everyday devices. Increasingly, our research lives at the intersection of wireless and AI: real-time edge compute and machine learning that put intelligence <em>inside</em> the network, from RAN intelligent controllers and learned signal processing to perception and autonomy on robots. We take each idea from a working prototype to a theoretical model and breakthrough, then to practical realization and real-world deployment, and iterate.</p>
+<p class="landing-body">WCSNG designs sensing, communication, and networking technologies for robots, autonomous systems, and everyday devices. Increasingly, our research lives at the intersection of wireless and AI: real-time edge compute and machine learning that put intelligence <em>inside</em> the network, from RAN intelligent controllers and learned signal processing to perception and autonomy on robots. We take each idea from a working prototype to a theoretical model and breakthrough, then to practical realization and real-world deployment, and iterate.</p>
 
 <h3 class="landing-section-title">Key Research Areas</h3>
 

@@ -46,6 +46,13 @@ jobs:
             fi
           done
 
+      # The server's ~/htdocs/s3 was restored as root-owned files that the wcsng
+      # deploy account cannot overwrite, which fails the scp below. We don't need
+      # to publish s3, so drop it from _site before deploying (done in-container
+      # because the Jekyll build writes _site as root).
+      - name: Exclude s3 from deploy (server copy is root-owned)
+        run: docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "rm -rf /ucsdwcsng.github.io/_site/s3"
+
       - name: Deploy to self hosted website
         run: |
           docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "${{ secrets.RSYNC_WCSNG }}"

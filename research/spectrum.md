@@ -45,9 +45,9 @@ exploiting the sparsity in the spectrum to compress the information captured**. 
 
 <h4>AI-Enabled Real-Time RF Emitter Detection on Edge Compute</h4>
 
-We plan to extend our spectrum-sensing systems with AI-enabled, real-time detection of RF emitters on edge computing hardware. The research will investigate physics-grounded AI detectors, self-supervised learning from decoded signals, and an adaptive sensing policy that can steer the receiver toward the most informative parts of the spectrum. The goal is a closed-loop pipeline that turns wideband RF observations into an occupancy map and actionable detection alerts with low latency.
+We plan to extend our spectrum-sensing systems with AI-enabled, real-time detection of RF emitters on edge computing hardware. Building on the slot-synchronous, wideband RF systems described in our recent [RadioStream publication](/radiostream/), the research will investigate physics-grounded AI detectors, self-supervised learning from decoded signals, and an adaptive sensing policy that can steer the receiver toward the most informative parts of the spectrum. The goal is a closed-loop pipeline that turns wideband RF observations into an occupancy map and actionable detection alerts with low latency.
 
 <figure style="margin: 2rem 0;">
-  <img src="/assets/images/spectrumsensing/ai-emitter-detection-edge-architecture.png" alt="Illustrative architecture for AI-enabled real-time RF emitter detection, from an RFSoC through an edge GPU and parallel AI detectors to fused sensing outputs and an adaptive sensing policy" style="width: 100%; height: auto;" />
+  <img src="/assets/images/spectrumsensing/ai-emitter-detection-edge-architecture.svg" alt="Illustrative architecture for AI-enabled real-time RF emitter detection, from an RF front end through slot-synchronous transport and edge AI detectors to fused sensing outputs and an adaptive sensing policy" style="width: 100%; height: auto;" />
   <figcaption>Illustrative architecture for the planned edge-computing spectrum-sensing pipeline.</figcaption>
 </figure>

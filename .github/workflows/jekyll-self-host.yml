@@ -50,5 +50,11 @@ jobs:
         run: |
           docker run --rm -v "${GITHUB_WORKSPACE}:/ucsdwcsng.github.io" my-jekyll-app sh -c "${{ secrets.RSYNC_WCSNG }}"
 
+      # Each build leaves the previous my-jekyll-app image untagged; remove those
+      # so the runner's disk does not fill up.
+      - name: Remove dangling images
+        if: always()
+        run: docker image prune -f
+
 
 

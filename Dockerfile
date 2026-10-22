@@ -1,5 +1,5 @@
 # Use an official Ruby runtime as a parent image
-FROM ruby:3.3
+FROM docker.io/library/ruby:3.3
 
 # Install essential Linux packages
 RUN apt-get update -qq && apt-get install -y sshpass rsync
@@ -8,9 +8,9 @@ RUN apt-get update -qq && apt-get install -y sshpass rsync
 # Set the working directory in the container to /ucsdwcsng.github.io
 WORKDIR /ucsdwcsng.github.io
 
-# Add the Gemfile and Gemfile.lock from your app
+# Add the Gemfile from your app (Gemfile.lock intentionally omitted so the
+# image resolves gems fresh; a stale host lock must not pin the build)
 ADD Gemfile /ucsdwcsng.github.io/Gemfile
-# ADD Gemfile.lock /ucsdwcsng.github.io/Gemfile.lock
 
 # Install the gems specified in the Gemfile
 RUN gem install bundler -v 2.4.22 && bundle install

@@ -15,7 +15,8 @@ nav: layouts
     <a href="{{ page.paper }}">[Paper]</a>
     {% if page.poster %} <a href="{{ page.poster }}">[Poster]</a> {% endif %}
     {% if page.github %} <a href="{{ page.github }}">[Code]</a> {% endif %}
-    {% if page.slides %} <a href="{{ page.slides }}">[Slides]</a> {% endif %}
+    {% if page.slides %} <a href="{{ page.slides }}">[{{ page.slides_label | default: "Slides" }}]</a> {% endif %}
+    {% if page.slides2 %} <a href="{{ page.slides2 }}">[{{ page.slides2_label | default: "Slides" }}]</a> {% endif %}
     {% if page.dataset %} <a href="{{ page.dataset }}">[Dataset]</a> {% endif %}
     {% if page.other %} <a href="{{ page.other.url }}">{{ page.other.display }}</a> {% endif %}
  </div>
@@ -435,7 +436,13 @@ source0=layout.comment source1=page.comment -%}
                 {% endif %}
                 {% if page.slides!= blank %}
                 <div>
-                  <center><span style="font-size:28px"><a href='{{page.slides}}' target="_blank">[Slides]</a></span>
+                  <center><span style="font-size:28px"><a href='{{page.slides}}' target="_blank">[{{ page.slides_label | default: "Slides" }}]</a></span>
+                  </center>
+                </div>
+                {% endif %}
+                {% if page.slides2 != blank %}
+                <div>
+                  <center><span style="font-size:28px"><a href='{{page.slides2}}' target="_blank">[{{ page.slides2_label | default: "Slides" }}]</a></span>
                   </center>
                 </div>
                 {% endif %}

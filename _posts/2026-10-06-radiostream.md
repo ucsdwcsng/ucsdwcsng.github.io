@@ -35,7 +35,10 @@ eqcon: true #Put true if you want equal contrribution on pub page
 conference: "ACM MobiCom 2026"
 conference_site: https://www.sigmobile.org/mobicom/2026/
 paper: /files/radiostream.pdf
-slides: /files/radiostream_grcon_slides.pdf
+slides: /files/radiostream_mobicom_slides.pdf
+slides_label: "MobiCom Slides"
+slides2: /files/radiostream_grcon_slides.pdf
+slides2_label: "GNURadio Slides"
 # video: teaser to be added once hosted (e.g. YouTube embed URL)
 miscs:
     - content_type: Poster

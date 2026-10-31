@@ -29,6 +29,7 @@ conference: "ACM WiNTECH 2026"
 conference_site: https://acm-wintech.github.io/2026/
 paper: /files/scripting_power.pdf
 github: https://github.com/ucsdwcsng-iitm/scripting_traffic
+slides: /files/scripting_power_slides.pdf
 description:
     - title: "Why UE Power Is Hard to Study"
       text: "On a modern smartphone, the cellular subsystem is one of the largest energy consumers: on a Google Pixel 9, cellular communication accounts for roughly 46% of total device energy during both normal usage and standby, more than compute, memory, or display. That power is jointly determined by application-layer IP traffic and by the gNB's configuration and scheduling decisions. Studying this relationship on real hardware is challenging because the application server, radio activity, and UE are distributed across separate systems, making them difficult to instrument and control within a single experimental environment. As a result, most studies rely on analytical models such as 3GPP TR 38.840, which assigns relative power units to slot-level activities but is not a calibrated replica of any commercial modem."
